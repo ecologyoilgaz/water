@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Object — Oil & Gas Ecology</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header>
+  <div class="logo"><img src="logo-header.png" alt="Logo"> Oil & Gas Ecology Map</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="map.html">Map</a>
+    <a href="solutions.html">Solutions</a>
+    <a href="rwa.html">RWA & Liquidity</a>
+    <a href="eco-token.html">ECO Token</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="tokens.html">Tokens & Pay</a>
+    <a href="treasury.html">Treasury</a>
+    <a href="signal.html">Signal</a>
+    <a href="response.html">Right of Reply</a>
+  </nav>
+</header>
+<main><article id="content"><p>Loading...</p></article></main>
+<footer>
+  <p>Contact: <a href="mailto:ecologyoilgaz@gmail.com">ecologyoilgaz@gmail.com</a> ·
+    <a href="eco-token.html">ECO Token</a> ·
+    <a href="tokens.html">Tokens & Pay</a> ·
+    <a href="treasury.html">Treasury (Solana)</a> ·
+    <a href="methodology.html">Methodology</a>
+  </p>
+</footer>
+<script>
+const id = new URLSearchParams(location.search).get('id');
+fetch('objects.json').then(r => r.json()).then(data => {
+  const objects = data.objects || data;
+  const o = objects[id];
+  const el = document.getElementById('content');
+  if (!o) { el.innerHTML = '<p>Object not found. <a href="index.html">Back</a></p>'; return; }
+  
+  const badge = o.status === 'red' ? '🔴 Gap Confirmed' : o.status === 'green' ? '🟢 Verified Result' : '⚫ Pending Verification';
+  
+  let financeHtml = '';
+  if (o.financial_impact) {
+    const usd = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(o.financial_impact.loss_usd);
+    financeHtml = `
+      <div class="detail-block" style="border-left: 4px solid var(--red);">
+        <h3>Financial Impact</h3>
+        <p style="font-size: 28px; color: var(--red); font-weight: bold; margin: 5px 0;">${usd}</p>
+        <p>${o.financial_impact.description}</p>
+        <p style="font-size: 12px; color: var(--muted);"><em>Calculation: ${o.financial_impact.formula}</em></p>
+      </div>
+    `;
+  }
+
+  let docsHtml = '';
+  if (o.documents && o.documents.length > 0) {
+    docsHtml = `
+      <div class="detail-block">
+        <h3>Source Documents (Download/View)</h3>
+        <ul>
+          ${o.documents.map(d => `<li><a href="${d.url}" target="_blank" rel="noopener">${d.name}</a></li>`).join('')}
+        </ul>
+      </div>
+    `;
+  }
+
+  let solutionsHtml = '';
+  if (o.solutions && o.solutions.length > 0) {
+    solutionsHtml = `
+      <div class="detail-block" style="border-left: 4px solid var(--green);">
+        <h3>Ways to Fix (Solutions)</h3>
+        <table style="width:100%;">
+          <thead><tr><th>Option</th><th>Type</th><th>Effect</th><th>Cost</th></tr></thead>
+          <tbody>
+            ${o.solutions.map(s => `<tr><td>${s.name}</td><td><span style="color: ${s.type === 'Fast' ? 'var(--green)' : s.type === 'Medium' ? 'var(--gold)' : 'var(--red)'}">${s.type}</span></td><td>${s.effect}</td><td>${s.cost}</td></tr>`).join('')}
+          </tbody>
+        </table>
+      </div>
+    `;
+  }
+
+  el.innerHTML = `
+    <h1>${o.title}</h1>
+    <span class="status-badge ${o.status}">${badge}</span>
+    <p style="color:var(--muted);margin:10px 0;">${o.country} · ${o.region} · ${o.lat.toFixed(2)}, ${o.lon.toFixed(2)}</p>
+    
+    ${financeHtml}
+    
+    <div class="detail-block"><h3>Claimed</h3><p>${o.claimed}</p></div>
+    <div class="detail-block"><h3>Actual (Verified)</h3><p>${o.actual}</p></div>
+    <div class="detail-block"><h3>Gap</h3><p>${o.gap}</p></div>
+    <div class="detail-block"><h3>Companies</h3><p>${(o.companies||[]).join(' · ')}</p></div>
+    
+    ${docsHtml}
+    ${solutionsHtml}
+    
+    <p style="margin-top:30px;"><a href="index.html">← Back to list</a> · <a href="map.html">Map</a></p>
+  `;
+}).catch(() => {
+  document.getElementById('content').innerHTML = '<p>Error loading data. Check objects.json</p>';
+});
+</script>
+</body>
+</html>
