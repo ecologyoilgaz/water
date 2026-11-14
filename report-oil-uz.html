@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Предварительный экологический отчёт — Сжигание масел (Узбекистан)</title>
+<link rel="stylesheet" href="style.css">
+<style>
+  .report-hero {
+    text-align: center; padding: 60px 20px; margin-bottom: 40px; border-radius: 20px;
+    background: linear-gradient(135deg, rgba(255,215,0,0.1) 0%, rgba(5,5,16,0.95) 100%);
+    border: 1px solid var(--border); box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+  }
+  .report-hero h1 { font-size: 38px; margin-bottom: 20px; line-height: 1.3; }
+  .report-hero .subtitle { font-size: 18px; color: var(--muted); margin-bottom: 25px; }
+  
+  .meta-box {
+    display: inline-block; text-align: left; background: rgba(0,0,0,0.4);
+    padding: 20px 30px; border-radius: 12px; border: 1px solid var(--border);
+    font-size: 14px; color: var(--text); line-height: 1.8;
+  }
+  .meta-box strong { color: var(--gold); }
+
+  .report-content {
+    max-width: 900px; margin: 0 auto; background: var(--card);
+    backdrop-filter: blur(12px); border: 1px solid var(--border);
+    border-radius: 16px; padding: 40px; box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+  }
+  .report-content h2 {
+    font-size: 24px; color: var(--gold); margin: 40px 0 20px;
+    padding-bottom: 10px; border-bottom: 1px solid var(--border);
+  }
+  .report-content h3 { font-size: 18px; color: var(--text); margin: 25px 0 10px; }
+  .report-content p, .report-content li { margin-bottom: 12px; color: #C0C8F0; }
+  .report-content ul, .report-content ol { margin-left: 20px; margin-bottom: 20px; }
+  
+  .report-table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 14px; }
+  .report-table th { background: rgba(255,215,0,0.1); color: var(--gold); padding: 12px; text-align: left; border: 1px solid var(--border); }
+  .report-table td { padding: 12px; border: 1px solid var(--border); }
+  .report-table tr:nth-child(even) { background: rgba(255,255,255,0.02); }
+  
+  .alert-box {
+    background: rgba(255,77,77,0.1); border-left: 4px solid var(--red);
+    padding: 15px 20px; border-radius: 8px; margin: 20px 0; font-size: 14px;
+  }
+  .alert-box strong { color: var(--red); }
+
+  .highlight-box {
+    background: rgba(77,255,136,0.05); border-left: 4px solid var(--green);
+    padding: 20px; border-radius: 8px; margin: 25px 0;
+  }
+  .highlight-box strong { color: var(--green); }
+
+  .signature {
+    margin-top: 50px; padding-top: 20px; border-top: 1px dashed var(--border);
+    font-style: italic; color: var(--muted); text-align: right;
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="logo"><img src="water-logo.png" alt="Water Logo"> Water Ecology Map</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="map.html">Map</a>
+    <a href="solutions.html">Solutions</a>
+    <a href="rwa.html">RWA & Liquidity</a>
+    <a href="eco-token.html">ECO Token</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="tokens.html">Tokens & Pay</a>
+    <a href="treasury.html">Treasury</a>
+    <a href="signal.html">Signal</a>
+    <a href="response.html">Right of Reply</a>
+  </nav>
+</header>
+
+<main>
+  <section class="report-hero">
+    <h1>Предварительный экологический отчёт</h1>
+    <div class="subtitle">«Сжигание отработанных масел в котлах и теплицах: оценка выбросов и экологического ущерба по Узбекистану»</div>
+    
+    <div class="meta-box">
+      <strong>Гриф:</strong> Для внутреннего служебного пользования<br>
+      <strong>Подготовлено:</strong> Группа специалистов «ЭкоАудит-Центральная Азия» (независимая, неофициальная)<br>
+      <strong>Дата:</strong> 14 ноября 2026 г.<br>
+      <strong>Статус:</strong> Предварительный (расчётный, без натурных замеров)
+    </div>
+  </section>
+
+  <article class="report-content">
+    
+    <h2>1. Основание и цель</h2>
+    <p>Настоящий отчёт подготовлен по инициативе группы специалистов на основе:</p>
+    <ul>
+      <li>открытых данных о рейдах Специальной комиссии по экологии (декабрь 2025 г.);</li>
+      <li>оценок образования отработанных масел в Узбекистане (~250 000 т/год);</li>
+      <li>международных справочных коэффициентов выбросов (EPA, IPCC, японская методика для отработанного масла);</li>
+      <li>международных расценок ущерба (рыночная цена CO₂, SCC, ставки EPA для PM/NOx/SO₂).</li>
+    </ul>
+    <p><strong>Цель:</strong> дать порядок величины ущерба там, где официальные расчёты отсутствуют, и предложить краткосрочные решения.</p>
+
+    <h2>2. Исходная гипотеза баланса (принята рабочей)</h2>
+    <table class="report-table">
+      <thead><tr><th>Поток</th><th>Доля</th><th>Масса, т/год</th></tr></thead>
+      <tbody>
+        <tr><td>Сжигание (котлы, теплицы, нелегально)</td><td>50%</td><td>125 000</td></tr>
+        <tr><td>Сброс в почву/воду/канализацию</td><td>30%</td><td>75 000</td></tr>
+        <tr><td>Безучётный сбор (неизвестно где)</td><td>20%</td><td>50 000</td></tr>
+        <tr><td><strong>Итого</strong></td><td><strong>100%</strong></td><td><strong>250 000</strong></td></tr>
+      </tbody>
+    </table>
+    <div class="alert-box">
+      <strong>Оговорка:</strong> гипотеза оценочная, не подтверждена официальной статистикой сбора.
+    </div>
+
+    <h2>3. Расчёт выбросов от сжигания 125 000 т масла</h2>
+    <table class="report-table">
+      <thead><tr><th>Загрязнитель</th><th>Удельный коэффициент</th><th>Выброс, т/год</th></tr></thead>
+      <tbody>
+        <tr><td>CO₂</td><td>2,9 т/т масла</td><td>362 500</td></tr>
+        <tr><td>PM (твёрдые частицы)</td><td>~8,55 кг/т</td><td>~1 069</td></tr>
+        <tr><td>PM-10</td><td>~7,56 кг/т</td><td>~945</td></tr>
+        <tr><td>NOx</td><td>~2,11 кг/т</td><td>~264</td></tr>
+        <tr><td>SO₂ (при S=1%)</td><td>~0,143 кг/т</td><td>~18</td></tr>
+        <tr><td>CO</td><td>~0,278 кг/т</td><td>~35</td></tr>
+        <tr><td>Свинец (при 0,1% Pb)</td><td>~0,0067 кг/т</td><td>~0,84</td></tr>
+      </tbody>
+    </table>
+
+    <h2>4. Оценка ущерба (международные расценки)</h2>
+    <h3>4.1. Сжигание</h3>
+    <table class="report-table">
+      <thead><tr><th>Компонент</th><th>Нижняя оценка</th><th>Верхняя оценка</th></tr></thead>
+      <tbody>
+        <tr><td>CO₂ (рыночная цена $21/т → SCC $1 013/т)</td><td>~$7,6 млн</td><td>~$367 млн</td></tr>
+        <tr><td>PM/PM-10 (EPA $150 000–840 000/т)</td><td>~$142 млн</td><td>~$794 млн</td></tr>
+        <tr><td>NOx (EPA $5 800–20 000/т)</td><td>~$1,5 млн</td><td>~$5,3 млн</td></tr>
+        <tr><td><strong>Итого сжигание</strong></td><td><strong>~$151 млн</strong></td><td><strong>~$1,17 млрд</strong></td></tr>
+      </tbody>
+    </table>
+
+    <h3>4.2. Сброс 75 000 т в почву/воду</h3>
+    <p>Прямых международных «тарифов» нет. Нижняя граница по стоимости обработки почвы (~$1/т) — <strong>~$75 тыс.</strong>, но она не учитывает миграцию в подземные воды и ущерб здоровью. Реалистичный диапазон не определяется без данных мониторинга.</p>
+
+    <h3>4.3. Безучётные 50 000 т</h3>
+    <p>Не оценены. Консервативно могут быть отнесены к сжиганию или сбросу, что увеличит итог на 20–40%.</p>
+
+    <h2>5. Сводный вывод по ущербу</h2>
+    <table class="report-table">
+      <thead><tr><th>Сценарий</th><th>Оценка ущерба (сжигание)</th></tr></thead>
+      <tbody>
+        <tr><td>Нижняя граница</td><td>~$150 млн</td></tr>
+        <tr><td>Верхняя граница</td><td>~$1,2 млрд</td></tr>
+        <tr><td>Сброс в почву/воду</td><td>не определено (данных нет)</td></tr>
+      </tbody>
+    </table>
+    <div class="alert-box">
+      Даже нижняя граница показывает масштаб проблемы, который на порядки превышает стоимость установки фильтров и организации сбора.
+    </div>
+
+    <h2>6. Краткосрочные пути решения</h2>
+    <h3>6.1. Переработка в биодизель с предварительной очисткой</h3>
+    <p>Отработанное масло после предварительной очистки (фильтрация, удаление воды и механических примесей, нейтрализация) может перерабатываться в биодизель. Это:</p>
+    <ul>
+      <li>снижает объём сжигания и сброса;</li>
+      <li>создаёт местный энергоноситель;</li>
+      <li>не требует импортных катализаторов при простых схемах.</li>
+    </ul>
+
+    <h3>6.2. Схема размещения мини-установок</h3>
+    <table class="report-table">
+      <thead><tr><th>Параметр</th><th>Значение</th></tr></thead>
+      <tbody>
+        <tr><td>Областей</td><td>12</td></tr>
+        <tr><td>Установок на область</td><td>6</td></tr>
+        <tr><td>Всего установок</td><td>72</td></tr>
+        <tr><td>Производительность одной</td><td>1 т/сут</td></tr>
+        <tr><td>Суммарная производительность</td><td>72 т/сут</td></tr>
+        <tr><td>Годовой объём переработки (при 350 днях)</td><td>~25 200 т/год</td></tr>
+      </tbody>
+    </table>
+
+    <h3>6.3. Экологический эффект</h3>
+    <p>Переработка ~25 000 т/год отработанного масла вместо сжигания/сброса:</p>
+    <ul>
+      <li>сокращает выбросы PM/PM-10, NOx, SO₂ и CO₂ от сжигания;</li>
+      <li>предотвращает попадание ~25 000 т масла в почву и воду;</li>
+      <li>снижает нагрузку на подземные воды в районах массового сжигания (Кибрай, Зангиата, Бектемир).</li>
+    </ul>
+    <div class="highlight-box">
+      <strong>Примечание:</strong> 25 000 т — это около 10% от общего образования масел (250 000 т) и около 20% от потока сжигания (125 000 т). Эффект реален, но не закрывает проблему полностью.
+    </div>
+
+    <h2>7. Краткий расчёт для всего Узбекистана</h2>
+    <h3>7.1. Исходные данные (та же гипотеза)</h3>
+    <p>Расчёт полностью совпадает с разделом 3, поскольку 125 000 т — это уже общенациональная оценка потока сжигания.</p>
+
+    <h3>7.2. Выбросы и ущерб от сжигания (в масштабе страны)</h3>
+    <table class="report-table">
+      <thead><tr><th>Компонент</th><th>Выброс, т/год</th><th>Ущерб (нижняя)</th><th>Ущерб (верхняя)</th></tr></thead>
+      <tbody>
+        <tr><td>CO₂</td><td>~362 500</td><td>~$7,6 млн</td><td>~$367 млн</td></tr>
+        <tr><td>PM/PM-10</td><td>~1 069 / ~945</td><td>~$142 млн</td><td>~$794 млн</td></tr>
+        <tr><td>NOx</td><td>~264</td><td>~$1,5 млн</td><td>~$5,3 млн</td></tr>
+        <tr><td><strong>Итого</strong></td><td>—</td><td><strong>~$151 млн</strong></td><td><strong>~$1,17 млрд</strong></td></tr>
+      </tbody>
+    </table>
+
+    <h3>7.3. Сброс 75 000 т</h3>
+    <p>Без данных мониторинга подземных вод — не определяется. Нижняя граница по стоимости обработки почвы (~$1/т) даёт лишь <strong>~$75 тыс.</strong>, что явно занижено.</p>
+
+    <h3>7.4. Сопоставление с решением по мини-установкам</h3>
+    <p>Схема 72 установок × 1 т/сут = ~25 200 т/год перерабатывает:</p>
+    <ul>
+      <li>~20% от потока сжигания (125 000 т);</li>
+      <li>~34% от потока сброса (75 000 т);</li>
+      <li>~10% от общего образования (250 000 т).</li>
+    </ul>
+    <p>Для покрытия хотя бы половины потока сжигания потребовалось бы ~170 установок, а с учётом сброса — ещё больше.</p>
+
+    <h3>7.5. Вывод по стране (кратко)</h3>
+    <p>Теоретический ущерб от сжигания в масштабе Узбекистана — от ~$150 млн до ~$1,2 млрд. Сброс в почву/воду не оценён из-за отсутствия данных. Схема из 72 мини-установок закрывает не более 10% общего объёма образования масла. Для реального сокращения ущерба необходимы расширение сети сбора, натурные замеры выбросов и поэтапное масштабирование переработки.</p>
+
+    <h2>8. Рекомендации компаниям (краткосрочные, 0–12 месяцев)</h2>
+    <ol>
+      <li><strong>Тепличным хозяйствам и котельным:</strong> установить пылегазоочистные фильтры на действующие котлы; прекратить сжигание отработанного масла, шин, битума, мазута; заключить договоры на вывоз отработанного масла с лицензированными сборщиками.</li>
+      <li><strong>Сборщикам и переработчикам:</strong> организовать пункты приёма масла в каждом районе; внедрить предварительную очистку масла перед переработкой в биодизель; запустить пилотные мини-установки (1 т/сут) в 2–3 районах для отработки схемы.</li>
+      <li><strong>Сервисным и транспортным компаниям:</strong> сдавать отработанное масло только по договору, с актами передачи; вести учёт образования и передачи масла.</li>
+      <li><strong>Инвесторам и операторам мини-установок:</strong> тиражировать модульные установки по схеме 12 областей × 6 установок; обеспечить предварительную очистку сырья для стабильного выхода биодизеля.</li>
+    </ol>
+
+    <h2>9. Ограничения и оговорки</h2>
+    <ol>
+      <li>Расчёт не является официальным и не может использоваться для юридических претензий.</li>
+      <li>Удельные выбросы взяты из международных справочников, а не из замеров на узбекских котлах.</li>
+      <li>Гипотеза баланса 50/30/20 — оценочная.</li>
+      <li>Ущерб от сброса в подземные воды не рассчитан из-за отсутствия данных мониторинга.</li>
+      <li>Схема 72 установок × 1 т/сут — иллюстративная; фактическая производительность зависит от логистики сбора и качества сырья.</li>
+      <li>Курс для пересчёта в сумы: 1 USD = 12 014,37 сум (ЦБ РУз, 14.11.2026).</li>
+    </ol>
+
+    <h2>10. Следующие шаги (внутренние)</h2>
+    <ol>
+      <li>Запросить у Uz-Prista Recycling фактические объёмы сбора за 2020–2025 гг. для сверки баланса.</li>
+      <li>Инициировать натурные замеры выбросов от тепличных котлов (PM, NOx, SO₂, Pb).</li>
+      <li>Провести опробование почв и подземных вод в районах массового сжигания.</li>
+      <li>Запустить пилотную мини-установку (1 т/сут) и замерить фактический выход биодизеля после предварительной очистки.</li>
+      <li>После получения данных — пересчитать отчёт по национальным методикам.</li>
+    </ol>
+
+    <div class="signature">
+      <p><strong>Подпись:</strong> Группа «ЭкоАудит-Центральная Азия»</p>
+      <p>«Считаем то, что не считают другие»</p>
+      <p style="font-size: 12px; margin-top: 10px;">Отчёт носит расчётно-аналитический характер. Все цифры — оценочные, кроме прямо указанных справочных коэффициентов.</p>
+    </div>
+
+  </article>
+</main>
+
+<footer>
+  <p>Contact: <a href="mailto:ecologyoilgaz@gmail.com">ecologyoilgaz@gmail.com</a> ·
+    <a href="eco-token.html">ECO Token</a> ·
+    <a href="tokens.html">Tokens & Pay</a> ·
+    <a href="treasury.html">Treasury (Solana)</a> ·
+    <a href="methodology.html">Methodology</a>
+  </p>
+</footer>
+</body>
+</html>
