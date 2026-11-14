@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Oil & Gas Ecology Map — Claimed vs Actual</title>
+<meta name="description" content="Open database of oil & gas gaps: flaring, methane leaks, spills, waste, fake reclamation. Verified via VIIRS, TROPOMI, Sentinel.">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="logo"><img src="logo-header.png" alt="Logo"> Oil & Gas Ecology Map</div>
+  <nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="map.html">Map</a>
+    <a href="solutions.html">Solutions</a>
+    <a href="rwa.html">RWA & Liquidity</a>
+    <a href="eco-token.html">ECO Token</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="tokens.html">Tokens & Pay</a>
+    <a href="treasury.html">Treasury</a>
+    <a href="signal.html">Signal</a>
+    <a href="response.html">Right of Reply</a>
+  </nav>
+</header>
+<main>
+  <section class="hero">
+    <h1>Oil & Gas: <span class="red">Claimed</span> vs <span class="green">Actual</span></h1>
+    <p>Open database of flaring, methane leaks, spills, waste, and fake reclamation. Verified via satellite data. No source — no publication.</p>
+  </section>
+  <section class="stats" id="stats"></section>
+  <div class="filters">
+    <select id="filter-status">
+      <option value="">All statuses</option>
+      <option value="red">🔴 Gap confirmed</option>
+      <option value="green">🟢 Verified</option>
+      <option value="gray">⚫ Pending</option>
+    </select>
+    <select id="filter-region">
+      <option value="">All regions</option>
+      <option>Africa</option><option>Asia</option><option>Europe</option>
+      <option>North America</option><option>South America</option>
+      <option>Oceania</option><option>Middle East</option>
+    </select>
+    <input id="filter-search" type="search" placeholder="Search country, company...">
+  </div>
+  <div class="legend">
+    <span><i class="dot red"></i> 🔴 Gap confirmed</span>
+    <span><i class="dot green"></i> 🟢 Verified</span>
+    <span><i class="dot gray"></i> ⚫ Pending verification</span>
+  </div>
+  <section id="cards" class="grid"></section>
+  <div id="pagination" class="pagination"></div>
+  
+  <section class="detail-block" style="text-align:center; border-color: var(--gold); margin-top: 40px;">
+    <h2>Support Verification</h2>
+    <p style="max-width: 600px; margin: 0 auto 15px auto;">We accept contributions to cover satellite monitoring and legal defense. Public wallets, multisig, on-chain route.</p>
+    <a href="tokens.html" class="btn-primary">View Tokens & Pay →</a>
+  </section>
+</main>
+<footer>
+  <p>Contact: <a href="mailto:ecologyoilgaz@gmail.com">ecologyoilgaz@gmail.com</a> ·
+    <a href="eco-token.html">ECO Token</a> ·
+    <a href="tokens.html">Tokens & Pay</a> ·
+    <a href="treasury.html">Treasury (Solana)</a> ·
+    <a href="methodology.html">Methodology</a>
+  </p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
