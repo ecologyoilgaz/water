@@ -1,782 +1,1172 @@
-"yamuna-river": {
-  "title": "Yamuna River Pollution — India",
-  "country": "India", "region": "Asia", "lat": 28.6, "lon": 77.2, "status": "red",
-  "claimed": "Cleanup programs", "actual": "Fecal coliforms 10,000 MPN/100ml (100x WHO limit)", "gap": "Severe bacterial contamination",
-  "financial_impact": {"loss_usd": 800000000, "description": "Public health crisis", "formula": "Health costs"},
-  "solutions": [{"name": "Sewage treatment plants", "type": "Medium", "effect": "Treat Delhi sewage", "cost": "$500M"}],
-  "sources": ["CPCB"], "companies": ["Delhi Jal Board"], "documents": []
-},
-"mississippi-river": {
-  "title": "Mississippi River — USA",
-  "country": "USA", "region": "North America", "lat": 29.1, "lon": -89.2, "status": "red",
-  "claimed": "Nutrient management", "actual": "Nitrogen, herbicides, microplastics; Gulf dead zone", "gap": "Eutrophication",
-  "financial_impact": {"loss_usd": 2000000000, "description": "Fisheries collapse", "formula": "Economic loss"},
-  "solutions": [{"name": "Wetland buffers", "type": "Medium", "effect": "Filter runoff", "cost": "$1B"}],
-  "sources": ["EPA"], "companies": ["Various agricultural"], "documents": []
-},
-"buriganga-river": {
-  "title": "Buriganga River — Bangladesh",
-  "country": "Bangladesh", "region": "Asia", "lat": 23.7, "lon": 90.4, "status": "red",
-  "claimed": "River restoration", "actual": "Chromium, plastic, untreated sewage", "gap": "Toxic pollution",
-  "financial_impact": {"loss_usd": 300000000, "description": "Health and ecosystem", "formula": "Health costs"},
-  "solutions": [{"name": "Industrial regulation", "type": "Fast", "effect": "Stop dumping", "cost": "$10M"}],
-  "sources": ["UNEP"], "companies": ["Tanneries"], "documents": []
-},
-"marilao-river": {
-  "title": "Marilao River — Philippines",
-  "country": "Philippines", "region": "Asia", "lat": 14.7, "lon": 120.9, "status": "red",
-  "claimed": "Cleanup", "actual": "Arsenic, cyanide, battery waste", "gap": "Toxic heavy metals",
-  "financial_impact": {"loss_usd": 100000000, "description": "Health risks", "formula": "Medical costs"},
-  "solutions": [{"name": "Soil remediation", "type": "Long", "effect": "Remove toxins", "cost": "$50M"}],
-  "sources": ["Blacksmith Institute"], "companies": ["Various"], "documents": []
-},
-"sarno-river": {
-  "title": "Sarno River — Italy",
-  "country": "Italy", "region": "Europe", "lat": 40.7, "lon": 14.5, "status": "red",
-  "claimed": "EU water quality standards", "actual": "Untreated sewage, agrochemicals", "gap": "Pollution",
-  "financial_impact": {"loss_usd": 200000000, "description": "Tourism and health", "formula": "Cleanup costs"},
-  "solutions": [{"name": "Wastewater treatment", "type": "Medium", "effect": "Treat sewage", "cost": "$100M"}],
-  "sources": ["EU Commission"], "companies": ["Local municipalities"], "documents": []
-},
-"yellow-river": {
-  "title": "Yellow River — China",
-  "country": "China", "region": "Asia", "lat": 37.8, "lon": 114.5, "status": "red",
-  "claimed": "Ecological protection", "actual": "Petrochemicals, ammonia, heavy metals", "gap": "Industrial pollution",
-  "financial_impact": {"loss_usd": 3000000000, "description": "Water security", "formula": "Cleanup + health"},
-  "solutions": [{"name": "Industrial upgrades", "type": "Long", "effect": "Reduce discharge", "cost": "$2B"}],
-  "sources": ["MEE China"], "companies": ["Various"], "documents": []
-},
-"tiete-river": {
-  "title": "Tietê River — Brazil",
-  "country": "Brazil", "region": "South America", "lat": -23.5, "lon": -46.6, "status": "red",
-  "claimed": "Cleanup program", "actual": "Sewage, pharmaceuticals, algal blooms", "gap": "Eutrophication",
-  "financial_impact": {"loss_usd": 1000000000, "description": "Health and water supply", "formula": "Treatment costs"},
-  "solutions": [{"name": "Sewage interception", "type": "Medium", "effect": "Stop raw discharge", "cost": "$500M"}],
-  "sources": ["Sabesp"], "companies": ["Sabesp"], "documents": []
-},
-"jordan-river": {
-  "title": "Jordan River — Middle East",
-  "country": "Israel/Jordan/Palestine", "region": "Middle East", "lat": 31.8, "lon": 35.5, "status": "red",
-  "claimed": "Transboundary cooperation", "actual": "90% flow loss, rising salinity", "gap": "Water scarcity",
-  "financial_impact": {"loss_usd": 500000000, "description": "Agricultural loss", "formula": "Economic loss"},
-  "solutions": [{"name": "Desalination", "type": "Medium", "effect": "Alternative supply", "cost": "$300M"}],
-  "sources": ["World Bank"], "companies": ["Regional authorities"], "documents": []
-},
-"indus-river": {
-  "title": "Indus River — Pakistan",
-  "country": "Pakistan", "region": "Asia", "lat": 25.4, "lon": 68.3, "status": "red",
-  "claimed": "Water management", "actual": "Agrochemicals, industrial discharge", "gap": "Pollution",
-  "financial_impact": {"loss_usd": 1000000000, "description": "Health and agriculture", "formula": "Losses"},
-  "solutions": [{"name": "Treatment plants", "type": "Medium", "effect": "Clean water", "cost": "$400M"}],
-  "sources": ["IUCN"], "companies": ["Various"], "documents": []
-},
-"mekong-river": {
-  "title": "Mekong River — Southeast Asia",
-  "country": "Multiple", "region": "Asia", "lat": 15.1, "lon": 105.8, "status": "red",
-  "claimed": "Sustainable development", "actual": "Pesticides 50x above norms, algal blooms", "gap": "Agro-industrial pollution",
-  "financial_impact": {"loss_usd": 2000000000, "description": "Fisheries impact", "formula": "Loss of catch"},
-  "solutions": [{"name": "Pesticide regulation", "type": "Fast", "effect": "Reduce runoff", "cost": "$50M"}],
-  "sources": ["Mekong River Commission"], "companies": ["Various"], "documents": []
-},
-"nile-river": {
-  "title": "Nile River — Egypt/Sudan",
-  "country": "Egypt/Sudan", "region": "Africa", "lat": 30.0, "lon": 31.2, "status": "red",
-  "claimed": "Nile Basin Initiative", "actual": "Sewage, agrochemicals, industry", "gap": "Pollution",
-  "financial_impact": {"loss_usd": 1500000000, "description": "Health and economy", "formula": "Costs"},
-  "solutions": [{"name": "Wastewater treatment", "type": "Medium", "effect": "Clean discharge", "cost": "$800M"}],
-  "sources": ["NBI"], "companies": ["Various"], "documents": []
-},
-"amazon-river": {
-  "title": "Amazon River — Brazil",
-  "country": "Brazil", "region": "South America", "lat": -3.1, "lon": -60.0, "status": "red",
-  "claimed": "Protected area", "actual": "Mining, deforestation, mercury", "gap": "Mercury contamination",
-  "financial_impact": {"loss_usd": 5000000000, "description": "Ecosystem collapse", "formula": "Long-term damage"},
-  "solutions": [{"name": "Ban illegal mining", "type": "Fast", "effect": "Stop mercury", "cost": "$100M"}],
-  "sources": ["INPE"], "companies": ["Illegal miners"], "documents": []
-},
-"rio-de-la-plata": {
-  "title": "Rio de la Plata — Argentina/Uruguay",
-  "country": "Argentina/Uruguay", "region": "South America", "lat": -34.9, "lon": -56.2, "status": "red",
-  "claimed": "Cleanup", "actual": "Heavy metals, plastics", "gap": "Industrial pollution",
-  "financial_impact": {"loss_usd": 600000000, "description": "Coastal impact", "formula": "Cleanup"},
-  "solutions": [{"name": "Industrial monitoring", "type": "Fast", "effect": "Enforce rules", "cost": "$20M"}],
-  "sources": ["UNEP"], "companies": ["Various"], "documents": []
-},
-"huangpu-river": {
-  "title": "Huangpu River — China",
-  "country": "China", "region": "Asia", "lat": 31.2, "lon": 121.5, "status": "red",
-  "claimed": "Cleanup", "actual": "Industrial discharge, plastics", "gap": "Pollution",
-  "financial_impact": {"loss_usd": 800000000, "description": "Water supply risk", "formula": "Treatment"},
-  "solutions": [{"name": "Upgrade treatment", "type": "Medium", "effect": "Clean water", "cost": "$300M"}],
-  "sources": ["MEE"], "companies": ["Various"], "documents": []
-},
-"tigris-river": {
-  "title": "Tigris River — Iraq",
-  "country": "Iraq", "region": "Middle East", "lat": 33.3, "lon": 44.4, "status": "red",
-  "claimed": "Restoration", "actual": "Depleted uranium, heavy metals", "gap": "Radioactive/toxic",
-  "financial_impact": {"loss_usd": 1000000000, "description": "Health crisis", "formula": "Medical costs"},
-  "solutions": [{"name": "Water filtration", "type": "Fast", "effect": "Safe drinking", "cost": "$100M"}],
-  "sources": ["UNEP"], "companies": ["Various"], "documents": []
-},
-"rhine-river": {
-  "title": "Rhine River — Europe",
-  "country": "Multiple", "region": "Europe", "lat": 51.0, "lon": 6.9, "status": "green",
-  "claimed": "Clean since 1980s", "actual": "Industrial discharge controlled", "gap": "N/A",
-  "financial_impact": {"loss_usd": 0, "description": "Success story", "formula": "N/A"},
-  "solutions": [{"name": "Maintain standards", "type": "Fast", "effect": "Keep clean", "cost": "$10M"}],
-  "sources": ["ICPR"], "companies": ["Various"], "documents": []
-},
-"danube-river": {
-  "title": "Danube River — Europe",
-  "country": "Multiple", "region": "Europe", "lat": 44.4, "lon": 26.1, "status": "red",
-  "claimed": "EU standards", "actual": "Transboundary pollution", "gap": "Nutrients",
-  "financial_impact": {"loss_usd": 500000000, "description": "Dead zones", "formula": "Fisheries loss"},
-  "solutions": [{"name": "Nutrient reduction", "type": "Medium", "effect": "Protect Black Sea", "cost": "$300M"}],
-  "sources": ["ICPDR"], "companies": ["Various"], "documents": []
-},
-"tijuana-river": {
-  "title": "Tijuana River — Mexico/USA",
-  "country": "Mexico/USA", "region": "North America", "lat": 32.5, "lon": -117.0, "status": "red",
-  "claimed": "Binational cleanup", "actual": "Raw sewage, toxic algae", "gap": "Cross-border pollution",
-  "financial_impact": {"loss_usd": 400000000, "description": "Beach closures", "formula": "Tourism loss"},
-  "solutions": [{"name": "Sewage infrastructure", "type": "Medium", "effect": "Stop spills", "cost": "$200M"}],
-  "sources": ["EPA"], "companies": ["Municipalities"], "documents": []
-},
-"lake-victoria": {
-  "title": "Lake Victoria — Africa",
-  "country": "Kenya/Tanzania/Uganda", "region": "Africa", "lat": -1.0, "lon": 33.0, "status": "red",
-  "claimed": "Management", "actual": "Industrial/sewage, water hyacinth", "gap": "Eutrophication",
-  "financial_impact": {"loss_usd": 1000000000, "description": "Fisheries decline", "formula": "Economic loss"},
-  "solutions": [{"name": "Wastewater treatment", "type": "Medium", "effect": "Reduce nutrients", "cost": "$400M"}],
-  "sources": ["LVBC"], "companies": ["Various"], "documents": []
-},
-"lake-karachay": {
-  "title": "Lake Karachay — Russia",
-  "country": "Russia", "region": "Europe", "lat": 55.7, "lon": 60.8, "status": "red",
-  "claimed": "Contained", "actual": "Radioactive waste (Mayak)", "gap": "Most radioactive place",
-  "financial_impact": {"loss_usd": 5000000000, "description": "Contamination", "formula": "Remediation"},
-  "solutions": [{"name": "Encapsulation", "type": "Long", "effect": "Prevent spread", "cost": "$1B"}],
-  "sources": ["Rosatom"], "companies": ["Mayak"], "documents": []
-},
-"lake-lugano": {
-  "title": "Lake Lugano — Europe",
-  "country": "Italy/Switzerland", "region": "Europe", "lat": 46.0, "lon": 8.9, "status": "red",
-  "claimed": "Clean", "actual": "Microplastics (top rank)", "gap": "Plastic pollution",
-  "financial_impact": {"loss_usd": 100000000, "description": "Ecosystem impact", "formula": "Cleanup"},
-  "solutions": [{"name": "Plastic filtration", "type": "Fast", "effect": "Remove microplastics", "cost": "$10M"}],
-  "sources": ["EU"], "companies": ["Municipalities"], "documents": []
-},
-"onondaga-lake": {
-  "title": "Onondaga Lake — USA",
-  "country": "USA", "region": "North America", "lat": 43.1, "lon": -76.2, "status": "red",
-  "claimed": "Cleanup ongoing", "actual": "Mercury (165,000 lbs)", "gap": "Toxic contamination",
-  "financial_impact": {"loss_usd": 1000000000, "description": "Remediation", "formula": "Cleanup cost"},
-  "solutions": [{"name": "Dredging", "type": "Long", "effect": "Remove mercury", "cost": "$500M"}],
-  "sources": ["EPA"], "companies": ["Allied Chemical"], "documents": []
-},
-"lake-taihu": {
-  "title": "Lake Taihu — China",
-  "country": "China", "region": "Asia", "lat": 31.2, "lon": 120.2, "status": "red",
-  "claimed": "Pollution control", "actual": "Eutrophication, toxic algae", "gap": "Algal blooms",
-  "financial_impact": {"loss_usd": 2000000000, "description": "Water crisis", "formula": "Treatment"},
-  "solutions": [{"name": "Nutrient reduction", "type": "Medium", "effect": "Stop blooms", "cost": "$1B"}],
-  "sources": ["MEE"], "companies": ["Various"], "documents": []
-},
-"lake-baikal": {
-  "title": "Lake Baikal — Russia",
-  "country": "Russia", "region": "Asia", "lat": 53.5, "lon": 108.0, "status": "red",
-  "claimed": "Protected", "actual": "Spirogyra, sponge death, sewage", "gap": "Ecosystem collapse",
-  "financial_impact": {"loss_usd": 3000000000, "description": "Loss of unique ecosystem", "formula": "Long-term damage"},
-  "solutions": [{"name": "Sewage treatment", "type": "Medium", "effect": "Stop pollution", "cost": "$500M"}],
-  "sources": ["UNESCO"], "companies": ["Various"], "documents": []
-},
-"caspian-sea": {
-  "title": "Caspian Sea — Eurasia",
-  "country": "Kazakhstan/Russia/Iran", "region": "Asia", "lat": 41.0, "lon": 51.0, "status": "red",
-  "claimed": "Protection", "actual": "Oil spills, pollution, seal decline", "gap": "Ecosystem stress",
-  "financial_impact": {"loss_usd": 5000000000, "description": "Fisheries loss", "formula": "Economic loss"},
-  "solutions": [{"name": "Oil spill response", "type": "Fast", "effect": "Contain", "cost": "$100M"}],
-  "sources": ["UNEP"], "companies": ["Various"], "documents": []
-},
-"lake-tanganyika": {
-  "title": "Lake Tanganyika — Africa",
-  "country": "Multiple", "region": "Africa", "lat": -6.0, "lon": 29.5, "status": "red",
-  "claimed": "Management", "actual": "Pollution, overfishing", "gap": "Ecosystem decline",
-  "financial_impact": {"loss_usd": 300000000, "description": "Fisheries loss", "formula": "Economic"},
-  "solutions": [{"name": "Protect breeding areas", "type": "Fast", "effect": "Restore fish", "cost": "$20M"}],
-  "sources": ["UNEP"], "companies": ["Various"], "documents": []
-},
-"lake-malawi": {
-  "title": "Lake Malawi — Africa",
-  "country": "Malawi/Mozambique/Tanzania", "region": "Africa", "lat": -12.0, "lon": 34.5, "status": "red",
-  "claimed": "Protected", "actual": "Pollution, overfishing", "gap": "Biodiversity loss",
-  "financial_impact": {"loss_usd": 200000000, "description": "Fisheries decline", "formula": "Economic"},
-  "solutions": [{"name": "Fishing quotas", "type": "Fast", "effect": "Recover stocks", "cost": "$10M"}],
-  "sources": ["UNESCO"], "companies": ["Various"], "documents": []
-},
-"lake-superior": {
-  "title": "Lake Superior — USA/Canada",
-  "country": "USA/Canada", "region": "North America", "lat": 47.5, "lon": -87.5, "status": "red",
-  "claimed": "Great Lakes protection", "actual": "Microplastics", "gap": "Plastic pollution",
-  "financial_impact": {"loss_usd": 100000000, "description": "Ecosystem", "formula": "Cleanup"},
-  "solutions": [{"name": "Plastic filtration", "type": "Fast", "effect": "Reduce", "cost": "$10M"}],
-  "sources": ["EPA"], "companies": ["Various"], "documents": []
-},
-"lake-huron": {
-  "title": "Lake Huron — USA/Canada",
-  "country": "USA/Canada", "region": "North America", "lat": 44.8, "lon": -82.4, "status": "red",
-  "claimed": "Protection", "actual": "Pollution", "gap": "Ecosystem", 
-  "financial_impact": {"loss_usd": 100000000, "description": "Fisheries", "formula": "Loss"},
-  "solutions": [{"name": "Wetland restoration", "type": "Fast", "effect": "Filter", "cost": "$20M"}],
-  "sources": ["EPA"], "companies": ["Various"], "documents": []
-},
-"lake-michigan": {
-  "title": "Lake Michigan — USA",
-  "country": "USA", "region": "North America", "lat": 44.0, "lon": -87.0, "status": "red",
-  "claimed": "Clean", "actual": "Algal blooms, pollution", "gap": "Eutrophication",
-  "financial_impact": {"loss_usd": 200000000, "description": "Water supply", "formula": "Treatment"},
-  "solutions": [{"name": "Nutrient control", "type": "Fast", "effect": "Reduce blooms", "cost": "$50M"}],
-  "sources": ["EPA"], "companies": ["Various"], "documents": []
-},
-"lake-erie": {
-  "title": "Lake Erie — USA/Canada",
-  "country": "USA/Canada", "region": "North America", "lat": 42.2, "lon": -81.2, "status": "red",
-  "claimed": "Cleanup", "actual": "Eutrophication (2014 Toledo crisis)", "gap": "Toxic algae",
-  "financial_impact": {"loss_usd": 500000000, "description": "Water shutdown", "formula": "Economic"},
-  "solutions": [{"name": "Reduce phosphorus", "type": "Medium", "effect": "Stop blooms", "cost": "$200M"}],
-  "sources": ["EPA"], "companies": ["Various"], "documents": []
-},
-"lake-ontario": {
-  "title": "Lake Ontario — USA/Canada",
-  "country": "USA/Canada", "region": "North America", "lat": 43.6, "lon": -77.8, "status": "red",
-  "claimed": "Protection", "actual": "Plastics, pollutants", "gap": "Ecosystem",
-  "financial_impact": {"loss_usd": 100000000, "description": "Fisheries", "formula": "Loss"},
-  "solutions": [{"name": "Cleanup", "type": "Fast", "effect": "Remove plastic", "cost": "$10M"}],
-  "sources": ["EPA"], "companies": ["Various"], "documents": []
-},
-"lake-winnipeg": {
-  "title": "Lake Winnipeg — Canada",
-  "country": "Canada", "region": "North America", "lat": 52.1, "lon": -97.8, "status": "red",
-  "claimed": "Cleanup", "actual": "Eutrophication", "gap": "Algae",
-  "financial_impact": {"loss_usd": 200000000, "description": "Water quality", "formula": "Loss"},
-  "solutions": [{"name": "Nutrient reduction", "type": "Medium", "effect": "Reduce algae", "cost": "$100M"}],
-  "sources": ["Gov Canada"], "companies": ["Various"], "documents": []
-},
-"great-bear-lake": {
-  "title": "Great Bear Lake — Canada",
-  "country": "Canada", "region": "North America", "lat": 66.0, "lon": -121.0, "status": "red",
-  "claimed": "Pristine", "actual": "Uranium mining risk", "gap": "Potential contamination",
-  "financial_impact": {"loss_usd": 100000000, "description": "Cleanup", "formula": "Potential cost"},
-  "solutions": [{"name": "Mine regulation", "type": "Fast", "effect": "Prevent spills", "cost": "$10M"}],
-  "sources": ["Gov Canada"], "companies": ["Various"], "documents": []
-},
-"great-slave-lake": {
-  "title": "Great Slave Lake — Canada",
-  "country": "Canada", "region": "North America", "lat": 61.5, "lon": -114.0, "status": "red",
-  "claimed": "Protected", "actual": "Mining pollution", "gap": "Contamination",
-  "financial_impact": {"loss_usd": 150000000, "description": "Ecosystem", "formula": "Cleanup"},
-  "solutions": [{"name": "Regulate mining", "type": "Fast", "effect": "Stop discharge", "cost": "$20M"}],
-  "sources": ["Gov Canada"], "companies": ["Mining companies"], "documents": []
-},
-"lake-balqash": {
-  "title": "Lake Balqash — Kazakhstan",
-  "country": "Kazakhstan", "region": "Asia", "lat": 46.3, "lon": 74.5, "status": "red",
-  "claimed": "Restoration", "actual": "Shrinking, pollution", "gap": "Water loss",
-  "financial_impact": {"loss_usd": 500000000, "description": "Fisheries loss", "formula": "Economic"},
-  "solutions": [{"name": "Water saving", "type": "Medium", "effect": "Stabilize lake", "cost": "$200M"}],
-  "sources": ["World Bank"], "companies": ["Various"], "documents": []
-},
-"lake-urmia": {
-  "title": "Lake Urmia — Iran",
-  "country": "Iran", "region": "Middle East", "lat": 37.7, "lon": 45.3, "status": "red",
-  "claimed": "Restoration", "actual": "Drying up", "gap": "Shrinkage",
-  "financial_impact": {"loss_usd": 2000000000, "description": "Dust storms", "formula": "Health/agri loss"},
-  "solutions": [{"name": "Reduce irrigation", "type": "Medium", "effect": "Restore lake", "cost": "$500M"}],
-  "sources": ["UNEP"], "companies": ["Various"], "documents": []
-},
-"lake-titicaca": {
-  "title": "Lake Titicaca — Peru/Bolivia",
-  "country": "Peru/Bolivia", "region": "South America", "lat": -15.8, "lon": -69.3, "status": "red",
-  "claimed": "Protection", "actual": "Sewage, mining", "gap": "Pollution",
-  "financial_impact": {"loss_usd": 300000000, "description": "Fisheries", "formula": "Loss"},
-  "solutions": [{"name": "Wastewater treatment", "type": "Medium", "effect": "Clean water", "cost": "$100M"}],
-  "sources": ["UNEP"], "companies": ["Various"], "documents": []
-},
-"lake-nicaragua": {
-  "title": "Lake Nicaragua — Nicaragua",
-  "country": "Nicaragua", "region": "North America", "lat": 11.6, "lon": -85.4, "status": "red",
-  "claimed": "Protection", "actual": "Deforestation, agriculture", "gap": "Sedimentation",
-  "financial_impact": {"loss_usd": 100000000, "description": "Ecosystem", "formula": "Loss"},
-  "solutions": [{"name": "Watershed protection", "type": "Fast", "effect": "Reduce runoff", "cost": "$20M"}],
-  "sources": ["UNEP"], "companies": ["Various"], "documents": []
-},
-"lake-athabasca": {
-  "title": "Lake Athabasca — Canada",
-  "country": "Canada", "region": "North America", "lat": 59.2, "lon": -109.0, "status": "red",
-  "claimed": "Monitoring", "actual": "Oil sands contamination", "gap": "Pollution",
-  "financial_impact": {"loss_usd": 500000000, "description": "Ecosystem", "formula": "Cleanup"},
-  "solutions": [{"name": "Tailings management", "type": "Medium", "effect": "Stop leaks", "cost": "$300M"}],
-  "sources": ["Gov Canada"], "companies": ["Oil sands"], "documents": []
-},
-"lake-turkana": {
-  "title": "Lake Turkana — Kenya/Ethiopia",
-  "country": "Kenya/Ethiopia", "region": "Africa", "lat": 3.6, "lon": 36.1, "status": "red",
-  "claimed": "Protected", "actual": "Dam construction, salinity", "gap": "Water loss",
-  "financial_impact": {"loss_usd": 300000000, "description": "Fisheries", "formula": "Loss"},
-  "solutions": [{"name": "Flow management", "type": "Medium", "effect": "Maintain lake", "cost": "$100M"}],
-  "sources": ["UNESCO"], "companies": ["Various"], "documents": []
-},
-"lake-albert": {
-  "title": "Lake Albert — Uganda/DRC",
-  "country": "Uganda/DRC", "region": "Africa", "lat": 1.7, "lon": 30.9, "status": "red",
-  "claimed": "Protection", "actual": "Oil exploration", "gap": "Pollution risk",
-  "financial_impact": {"loss_usd": 200000000, "description": "Ecosystem", "formula": "Potential loss"},
-  "solutions": [{"name": "Environmental safeguards", "type": "Fast", "effect": "Prevent spills", "cost": "$50M"}],
-  "sources": ["UNEP"], "companies": ["Oil companies"], "documents": []
-},
-"lake-mweru": {
-  "title": "Lake Mweru — Zambia/DRC",
-  "country": "Zambia/DRC", "region": "Africa", "lat": -9.0, "lon": 28.7, "status": "red",
-  "claimed": "Protection", "actual": "Overfishing, pollution", "gap": "Ecosystem",
-  "financial_impact": {"loss_usd": 50000000, "description": "Fisheries", "formula": "Loss"},
-  "solutions": [{"name": "Fishing regulation", "type": "Fast", "effect": "Restore", "cost": "$5M"}],
-  "sources": ["UNEP"], "companies": ["Various"], "documents": []
-},
-"lake-nipigon": {
-  "title": "Lake Nipigon — Canada",
-  "country": "Canada", "region": "North America", "lat": 49.8, "lon": -88.5, "status": "red",
-  "claimed": "Protected", "actual": "Mining/logging pollution", "gap": "Pollution",
-  "financial_impact": {"loss_usd": 50000000, "description": "Ecosystem", "formula": "Cleanup"},
-  "solutions": [{"name": "Regulation", "type": "Fast", "effect": "Stop pollution", "cost": "$10M"}],
-  "sources": ["Gov Canada"], "companies": ["Various"], "documents": []
-},
-"lake-manitoba": {
-  "title": "Lake Manitoba — Canada",
-  "country": "Canada", "region": "North America", "lat": 50.9, "lon": -98.5, "status": "red",
-  "claimed": "Cleanup", "actual": "Eutrophication, flooding", "gap": "Algae",
-  "financial_impact": {"loss_usd": 100000000, "description": "Water quality", "formula": "Loss"},
-  "solutions": [{"name": "Nutrient control", "type": "Medium", "effect": "Reduce", "cost": "$50M"}],
-  "sources": ["Gov Canada"], "companies": ["Various"], "documents": []
-},
+{
+  "meta": {"count": 126, "updated": "2026-11-14", "currency": "USD"},
+  "objects": {
+    "omsk-refinery": {
+      "title": "Omsk Refinery — Air Emissions", "country": "Russia", "region": "Asia", "lat": 54.97, "lon": 73.37, "status": "red",
+      "claimed": "SAKV system, 40% impact reduction", "actual": "Benzene 3.27x, H2S 2.5x, HCl 2.10x, NO2 1.17x above limits", "gap": "Systematic exceedances",
+      "financial_impact": {"loss_usd": 25000000, "description": "Health costs + potential fines", "formula": "Health damage base"},
+      "solutions": [{"name": "Install continuous monitoring (CEMS)", "type": "Fast", "effect": "Real-time data, stop exceedances", "cost": "$2M"},{"name": "Upgrade treatment facilities", "type": "Medium", "effect": "Reduce benzene/H2S by 70%", "cost": "$15M"},{"name": "Full modernization", "type": "Long", "effect": "Meet EU standards", "cost": "$50M"}],
+      "sources": ["Rosprirodnadzor", "Gazprom Neft reports"], "companies": ["Gazprom Neft"], "documents": [{"name": "Rosprirodnadzor Inspection Data", "url": "https://rpn.gov.ru/"}]
+    },
+    "ryazan-refinery": {
+      "title": "Ryazan Refinery — Unpermitted Emissions", "country": "Russia", "region": "Europe", "lat": 54.63, "lon": 39.74, "status": "red",
+      "claimed": "Standard operations", "actual": "Phenol emissions without permit; ammonia exceedances", "gap": "Unpermitted emissions confirmed",
+      "financial_impact": {"loss_usd": 15000000, "description": "Environmental fines and remediation", "formula": "Estimated regulatory fines"},
+      "solutions": [{"name": "Obtain proper permits", "type": "Fast", "effect": "Legalize operations", "cost": "Low"},{"name": "Install closed-loop treatment", "type": "Medium", "effect": "Eliminate phenol discharge", "cost": "$10M"}],
+      "sources": ["Rosprirodnadzor"], "companies": ["Rosneft"], "documents": [{"name": "Rosprirodnadzor Inspection Data", "url": "https://rpn.gov.ru/"}]
+    },
+    "peton-novoshakhtinsk": {
+      "title": "Peton Novoshakhtinsk Refinery — CO2", "country": "Russia", "region": "Europe", "lat": 47.83432, "lon": 39.85538, "status": "red",
+      "claimed": "Not disclosed", "actual": "550,426 t CO2e/yr (Climate TRACE)", "gap": "No independent verification",
+      "financial_impact": {"loss_usd": 46786210, "description": "Unpriced carbon emissions", "formula": "550,426 t × $85/t"},
+      "solutions": [{"name": "Carbon capture (CCUS)", "type": "Medium", "effect": "Capture 90% of CO2", "cost": "$40M"},{"name": "Energy efficiency upgrade", "type": "Fast", "effect": "Reduce emissions 15%", "cost": "$5M"}],
+      "sources": ["Climate TRACE v6"], "companies": ["SRDI Oil & Gas Peton"], "documents": [{"name": "Climate TRACE Facility Data", "url": "https://climatetrace.org/"}]
+    },
+    "ktk-spill-2025": {
+      "title": "KTK Terminal Spill — Black Sea", "country": "Russia", "region": "Europe", "lat": 44.7, "lon": 37.8, "status": "red",
+      "claimed": "Contained", "actual": "42 km² (29 Aug) → >300 km² (1 Sep 2025)", "gap": "Rapid expansion, underreported",
+      "financial_impact": {"loss_usd": 450000000, "description": "Estimated 300 km² spill damage", "formula": "Volume × $200/bbl"},
+      "solutions": [{"name": "Immediate mechanical recovery", "type": "Fast", "effect": "Contain and skim oil", "cost": "$10M"},{"name": "Dispersant use (careful)", "type": "Medium", "effect": "Break up slick", "cost": "$5M"},{"name": "Long-term ecosystem restoration", "type": "Long", "effect": "Restore coastal habitats", "cost": "$100M"}],
+      "sources": ["IKI RAS", "Sentinel-1/2", "MODIS"], "companies": ["KTK Consortium"], "documents": [{"name": "IKI RAS Monitoring Report", "url": "http://iki.cosmos.ru/"}]
+    },
+    "el-palito-spill": {
+      "title": "El Palito Refinery Spill — Venezuela", "country": "Venezuela", "region": "South America", "lat": 10.48, "lon": -68.12, "status": "red",
+      "claimed": "Not disclosed", "actual": "Detected via Sentinel-1 SAR + Sentinel-2", "gap": "Unreported spill",
+      "financial_impact": {"loss_usd": 5000000, "description": "Unreported coastal contamination", "formula": "Estimated cleanup costs"},
+      "solutions": [{"name": "Deploy containment booms", "type": "Fast", "effect": "Stop spread to mangroves", "cost": "$500K"},{"name": "Bioremediation", "type": "Long", "effect": "Natural breakdown of oil", "cost": "$2M"}],
+      "sources": ["INPE study", "Sentinel-1/2"], "companies": ["PDVSA"], "documents": [{"name": "INPE Study (Brazil)", "url": "https://www.gov.br/inpe/"}]
+    },
+    "flare-nigeria": {
+      "title": "Gas Flaring — Niger Delta", "country": "Nigeria", "region": "Africa", "lat": 4.8, "lon": 7.0, "status": "red",
+      "claimed": "Minimal flaring", "actual": "~4.2 bcm/yr (VIIRS)", "gap": "100% unreported",
+      "financial_impact": {"loss_usd": 1260000000, "description": "4.2 bcm of gas wasted + carbon penalties", "formula": "4.2 bcm × $300/m³"},
+      "solutions": [{"name": "Flare gas capture (small-scale)", "type": "Fast", "effect": "Capture 15% of gas, power local villages", "cost": "$10M"},{"name": "LNG mini-plants", "type": "Medium", "effect": "Monetize 50% of flared gas", "cost": "$100M"},{"name": "Regional gas grid connection", "type": "Long", "effect": "End routine flaring", "cost": "$500M"}],
+      "sources": ["NASA FIRMS VIIRS", "World Bank"], "companies": ["Shell", "Chevron", "TotalEnergies"], "documents": [{"name": "World Bank Flaring Tracker 2025 (PDF)", "url": "https://www.worldbank.org/en/programs/gasflaringreduction/global-flaring-data"}]
+    },
+    "methane-turkmenistan": {
+      "title": "Methane Leak — Turkmenistan", "country": "Turkmenistan", "region": "Asia", "lat": 40.0, "lon": 52.0, "status": "red",
+      "claimed": "Not reported", "actual": "131 kt CH4 / 205 days (TROPOMI)", "gap": "100%",
+      "financial_impact": {"loss_usd": 6550000, "description": "131,000 tonnes CH₄ released", "formula": "131,000 t × $50/t"},
+      "solutions": [{"name": "Plug abandoned wells", "type": "Fast", "effect": "Stop leaks", "cost": "$1M"},{"name": "Methane recovery system", "type": "Medium", "effect": "Capture and sell gas", "cost": "$10M"}],
+      "sources": ["TROPOMI", "Guanter et al. 2024"], "companies": ["Turkmennebit"], "documents": [{"name": "Guanter et al. 2024 (ES&T Letters)", "url": "https://pubs.acs.org/doi/10.1021/acs.estlett.4c00373"}]
+    },
+    "blowout-kazakhstan": {
+      "title": "Well Blowout — Karaturun East", "country": "Kazakhstan", "region": "Asia", "lat": 47.0, "lon": 52.0, "status": "red",
+      "claimed": "Contained", "actual": "205 days active, ~131 kt CH4", "gap": "Total underreporting",
+      "financial_impact": {"loss_usd": 6550000, "description": "Uncontrolled methane release", "formula": "131,000 t × $50/t"},
+      "solutions": [{"name": "Well capping", "type": "Fast", "effect": "Stop release", "cost": "$5M"},{"name": "Relief well drilling", "type": "Long", "effect": "Permanent kill", "cost": "$50M"}],
+      "sources": ["Guanter et al. 2024"], "companies": ["KazMunayGas"], "documents": [{"name": "Guanter et al. 2024 (ES&T Letters)", "url": "https://pubs.acs.org/doi/10.1021/acs.estlett.4c00373"}]
+    },
+    "reclamation-canada": {
+      "title": "Reclamation — Alberta", "country": "Canada", "region": "North America", "lat": 56.0, "lon": -111.0, "status": "green",
+      "claimed": "500 ha reclaimed", "actual": "480 ha verified (Sentinel-2 NDVI)", "gap": "4% (within tolerance)",
+      "financial_impact": {"loss_usd": 300000, "description": "20 ha not reclaimed", "formula": "20 ha × $15,000/ha"},
+      "solutions": [{"name": "Complete remaining 20 ha", "type": "Fast", "effect": "Full compliance", "cost": "$300K"}],
+      "sources": ["Sentinel-2", "EITI Canada"], "companies": ["Suncor", "CNRL"], "documents": [{"name": "EITI Canada Reports", "url": "https://eiti.org/countries/canada"}]
+    },
+    "spill-kuwait": {
+      "title": "Oil Spill — Qaruh Island", "country": "Kuwait", "region": "Middle East", "lat": 28.8, "lon": 48.8, "status": "red",
+      "claimed": "Minor", "actual": "Detected via Sentinel-1 SAR", "gap": "Underreported",
+      "financial_impact": {"loss_usd": 10000000, "description": "Marine ecosystem damage", "formula": "Estimated cleanup"},
+      "solutions": [{"name": "Coastal cleanup", "type": "Fast", "effect": "Remove visible oil", "cost": "$2M"},{"name": "Coral reef restoration", "type": "Long", "effect": "Revive ecosystem", "cost": "$10M"}],
+      "sources": ["Sentinel-1", "ScienceDirect 2024"], "companies": ["Kuwait Petroleum"], "documents": [{"name": "ScienceDirect Study (2024)", "url": "https://www.sciencedirect.com/"}]
+    },
+    "flare-iraq": {
+      "title": "Gas Flaring — Basra", "country": "Iraq", "region": "Middle East", "lat": 30.5, "lon": 47.8, "status": "red",
+      "claimed": "Reduction program", "actual": "17 bcm/yr flared (2nd globally)", "gap": "Program not delivering",
+      "financial_impact": {"loss_usd": 5100000000, "description": "Massive gas waste", "formula": "17 bcm × $300/m³"},
+      "solutions": [{"name": "Gas processing plant", "type": "Medium", "effect": "Monetize 50% of gas", "cost": "$1B"},{"name": "Power generation from flare gas", "type": "Fast", "effect": "Provide electricity to locals", "cost": "$50M"}],
+      "sources": ["World Bank Flaring Tracker", "VIIRS"], "companies": ["Basrah Oil", "Shell"], "documents": [{"name": "World Bank Flaring Tracker 2025 (PDF)", "url": "https://www.worldbank.org/en/programs/gasflaringreduction/global-flaring-data"}]
+    },
+    "flare-russia-yamal": {
+      "title": "Gas Flaring — Yamal", "country": "Russia", "region": "Asia", "lat": 66.0, "lon": 70.0, "status": "red",
+      "claimed": "95% utilization", "actual": "20+ bcm/yr flared (VIIRS)", "gap": "Utilization overstated",
+      "financial_impact": {"loss_usd": 6000000000, "description": "Gas waste at scale", "formula": "20 bcm × $300/m³"},
+      "solutions": [{"name": "Upgrade compressor stations", "type": "Fast", "effect": "Reduce leaks", "cost": "$20M"},{"name": "Gas-to-liquids (GTL)", "type": "Long", "effect": "Monetize gas", "cost": "$2B"}],
+      "sources": ["VIIRS", "World Bank"], "companies": ["Gazprom", "Novatek"], "documents": [{"name": "World Bank Flaring Tracker 2025 (PDF)", "url": "https://www.worldbank.org/en/programs/gasflaringreduction/global-flaring-data"}]
+    },
+    "flare-venezuela": {
+      "title": "Gas Flaring — Lake Maracaibo", "country": "Venezuela", "region": "South America", "lat": 10.0, "lon": -71.5, "status": "red",
+      "claimed": "Not reported", "actual": "Persistent flaring (VIIRS)", "gap": "100%",
+      "financial_impact": {"loss_usd": 1500000000, "description": "Persistent unmonitored flaring", "formula": "Estimated volume"},
+      "solutions": [{"name": "Basic flare maintenance", "type": "Fast", "effect": "Improve combustion efficiency", "cost": "$2M"},{"name": "Gas reinjection", "type": "Medium", "effect": "Stop flaring, boost oil recovery", "cost": "$50M"}],
+      "sources": ["VIIRS"], "companies": ["PDVSA"], "documents": [{"name": "World Bank Flaring Tracker 2025 (PDF)", "url": "https://www.worldbank.org/en/programs/gasflaringreduction/global-flaring-data"}]
+    },
+    "flare-iran": {
+      "title": "Gas Flaring — Khuzestan", "country": "Iran", "region": "Middle East", "lat": 31.3, "lon": 48.7, "status": "red",
+      "claimed": "Flare gas recovery", "actual": "17+ bcm/yr flared", "gap": "Recovery delayed",
+      "financial_impact": {"loss_usd": 5100000000, "description": "Unrecovered gas resources", "formula": "17 bcm × $300/m³"},
+      "solutions": [{"name": "Flare gas gathering system", "type": "Medium", "effect": "Capture 70% of gas", "cost": "$500M"},{"name": "Compressed natural gas (CNG) units", "type": "Fast", "effect": "Use gas locally", "cost": "$20M"}],
+      "sources": ["VIIRS", "World Bank"], "companies": ["NIOC"], "documents": [{"name": "World Bank Flaring Tracker 2025 (PDF)", "url": "https://www.worldbank.org/en/programs/gasflaringreduction/global-flaring-data"}]
+    },
+    "flare-libya": {
+      "title": "Gas Flaring — Sirte Basin", "country": "Libya", "region": "Africa", "lat": 30.0, "lon": 18.0, "status": "red",
+      "claimed": "Not reported", "actual": "Persistent flaring (VIIRS)", "gap": "100%",
+      "financial_impact": {"loss_usd": 800000000, "description": "Unmonitored flaring", "formula": "Estimated volume"},
+      "solutions": [{"name": "Restart gas plant", "type": "Medium", "effect": "Capture associated gas", "cost": "$100M"},{"name": "Solar mini-grids for local communities", "type": "Fast", "effect": "Reduce need for flaring", "cost": "$10M"}],
+      "sources": ["VIIRS"], "companies": ["NOC Libya"], "documents": [{"name": "World Bank Flaring Tracker 2025 (PDF)", "url": "https://www.worldbank.org/en/programs/gasflaringreduction/global-flaring-data"}]
+    },
+    "methane-algeria": {
+      "title": "Methane Leaks — Hassi R'Mel", "country": "Algeria", "region": "Africa", "lat": 32.9, "lon": 3.3, "status": "red",
+      "claimed": "Low leak rate", "actual": "Super-emitter events (TROPOMI)", "gap": "Underreported",
+      "financial_impact": {"loss_usd": 10000000, "description": "Unreported methane losses", "formula": "Estimated volume × $50/t"},
+      "solutions": [{"name": "LDAR (Leak Detection and Repair)", "type": "Fast", "effect": "Find and fix 80% of leaks", "cost": "$5M"},{"name": "Replace old equipment", "type": "Medium", "effect": "Prevent future leaks", "cost": "$20M"}],
+      "sources": ["TROPOMI"], "companies": ["Sonatrach"], "documents": [{"name": "IEA Global Methane Tracker 2026", "url": "https://www.iea.org/reports/global-methane-tracker-2026"}]
+    },
+    "methane-usa-permian": {
+      "title": "Methane Leaks — Permian Basin", "country": "USA", "region": "North America", "lat": 31.8, "lon": -102.4, "status": "red",
+      "claimed": "1.5% leak rate", "actual": "Super-emitters detected (TROPOMI)", "gap": "Leak rate understated",
+      "financial_impact": {"loss_usd": 25000000, "description": "Lost gas + penalties", "formula": "Estimated volume × $50/t"},
+      "solutions": [{"name": "Drone-based LDAR", "type": "Fast", "effect": "Rapid detection", "cost": "$1M"},{"name": "Electric compressor replacements", "type": "Medium", "effect": "Eliminate pneumatic emissions", "cost": "$30M"}],
+      "sources": ["TROPOMI", "Carbon Mapper"], "companies": ["ExxonMobil", "Chevron", "ConocoPhillips"], "documents": [{"name": "GHGSat 2025 Methane Report", "url": "https://www.ghgsat.com/resources/ghgsat-2025-methane-emissions-report/"}]
+    },
+    "spill-mexico-gulf": {
+      "title": "Oil Spill — Gulf of Mexico", "country": "Mexico/USA", "region": "North America", "lat": 25.0, "lon": -90.0, "status": "red",
+      "claimed": "Contained", "actual": "Recurring SAR detections", "gap": "Underreported",
+      "financial_impact": {"loss_usd": 30000000, "description": "Recurring spills", "formula": "Estimated volume × $200/bbl"},
+      "solutions": [{"name": "Subsea leak detection", "type": "Fast", "effect": "Early warning", "cost": "$5M"},{"name": "Improve pipeline integrity", "type": "Long", "effect": "Prevent future spills", "cost": "$50M"}],
+      "sources": ["Sentinel-1"], "companies": ["Pemex", "BP"], "documents": [{"name": "ITOPF Oil Spill Stats 2025 (PDF)", "url": "https://www.itopf.org/fileadmin/uploads/itopf/data/Stats/Oil_Spill_Stats_brochure_2025_lo.pdf"}]
+    },
+    "spill-ogoni": {
+      "title": "Oil Spill — Ogoniland", "country": "Nigeria", "region": "Africa", "lat": 4.6, "lon": 7.5, "status": "red",
+      "claimed": "Cleanup ongoing", "actual": "Decades of contamination (UNEP)", "gap": "Cleanup incomplete",
+      "financial_impact": {"loss_usd": 1000000000, "description": "Long-term ecosystem destruction", "formula": "UNEP remediation estimate"},
+      "solutions": [{"name": "Implement UNEP recommendations", "type": "Long", "effect": "Full cleanup", "cost": "$1B"},{"name": "Community-based bioremediation", "type": "Fast", "effect": "Local cleanup, low cost", "cost": "$10M"}],
+      "sources": ["UNEP 2011", "Sentinel-1"], "companies": ["Shell"], "documents": [{"name": "UNEP Ogoniland Report (2011)", "url": "https://www.unep.org/resources/report/environmental-assessment-ogoniland"}]
+    },
+    "spill-peru": {
+      "title": "Oil Spill — Peruvian Amazon", "country": "Peru", "region": "South America", "lat": -3.0, "lon": -75.0, "status": "red",
+      "claimed": "Minor", "actual": "Recurring pipeline spills (SAR)", "gap": "Underreported",
+      "financial_impact": {"loss_usd": 5000000, "description": "Amazon pollution", "formula": "Estimated cleanup"},
+      "solutions": [{"name": "Pipeline replacement", "type": "Medium", "effect": "Prevent spills", "cost": "$20M"},{"name": "Indigenous monitoring network", "type": "Fast", "effect": "Rapid response", "cost": "$1M"}],
+      "sources": ["Sentinel-1", "OEFA"], "companies": ["Petroperu"], "documents": [{"name": "OEFA Reports (Peru)", "url": "https://www.oefa.gob.pe/"}]
+    },
+    "spill-russia-komi": {
+      "title": "Oil Spill — Komi Republic", "country": "Russia", "region": "Europe", "lat": 63.0, "lon": 55.0, "status": "red",
+      "claimed": "Contained", "actual": "Recurring spills (SAR)", "gap": "Underreported",
+      "financial_impact": {"loss_usd": 10000000, "description": "Arctic pollution", "formula": "Estimated cleanup"},
+      "solutions": [{"name": "Above-ground pipeline inspection", "type": "Fast", "effect": "Identify weak points", "cost": "$2M"},{"name": "Pipeline replacement", "type": "Long", "effect": "Stop chronic leaks", "cost": "$30M"}],
+      "sources": ["Sentinel-1"], "companies": ["Lukoil"], "documents": [{"name": "ITOPF Oil Spill Stats 2025 (PDF)", "url": "https://www.itopf.org/fileadmin/uploads/itopf/data/Stats/Oil_Spill_Stats_brochure_2025_lo.pdf"}]
+    },
+    "waste-kazakhstan": {
+      "title": "Oil Waste — Mangystau", "country": "Kazakhstan", "region": "Asia", "lat": 44.0, "lon": 52.0, "status": "red",
+      "claimed": "Managed", "actual": "Unlined pits, sludge accumulation", "gap": "Unreported volume",
+      "financial_impact": {"loss_usd": 50000000, "description": "Soil and groundwater contamination", "formula": "Estimated remediation"},
+      "solutions": [{"name": "Excavate and treat sludge", "type": "Medium", "effect": "Remove contamination", "cost": "$30M"},{"name": "Groundwater monitoring", "type": "Fast", "effect": "Track spread", "cost": "$2M"}],
+      "sources": ["EITI Kazakhstan", "Sentinel-2"], "companies": ["KazMunayGas"], "documents": [{"name": "EITI Kazakhstan Reports", "url": "https://eiti.org/countries/kazakhstan"}]
+    },
+    "waste-azerbaijan": {
+      "title": "Drilling Waste — Baku", "country": "Azerbaijan", "region": "Asia", "lat": 40.4, "lon": 49.9, "status": "red",
+      "claimed": "Managed", "actual": "Historical sludge lakes", "gap": "Unreported",
+      "financial_impact": {"loss_usd": 30000000, "description": "Legacy waste liabilities", "formula": "Estimated cleanup"},
+      "solutions": [{"name": "Capping and containment", "type": "Fast", "effect": "Prevent further leak", "cost": "$5M"},{"name": "Full remediation", "type": "Long", "effect": "Restore land", "cost": "$30M"}],
+      "sources": ["EITI Azerbaijan"], "companies": ["SOCAR"], "documents": [{"name": "EITI Azerbaijan Reports", "url": "https://eiti.org/countries/azerbaijan"}]
+    },
+    "waste-uzbekistan": {
+      "title": "Oil Waste — Fergana", "country": "Uzbekistan", "region": "Asia", "lat": 40.4, "lon": 71.8, "status": "red",
+      "claimed": "Managed", "actual": "Legacy sludge sites", "gap": "Unreported",
+      "financial_impact": {"loss_usd": 20000000, "description": "Unreported legacy waste", "formula": "Estimated cleanup"},
+      "solutions": [{"name": "Sludge pit inventory", "type": "Fast", "effect": "Know the scale", "cost": "$1M"},{"name": "Bioremediation", "type": "Long", "effect": "Clean up soil", "cost": "$20M"}],
+      "sources": ["EITI Uzbekistan"], "companies": ["Uzbekneftegaz"], "documents": [{"name": "EITI Uzbekistan Reports", "url": "https://eiti.org/countries/uzbekistan"}]
+    },
+    "reclamation-saudi": {
+      "title": "Reclamation — Saudi Arabia", "country": "Saudi Arabia", "region": "Middle East", "lat": 26.0, "lon": 50.0, "status": "green",
+      "claimed": "Reclamation program", "actual": "Verified via Sentinel-2 NDVI", "gap": "Within tolerance",
+      "financial_impact": {"loss_usd": 0, "description": "No significant loss", "formula": "N/A"},
+      "solutions": [{"name": "Maintain monitoring", "type": "Fast", "effect": "Ensure success", "cost": "$500K"}],
+      "sources": ["Sentinel-2"], "companies": ["Saudi Aramco"], "documents": [{"name": "Sentinel-2 Data (Copernicus)", "url": "https://www.copernicus.eu/"}]
+    },
+    "reclamation-norway": {
+      "title": "Reclamation — North Sea", "country": "Norway", "region": "Europe", "lat": 60.0, "lon": 2.0, "status": "green",
+      "claimed": "Decommissioning", "actual": "Verified via SAR + reports", "gap": "Within tolerance",
+      "financial_impact": {"loss_usd": 0, "description": "No significant loss", "formula": "N/A"},
+      "solutions": [{"name": "Continue decommissioning", "type": "Long", "effect": "Complete removal", "cost": "$1B"}],
+      "sources": ["Sentinel-1", "EITI Norway"], "companies": ["Equinor"], "documents": [{"name": "EITI Norway Reports", "url": "https://eiti.org/countries/norway"}]
+    },
+    "flare-angola": {
+      "title": "Gas Flaring — Angola", "country": "Angola", "region": "Africa", "lat": -8.8, "lon": 13.2, "status": "red",
+      "claimed": "Flare reduction", "actual": "Persistent (VIIRS)", "gap": "Underreported",
+      "financial_impact": {"loss_usd": 600000000, "description": "Unmonitored flaring", "formula": "Estimated volume"},
+      "solutions": [{"name": "Flare gas recovery unit", "type": "Medium", "effect": "Capture gas", "cost": "$50M"},{"name": "Improved maintenance", "type": "Fast", "effect": "Better combustion", "cost": "$2M"}],
+      "sources": ["VIIRS"], "companies": ["Sonangol"], "documents": [{"name": "World Bank Flaring Tracker 2025 (PDF)", "url": "https://www.worldbank.org/en/programs/gasflaringreduction/global-flaring-data"}]
+    },
+    "flare-indonesia": {
+      "title": "Gas Flaring — East Kalimantan", "country": "Indonesia", "region": "Asia", "lat": 0.5, "lon": 117.0, "status": "red",
+      "claimed": "Reduction program", "actual": "Persistent (VIIRS)", "gap": "Underreported",
+      "financial_impact": {"loss_usd": 400000000, "description": "Unmonitored flaring", "formula": "Estimated volume"},
+      "solutions": [{"name": "Gas gathering", "type": "Medium", "effect": "Reduce flaring", "cost": "$30M"},{"name": "Flare tip replacement", "type": "Fast", "effect": "Improve efficiency", "cost": "$1M"}],
+      "sources": ["VIIRS"], "companies": ["Pertamina"], "documents": [{"name": "World Bank Flaring Tracker 2025 (PDF)", "url": "https://www.worldbank.org/en/programs/gasflaringreduction/global-flaring-data"}]
+    },
+    "spill-thailand": {
+      "title": "Oil Spill — Rayong", "country": "Thailand", "region": "Asia", "lat": 12.7, "lon": 101.3, "status": "red",
+      "claimed": "Contained", "actual": "SAR detections", "gap": "Underreported",
+      "financial_impact": {"loss_usd": 15000000, "description": "Coastal pollution", "formula": "Estimated cleanup"},
+      "solutions": [{"name": "Beach cleanup", "type": "Fast", "effect": "Remove oil", "cost": "$2M"},{"name": "Mangrove restoration", "type": "Long", "effect": "Revive ecosystem", "cost": "$10M"}],
+      "sources": ["Sentinel-1"], "companies": ["PTTEP"], "documents": [{"name": "ITOPF Oil Spill Stats 2025 (PDF)", "url": "https://www.itopf.org/fileadmin/uploads/itopf/data/Stats/Oil_Spill_Stats_brochure_2025_lo.pdf"}]
+    },
+    "flare-mexico-ku": {
+      "title": "Gas Flaring — Ku-Maloob-Zaap", "country": "Mexico", "region": "North America", "lat": 19.5, "lon": -92.0, "status": "red",
+      "claimed": "Reduction", "actual": "Persistent (VIIRS)", "gap": "Underreported",
+      "financial_impact": {"loss_usd": 900000000, "description": "Unmonitored flaring", "formula": "Estimated volume"},
+      "solutions": [{"name": "Flare gas recovery", "type": "Medium", "effect": "Capture gas", "cost": "$100M"},{"name": "Upgrade compressors", "type": "Fast", "effect": "Improve efficiency", "cost": "$5M"}],
+      "sources": ["VIIRS"], "companies": ["Pemex"], "documents": [{"name": "World Bank Flaring Tracker 2025 (PDF)", "url": "https://www.worldbank.org/en/programs/gasflaringreduction/global-flaring-data"}]
+    },
+    "methane-australia": {
+      "title": "Methane Leaks — Queensland", "country": "Australia", "region": "Oceania", "lat": -23.0, "lon": 148.0, "status": "red",
+      "claimed": "Low emissions", "actual": "Super-emitters (TROPOMI)", "gap": "Underreported",
+      "financial_impact": {"loss_usd": 12000000, "description": "Lost gas", "formula": "Estimated volume × $50/t"},
+      "solutions": [{"name": "LDAR program", "type": "Fast", "effect": "Fix leaks", "cost": "$5M"},{"name": "Replace pneumatic controllers", "type": "Medium", "effect": "Reduce emissions", "cost": "$15M"}],
+      "sources": ["TROPOMI"], "companies": ["Santos", "Origin"], "documents": [{"name": "IEA Global Methane Tracker 2026", "url": "https://www.iea.org/reports/global-methane-tracker-2026"}]
+    },
+    "spill-colombia": {
+      "title": "Oil Spill — Putumayo", "country": "Colombia", "region": "South America", "lat": 0.5, "lon": -76.0, "status": "red",
+      "claimed": "Contained", "actual": "Recurring (SAR)", "gap": "Underreported",
+      "financial_impact": {"loss_usd": 8000000, "description": "Amazon pollution", "formula": "Estimated cleanup"},
+      "solutions": [{"name": "Pipeline repair", "type": "Fast", "effect": "Stop leaks", "cost": "$5M"},{"name": "Community monitoring", "type": "Medium", "effect": "Rapid detection", "cost": "$1M"}],
+      "sources": ["Sentinel-1"], "companies": ["Ecopetrol"], "documents": [{"name": "ITOPF Oil Spill Stats 2025 (PDF)", "url": "https://www.itopf.org/fileadmin/uploads/itopf/data/Stats/Oil_Spill_Stats_brochure_2025_lo.pdf"}]
+    },
+    "flare-egypt": {
+      "title": "Gas Flaring — Western Desert", "country": "Egypt", "region": "Africa", "lat": 28.0, "lon": 28.0, "status": "red",
+      "claimed": "Reduction", "actual": "Persistent (VIIRS)", "gap": "Underreported",
+      "financial_impact": {"loss_usd": 300000000, "description": "Unmonitored flaring", "formula": "Estimated volume"},
+      "solutions": [{"name": "Gas utilization project", "type": "Medium", "effect": "Capture gas", "cost": "$50M"},{"name": "Flare maintenance", "type": "Fast", "effect": "Better combustion", "cost": "$2M"}],
+      "sources": ["VIIRS"], "companies": ["EGPC"], "documents": [{"name": "World Bank Flaring Tracker 2025 (PDF)", "url": "https://www.worldbank.org/en/programs/gasflaringreduction/global-flaring-data"}]
+    },
+    "reclamation-germany": {
+      "title": "Reclamation — Ruhr", "country": "Germany", "region": "Europe", "lat": 51.5, "lon": 7.0, "status": "green",
+      "claimed": "Post-mining reclamation", "actual": "Verified (Sentinel-2)", "gap": "Within tolerance",
+      "financial_impact": {"loss_usd": 0, "description": "No significant loss", "formula": "N/A"},
+      "solutions": [{"name": "Maintain monitoring", "type": "Fast", "effect": "Ensure success", "cost": "$100K"}],
+      "sources": ["Sentinel-2"], "companies": ["RAG"], "documents": [{"name": "Sentinel-2 Data (Copernicus)", "url": "https://www.copernicus.eu/"}]
+    },
+    "spill-saudi-ras": {
+      "title": "Oil Spill — Ras Tanura", "country": "Saudi Arabia", "region": "Middle East", "lat": 26.6, "lon": 50.2, "status": "red",
+      "claimed": "Contained", "actual": "SAR detections", "gap": "Underreported",
+      "financial_impact": {"loss_usd": 20000000, "description": "Marine pollution", "formula": "Estimated cleanup"},
+      "solutions": [{"name": "Coastal cleanup", "type": "Fast", "effect": "Remove oil", "cost": "$5M"},{"name": "Marine life restoration", "type": "Long", "effect": "Revive ecosystem", "cost": "$15M"}],
+      "sources": ["Sentinel-1"], "companies": ["Saudi Aramco"], "documents": [{"name": "ITOPF Oil Spill Stats 2025 (PDF)", "url": "https://www.itopf.org/fileadmin/uploads/itopf/data/Stats/Oil_Spill_Stats_brochure_2025_lo.pdf"}]
+    },
+    "flare-usa-texas": {
+      "title": "Gas Flaring — Permian, Texas", "country": "USA", "region": "North America", "lat": 31.5, "lon": -103.0, "status": "red",
+      "claimed": "Reduction targets", "actual": "Persistent (VIIRS)", "gap": "Targets missed",
+      "financial_impact": {"loss_usd": 800000000, "description": "Wasted gas", "formula": "Estimated volume"},
+      "solutions": [{"name": "Gas gathering expansion", "type": "Medium", "effect": "Reduce flaring", "cost": "$100M"},{"name": "Flare monitoring", "type": "Fast", "effect": "Track emissions", "cost": "$5M"}],
+      "sources": ["VIIRS"], "companies": ["ExxonMobil", "Diamondback"], "documents": [{"name": "World Bank Flaring Tracker 2025 (PDF)", "url": "https://www.worldbank.org/en/programs/gasflaringreduction/global-flaring-data"}]
+    },
+    "spill-canada-nl": {
+      "title": "Oil Spill — Newfoundland", "country": "Canada", "region": "North America", "lat": 47.5, "lon": -52.0, "status": "red",
+      "claimed": "Minor", "actual": "SAR detections", "gap": "Underreported",
+      "financial_impact": {"loss_usd": 5000000, "description": "Offshore pollution", "formula": "Estimated cleanup"},
+      "solutions": [{"name": "Offshore response", "type": "Fast", "effect": "Contain spill", "cost": "$2M"},{"name": "Improved safety protocols", "type": "Long", "effect": "Prevent future spills", "cost": "$10M"}],
+      "sources": ["Sentinel-1"], "companies": ["Cenovus"], "documents": [{"name": "ITOPF Oil Spill Stats 2025 (PDF)", "url": "https://www.itopf.org/fileadmin/uploads/itopf/data/Stats/Oil_Spill_Stats_brochure_2025_lo.pdf"}]
+    },
+    "flare-qatar": {
+      "title": "Gas Flaring — Ras Laffan", "country": "Qatar", "region": "Middle East", "lat": 25.9, "lon": 51.5, "status": "gray",
+      "claimed": "Low flaring", "actual": "Awaiting VIIRS verification", "gap": "Pending",
+      "financial_impact": {"loss_usd": 0, "description": "Pending verification", "formula": "N/A"},
+      "solutions": [],
+      "sources": ["VIIRS (pending)"], "companies": ["QatarEnergy"], "documents": []
+    },
+    "methane-norway": {
+      "title": "Methane — Norwegian Shelf", "country": "Norway", "region": "Europe", "lat": 60.5, "lon": 3.0, "status": "gray",
+      "claimed": "Low emissions", "actual": "Awaiting TROPOMI verification", "gap": "Pending",
+      "financial_impact": {"loss_usd": 0, "description": "Pending verification", "formula": "N/A"},
+      "solutions": [],
+      "sources": ["TROPOMI (pending)"], "companies": ["Equinor"], "documents": []
+    },
+    "germany-methane-duh": {
+      "title": "Methane Leaks — Germany (DUH/Earthworks)", "country": "Germany", "region": "Europe", "lat": 52.5, "lon": 13.4, "status": "red",
+      "claimed": "EU Methane Regulation compliance", "actual": "Leaks at 13 of 44 facilities; all LNG terminals surveyed had emissions", "gap": "Regulatory loopholes; self-regulation failed",
+      "financial_impact": {"loss_usd": 15000000, "description": "Unreported infrastructure leaks", "formula": "Estimated volume × $50/t"},
+      "solutions": [{"name": "Mandatory LDAR", "type": "Fast", "effect": "Find and fix leaks", "cost": "$2M"},{"name": "EU-wide regulation enforcement", "type": "Long", "effect": "Prevent future leaks", "cost": "Policy"}],
+      "sources": ["DUH & Earthworks 2026"], "companies": ["Various operators"], "documents": [{"name": "DUH/Earthworks Report (2026)", "url": "https://www.duh.de/"}]
+    },
+    "colorado-chevron-blowout": {
+      "title": "Chevron Bishop Well Blowout — Colorado", "country": "USA", "region": "North America", "lat": 40.4, "lon": -104.7, "status": "red",
+      "claimed": "Controlled operations", "actual": "Methane 20 ppm (limit 9); benzene 10x; 5 days uncontrolled", "gap": "Underreported severity",
+      "financial_impact": {"loss_usd": 50000000, "description": "Health impact and emergency response", "formula": "Health damage + response costs"},
+      "solutions": [{"name": "Well control", "type": "Fast", "effect": "Stop release", "cost": "$5M"},{"name": "Health monitoring", "type": "Medium", "effect": "Track impacts", "cost": "$1M"}],
+      "sources": ["Earthworks / CSU 2025"], "companies": ["Chevron"], "documents": [{"name": "Earthworks / CSU Study (2025)", "url": "https://earthworks.org/"}]
+    },
+    "bohai-methane": {
+      "title": "Methane Emissions — Bohai Sea", "country": "China", "region": "Asia", "lat": 38.5, "lon": 119.5, "status": "red",
+      "claimed": "Standard operations", "actual": "CH4 saturation up to 1193%; spills increase local flux 14.6x", "gap": "Underreported in national inventories",
+      "financial_impact": {"loss_usd": 100000000, "description": "Marine ecosystem damage", "formula": "Estimated volume × $50/t + cleanup"},
+      "solutions": [{"name": "Subsea leak detection", "type": "Fast", "effect": "Early warning", "cost": "$5M"},{"name": "Offshore platform upgrades", "type": "Medium", "effect": "Reduce emissions", "cost": "$50M"}],
+      "sources": ["Zhang et al. 2014, Marine Pollution Bulletin"], "companies": ["CNOOC (implied)"], "documents": [{"name": "Zhang et al. 2014 (Marine Pollution Bulletin)", "url": "https://www.sciencedirect.com/journal/marine-pollution-bulletin"}]
+    },
+    "agadem-cnpc-blowout": {
+      "title": "Agadem Blowout — Niger (CNPC)", "country": "Niger", "region": "Africa", "lat": 16.9, "lon": 9.9, "status": "red",
+      "claimed": "Not disclosed for 17 days", "actual": ">40 t CH4/hr; >17,000 t cumulative by Oct 13", "gap": "Disclosure delay; oil volume undisclosed",
+      "financial_impact": {"loss_usd": 850000, "description": "Methane loss", "formula": "17,000 t × $50/t"},
+      "solutions": [{"name": "Well capping", "type": "Fast", "effect": "Stop release", "cost": "$2M"},{"name": "Transparency reporting", "type": "Medium", "effect": "Disclose incidents", "cost": "Policy"}],
+      "sources": ["Copernicus / SRON / Ecofin 2026"], "companies": ["CNPC"], "documents": [{"name": "Copernicus / SRON Data", "url": "https://www.copernicus.eu/"}]
+    },
+    "italy-used-oil-recycling": {
+      "title": "Used Oil Recycling — Italy (Global Leader)", "country": "Italy", "region": "Europe", "lat": 41.9, "lon": 12.5, "status": "green",
+      "claimed": "100% collection, 98% regeneration", "actual": "194,500 t collected, 98% regenerated (CONOU 2025)", "gap": "EU average regeneration is only 61%",
+      "financial_impact": {"loss_usd": 0, "description": "No significant loss", "formula": "N/A"},
+      "solutions": [{"name": "Replicate CONOU model in other EU countries", "type": "Medium", "effect": "Raise EU regeneration to 80%+", "cost": "Policy change"},{"name": "Mandatory separate collection of WLO", "type": "Fast", "effect": "Increase collection rates", "cost": "$5M"}],
+      "sources": ["CONOU Sustainability Report 2025", "RINA LCA Validation"], "companies": ["CONOU"], "documents": [{"name": "CONOU 2025 Sustainability Report", "url": "https://www.conou.it/"}]
+    },
+    "nigeria-used-oil-crisis": {
+      "title": "Used Oil Mismanagement — Nigeria", "country": "Nigeria", "region": "Africa", "lat": 6.5, "lon": 3.4, "status": "red",
+      "claimed": "Inadequate management infrastructure", "actual": "287.5 million liters WLO projected for 2025; re-refining could meet 40% base oil demand", "gap": "Huge volume uncollected; hazardous disposal",
+      "financial_impact": {"loss_usd": 150000000, "description": "Lost resource value + environmental damage", "formula": "Estimated 287.5M liters × $0.5/L value loss"},
+      "solutions": [{"name": "Establish formal collection network", "type": "Fast", "effect": "Capture 50% of WLO", "cost": "$10M"},{"name": "Build re-refining plant (40,000 t/yr)", "type": "Medium", "effect": "Meet 40% base oil demand, create jobs", "cost": "$30M"},{"name": "Strict enforcement + ban on unsafe disposal", "type": "Long", "effect": "End illegal dumping", "cost": "Policy"}],
+      "sources": ["Zenodo / University of Port Harcourt (2025)"], "companies": ["Various"], "documents": [{"name": "Zenodo Study (2025, PDF)", "url": "https://zenodo.org/records/17205405"}]
+    },
+    "global-wlo-generation": {
+      "title": "Global Waste Lubricating Oil Generation", "country": "Global", "region": "Global", "lat": 0.0, "lon": 0.0, "status": "red",
+      "claimed": "Circular economy targets", "actual": ">24 million tonnes WLO generated annually", "gap": "Only a fraction is properly re-refined; Basel Convention notes collection gaps in many countries",
+      "financial_impact": {"loss_usd": 2000000000, "description": "Lost resource potential + pollution costs", "formula": "24M t × ~$83/t base oil value lost"},
+      "solutions": [{"name": "Global re-refining capacity expansion", "type": "Long", "effect": "Process 80% of WLO", "cost": "$5B"},{"name": "Standardized collection policies", "type": "Medium", "effect": "Increase collection", "cost": "Policy"}],
+      "sources": ["Semantic Scholar (2026)", "Basel Convention"], "companies": ["Various"], "documents": [{"name": "Semantic Scholar Review (2026)", "url": "https://www.semanticscholar.org/paper/9ae4e1631a5624fef4596717894d6024b29357f9"}, {"name": "Basel Convention Waste Oils Guidance", "url": "https://www.basel.int/"}]
+    },
+    "eu-used-oil-gap": {
+      "title": "EU Used Oil Regeneration Gap", "country": "European Union", "region": "Europe", "lat": 50.8, "lon": 4.4, "status": "red",
+      "claimed": "EU circular economy targets", "actual": "EU average regeneration is 61% (vs Italy 98%)", "gap": "37% of collected used oil is not regenerated",
+      "financial_impact": {"loss_usd": 500000000, "description": "Lost base oil value across EU", "formula": "Estimated gap volume × base oil price"},
+      "solutions": [{"name": "Harmonize EU regulations", "type": "Medium", "effect": "Boost regeneration", "cost": "Policy"},{"name": "Financial incentives for re-refiners", "type": "Fast", "effect": "Increase capacity", "cost": "$100M"}],
+      "sources": ["CONOU 2025 Report", "EU Commission"], "companies": ["Various EU operators"], "documents": [{"name": "CONOU 2025 Report (PDF)", "url": "https://www.conou.it/"}, {"name": "EU Waste Framework Directive", "url": "https://environment.ec.europa.eu/topics/waste-and-recycling/waste-oils_en"}]
+    },
+    "oily-sludge-global": {
+      "title": "Global Oily Sludge Accumulation", "country": "Global", "region": "Global", "lat": 0.0, "lon": 0.0, "status": "red",
+      "claimed": "Managed waste", "actual": "~120 million tonnes oily sludge generated yearly; legacy deposits >1.8 billion tonnes", "gap": "Massive unaccounted legacy waste",
+      "financial_impact": {"loss_usd": 10000000000, "description": "Remediation liability", "formula": "1.8B t legacy × ~$5.5/t cleanup cost"},
+      "solutions": [{"name": "Thermal desorption of sludge", "type": "Fast", "effect": "Recover oil, reduce volume 80%", "cost": "$50/t"},{"name": "Solvent extraction", "type": "Medium", "effect": "Recover 90% of oil", "cost": "$100/t"},{"name": "Bioremediation of legacy sites", "type": "Long", "effect": "Restore soil over 5 years", "cost": "$20/t"}],
+      "sources": ["Oil Review Middle East / Industry estimate"], "companies": ["Various"], "documents": [{"name": "Industry Estimate (LinkedIn/Oil Review)", "url": "https://www.linkedin.com/posts/oil-review-middle-east_oilysludgeremediation-activity-7439160909672906753-lHF1"}]
+    },
+    "used-oil-recycling-tech": {
+      "title": "Waste Lubricating Oil Recycling Technologies", "country": "Global", "region": "Global", "lat": 0.0, "lon": 0.0, "status": "green",
+      "claimed": "Advanced recycling available", "actual": "Re-refining to base oil is established (e.g., Italy regenerates 98%)", "gap": "Technology exists but adoption varies widely",
+      "financial_impact": {"loss_usd": 0, "description": "Technology available, gap is policy/adoption", "formula": "N/A"},
+      "solutions": [{"name": "Technology transfer to developing countries", "type": "Long", "effect": "Global adoption", "cost": "$1B"},{"name": "Training and capacity building", "type": "Fast", "effect": "Local expertise", "cost": "$10M"}],
+      "sources": ["Semantic Scholar (2026)", "CONOU"], "companies": ["Various"], "documents": [{"name": "Semantic Scholar Review (2026)", "url": "https://www.semanticscholar.org/paper/9ae4e1631a5624fef4596717894d6024b29357f9"}]
+    },
+    "citarum-river": {
+      "title": "Citarum River Pollution — Indonesia",
+      "country": "Indonesia", "region": "Asia", "lat": -6.8, "lon": 107.5, "status": "red",
+      "claimed": "Restoration program ongoing", "actual": "One of the world's most polluted rivers; heavy metals and microplastics", "gap": "Cleanup not delivering",
+      "financial_impact": {"loss_usd": 500000000, "description": "Health and ecosystem damage", "formula": "Estimated cleanup + health costs"},
+      "solutions": [{"name": "Wastewater treatment plants", "type": "Medium", "effect": "Treat industrial and domestic sewage", "cost": "$100M"},{"name": "Community-led river cleanups", "type": "Fast", "effect": "Remove visible waste", "cost": "$5M"}],
+      "sources": ["World Bank", "Sentinel-2"], "companies": ["Various textile factories"], "documents": [{"name": "World Bank Report", "url": "https://www.worldbank.org/"}]
+    },
+    "mexico-city-sinking": {
+      "title": "Groundwater Depletion — Mexico City",
+      "country": "Mexico", "region": "North America", "lat": 19.43, "lon": -99.13, "status": "red",
+      "claimed": "Sustainable water management", "actual": "City sinking up to 50cm/year due to over-extraction", "gap": "Aquifer depletion",
+      "financial_impact": {"loss_usd": 2000000000, "description": "Infrastructure damage from subsidence", "formula": "Repair costs"},
+      "solutions": [{"name": "Rainwater harvesting", "type": "Fast", "effect": "Reduce aquifer reliance", "cost": "$50M"},{"name": "Pipe leak repair", "type": "Medium", "effect": "Stop 40% water loss", "cost": "$200M"}],
+      "sources": ["NASA GRACE", "UNAM"], "companies": ["SACMEX"], "documents": [{"name": "NASA Subsidence Study", "url": "https://www.nasa.gov/"}]
+    },
+    "lake-chad": {
+      "title": "Lake Chad Shrinkage — Africa",
+      "country": "Chad/Nigeria/Niger", "region": "Africa", "lat": 13.0, "lon": 14.0, "status": "red",
+      "claimed": "Transboundary management", "actual": "Lost 90% of surface area since 1960s", "gap": "Massive water loss affecting millions",
+      "financial_impact": {"loss_usd": 5000000000, "description": "Humanitarian and economic crisis", "formula": "Loss of livelihoods"},
+      "solutions": [{"name": "Inter-basin water transfer", "type": "Long", "effect": "Replenish lake", "cost": "$14B"},{"name": "Drip irrigation for agriculture", "type": "Medium", "effect": "Reduce water use", "cost": "$100M"}],
+      "sources": ["UNEP", "Sentinel-2"], "companies": ["Lake Chad Basin Commission"], "documents": [{"name": "UNEP Lake Chad Report", "url": "https://www.unep.org/"}]
+    },
+    "ganges-sewage": {
+      "title": "Untreated Sewage — Ganges River",
+      "country": "India", "region": "Asia", "lat": 25.3, "lon": 83.0, "status": "red",
+      "claimed": "Namami Gange Programme (cleanup)", "actual": "80% of sewage still discharged untreated", "gap": "Treatment capacity shortfall",
+      "financial_impact": {"loss_usd": 3000000000, "description": "Public health crisis", "formula": "Health costs + lost tourism"},
+      "solutions": [{"name": "Decentralized STPs", "type": "Medium", "effect": "Treat local sewage", "cost": "$1B"},{"name": "Industrial discharge monitoring", "type": "Fast", "effect": "Stop illegal dumping", "cost": "$50M"}],
+      "sources": ["CPCB", "Namami Gange"], "companies": ["Various industrial units"], "documents": [{"name": "CPCB Water Quality Data", "url": "https://cpcb.nic.in/"}]
+    },
+    "majuro-flooding": {
+      "title": "Sea Level Rise — Majuro Atoll",
+      "country": "Marshall Islands", "region": "Oceania", "lat": 7.1, "lon": 171.3, "status": "red",
+      "claimed": "Climate adaptation", "actual": "Frequent flooding; saltwater intrusion into freshwater lens", "gap": "Existential threat to water supply",
+      "financial_impact": {"loss_usd": 100000000, "description": "Infrastructure and water security", "formula": "Adaptation costs"},
+      "solutions": [{"name": "Desalination plants", "type": "Medium", "effect": "Secure drinking water", "cost": "$20M"},{"name": "Rainwater catchments", "type": "Fast", "effect": "Local supply", "cost": "$5M"}],
+      "sources": ["IPCC", "Sentinel-1"], "companies": ["Marshall Islands Government"], "documents": [{"name": "IPCC Report", "url": "https://www.ipcc.ch/"}]
+    },
+    "toxic-spill-sayan": {
+      "title": "Norilsk Diesel Spill — Russia",
+      "country": "Russia", "region": "Europe", "lat": 69.3, "lon": 88.2, "status": "red",
+      "claimed": "Contained and cleaned", "actual": "20,000 tonnes of diesel leaked into Ambarnaya River", "gap": "Underreported cleanup",
+      "financial_impact": {"loss_usd": 2000000000, "description": "Arctic ecosystem damage", "formula": "Record fine + cleanup costs"},
+      "solutions": [{"name": "Water treatment and filtration", "type": "Medium", "effect": "Remove diesel from water", "cost": "$100M"},{"name": "Soil and riverbed remediation", "type": "Long", "effect": "Restore ecosystem", "cost": "$500M"}],
+      "sources": ["Rosprirodnadzor", "Sentinel-2"], "companies": ["Nornickel"], "documents": [{"name": "Rosprirodnadzor Data", "url": "https://rpn.gov.ru/"}]
+    },
+    "yangtze-nitrogen": {
+      "title": "Nitrogen Pollution — Yangtze River",
+      "country": "China", "region": "Asia", "lat": 30.5, "lon": 114.3, "status": "red",
+      "claimed": "Ecological restoration", "actual": "Massive nitrogen runoff from agriculture causing algal blooms", "gap": "Eutrophication",
+      "financial_impact": {"loss_usd": 1500000000, "description": "Fisheries and drinking water impact", "formula": "Economic losses"},
+      "solutions": [{"name": "Wetland buffers", "type": "Medium", "effect": "Filter runoff", "cost": "$500M"},{"name": "Fertilizer efficiency programs", "type": "Fast", "effect": "Reduce nitrogen use", "cost": "$100M"}],
+      "sources": ["China Ministry of Ecology", "Sentinel-2"], "companies": ["Various agricultural"], "documents": [{"name": "MEE Report", "url": "https://english.mee.gov.cn/"}]
+    },
+    "capetown-drought": {
+      "title": "Day Zero Drought — Cape Town",
+      "country": "South Africa", "region": "Africa", "lat": -33.9, "lon": 18.4, "status": "green",
+      "claimed": "Water crisis avoided", "actual": "Successfully avoided 'Day Zero' through demand management", "gap": "N/A",
+      "financial_impact": {"loss_usd": 0, "description": "Crisis averted", "formula": "N/A"},
+      "solutions": [{"name": "Replicate water saving campaigns", "type": "Fast", "effect": "Reduce demand", "cost": "$10M"}],
+      "sources": ["City of Cape Town", "World Bank"], "companies": ["City of Cape Town"], "documents": [{"name": "City of Cape Town Report", "url": "https://www.capetown.gov.za/"}]
+    },
+    "songhua-benzene": {
+      "title": "Benzene Spill — Songhua River",
+      "country": "China", "region": "Asia", "lat": 45.8, "lon": 126.6, "status": "red",
+      "claimed": "Emergency response", "actual": "100 tonnes of benzene leaked into river, affecting millions", "gap": "Underreported long-term impact",
+      "financial_impact": {"loss_usd": 500000000, "description": "Water supply shutdown", "formula": "Health and economic costs"},
+      "solutions": [{"name": "Activated carbon filtration", "type": "Fast", "effect": "Remove benzene", "cost": "$20M"},{"name": "Industrial safety upgrades", "type": "Long", "effect": "Prevent future spills", "cost": "$100M"}],
+      "sources": ["UNEP", "Sentinel-1"], "companies": ["Jilin Petrochemical"], "documents": [{"name": "UNEP Report", "url": "https://www.unep.org/"}]
+    },
+    "aral-sea": {
+      "title": "Aral Sea Desiccation — Central Asia",
+      "country": "Kazakhstan/Uzbekistan", "region": "Central Asia", "lat": 45.0, "lon": 59.0, "status": "red",
+      "claimed": "Restoration efforts", "actual": "Lost 90% of volume due to irrigation diversion", "gap": "Ecological catastrophe",
+      "financial_impact": {"loss_usd": 10000000000, "description": "Collapse of local economy and ecosystem", "formula": "Long-term damage"},
+      "solutions": [{"name": "Dam and dike construction", "type": "Medium", "effect": "Stabilize North Aral", "cost": "$200M"},{"name": "Drip irrigation conversion", "type": "Long", "effect": "Reduce water use", "cost": "$1B"}],
+      "sources": ["World Bank", "Sentinel-2"], "companies": ["IFAS"], "documents": [{"name": "World Bank Aral Report", "url": "https://www.worldbank.org/"}]
+    },
+    "amudarya-pollution": {
+      "title": "Amu Darya River Pollution — Uzbekistan", "country": "Uzbekistan", "region": "Central Asia", "lat": 41.5, "lon": 60.5, "status": "red",
+      "claimed": "Transboundary water quality management", "actual": "High levels of salts, pesticides, and industrial runoff", "gap": "Water quality below safety standards",
+      "financial_impact": {"loss_usd": 800000000, "description": "Health and agricultural impact", "formula": "Treatment + crop loss"},
+      "solutions": [{"name": "Upgrade irrigation canals", "type": "Medium", "effect": "Reduce salinization", "cost": "$150M"},{"name": "Construct modern treatment plants", "type": "Long", "effect": "Clean water for cities", "cost": "$400M"}],
+      "sources": ["UNECE", "Sentinel-2"], "companies": ["Uzbekistan Ministry of Water"], "documents": [{"name": "UNECE Report", "url": "https://unece.org/"}]
+    },
+    "syr-darya-salinization": {
+      "title": "Syr Darya Salinization — Kazakhstan", "country": "Kazakhstan", "region": "Central Asia", "lat": 44.8, "lon": 65.5, "status": "red",
+      "claimed": "Water saving technologies", "actual": "High salinity due to intensive cotton irrigation", "gap": "Soil and water salinization",
+      "financial_impact": {"loss_usd": 600000000, "description": "Loss of agricultural land", "formula": "Crop yield loss"},
+      "solutions": [{"name": "Drip irrigation subsidies", "type": "Fast", "effect": "Save water", "cost": "$50M"},{"name": "Drainage system restoration", "type": "Medium", "effect": "Flush salts", "cost": "$200M"}],
+      "sources": ["World Bank", "Sentinel-2"], "companies": ["Kazakhstan Ministry of Agriculture"], "documents": [{"name": "World Bank Report", "url": "https://www.worldbank.org/"}]
+    },
+    "caspian-seal-decline": {
+      "title": "Caspian Seal Decline — Kazakhstan", "country": "Kazakhstan", "region": "Central Asia", "lat": 45.5, "lon": 51.0, "status": "red",
+      "claimed": "Ecosystem protection", "actual": "Mass mortality events; habitat loss from ice melting and pollution", "gap": "Species endangered",
+      "financial_impact": {"loss_usd": 200000000, "description": "Biodiversity loss", "formula": "Ecosystem valuation"},
+      "solutions": [{"name": "Expand protected areas", "type": "Fast", "effect": "Protect breeding grounds", "cost": "$20M"},{"name": "Reduce industrial discharge", "type": "Long", "effect": "Clean habitat", "cost": "$300M"}],
+      "sources": ["IUCN", "Sentinel-1"], "companies": ["Various Caspian states"], "documents": [{"name": "IUCN Red List", "url": "https://www.iucnredlist.org/"}]
+    },
+    "fergana-valley-groundwater": {
+      "title": "Groundwater Depletion — Fergana Valley", "country": "Uzbekistan/Kyrgyzstan/Tajikistan", "region": "Central Asia", "lat": 40.5, "lon": 71.0, "status": "red",
+      "claimed": "Sustainable water use", "actual": "Intensive agriculture depleting aquifers", "gap": "Aquifer over-extraction",
+      "financial_impact": {"loss_usd": 400000000, "description": "Loss of drinking water sources", "formula": "Alternative supply costs"},
+      "solutions": [{"name": "Rainwater harvesting", "type": "Fast", "effect": "Recharge aquifers", "cost": "$30M"},{"name": "Modernize irrigation", "type": "Medium", "effect": "Reduce abstraction", "cost": "$250M"}],
+      "sources": ["FAO", "NASA GRACE"], "companies": ["Regional water authorities"], "documents": [{"name": "FAO Report", "url": "https://www.fao.org/"}]
+    },
+    "lake-issyk-kul": {
+      "title": "Lake Issyk-Kul Pollution — Kyrgyzstan", "country": "Kyrgyzstan", "region": "Central Asia", "lat": 42.4, "lon": 77.2, "status": "red",
+      "claimed": "Ecotourism development", "actual": "Untreated sewage and agricultural runoff entering the lake", "gap": "Eutrophication risk",
+      "financial_impact": {"loss_usd": 150000000, "description": "Tourism and ecosystem impact", "formula": "Loss of revenue"},
+      "solutions": [{"name": "Build sewage treatment plants", "type": "Medium", "effect": "Stop direct discharge", "cost": "$60M"},{"name": "Wetland restoration", "type": "Fast", "effect": "Natural filtration", "cost": "$10M"}],
+      "sources": ["UNEP", "Sentinel-2"], "companies": ["Kyrgyzstan Government"], "documents": [{"name": "UNEP Report", "url": "https://www.unep.org/"}]
+    },
+    "tajikistan-glacier-melt": {
+      "title": "Glacier Melt — Tajikistan", "country": "Tajikistan", "region": "Central Asia", "lat": 38.8, "lon": 72.0, "status": "red",
+      "claimed": "Climate adaptation programs", "actual": "Rapid loss of Pamir glaciers reducing river flow", "gap": "Water supply threat for Central Asia",
+      "financial_impact": {"loss_usd": 2000000000, "description": "Regional water and energy crisis", "formula": "Hydropower losses"},
+      "solutions": [{"name": "Glacier monitoring network", "type": "Fast", "effect": "Early warning", "cost": "$5M"},{"name": "Water-efficient technologies", "type": "Medium", "effect": "Adapt to lower flow", "cost": "$100M"}],
+      "sources": ["IPCC", "Sentinel-2"], "companies": ["Tajikistan Government"], "documents": [{"name": "IPCC Report", "url": "https://www.ipcc.ch/"}]
+    },
+    "turkmengaz-water-scarcity": {
+      "title": "Water Scarcity — Turkmenistan", "country": "Turkmenistan", "region": "Central Asia", "lat": 39.0, "lon": 59.5, "status": "red",
+      "claimed": "Water security", "actual": "High water consumption per capita; inefficient irrigation", "gap": "Inefficient water use",
+      "financial_impact": {"loss_usd": 300000000, "description": "Economic losses from inefficient use", "formula": "Value of wasted water"},
+      "solutions": [{"name": "Modernize irrigation canals", "type": "Medium", "effect": "Reduce losses", "cost": "$120M"},{"name": "Public awareness campaigns", "type": "Fast", "effect": "Reduce domestic use", "cost": "$5M"}],
+      "sources": ["World Bank", "Sentinel-2"], "companies": ["Turkmenistan Government"], "documents": [{"name": "World Bank Report", "url": "https://www.worldbank.org/"}]
+    },
+    "uzbekistan-aral-salt": {
+      "title": "Aral Salt Dust Storms — Uzbekistan", "country": "Uzbekistan", "region": "Central Asia", "lat": 43.5, "lon": 59.0, "status": "red",
+      "claimed": "Afforestation programs", "actual": "Toxic dust from dried Aral seabed affecting millions", "gap": "Massive health and ecosystem impact",
+      "financial_impact": {"loss_usd": 1000000000, "description": "Health costs and crop damage", "formula": "Medical + agricultural losses"},
+      "solutions": [{"name": "Plant saxaul on seabed", "type": "Medium", "effect": "Stabilize soil", "cost": "$100M"},{"name": "Dust suppression", "type": "Fast", "effect": "Immediate relief", "cost": "$20M"}],
+      "sources": ["UNEP", "Sentinel-2"], "companies": ["Uzbekistan Government"], "documents": [{"name": "UNEP Report", "url": "https://www.unep.org/"}]
+    },
+    "kazakhstan-snowmelt": {
+      "title": "Snowmelt Water Loss — Kazakhstan", "country": "Kazakhstan", "region": "Central Asia", "lat": 48.0, "lon": 71.0, "status": "red",
+      "claimed": "Water infrastructure modernization", "actual": "Inefficient storage and loss of snowmelt water", "gap": "Loss of available freshwater",
+      "financial_impact": {"loss_usd": 250000000, "description": "Agricultural and municipal losses", "formula": "Replacement costs"},
+      "solutions": [{"name": "Repair reservoirs", "type": "Medium", "effect": "Store more water", "cost": "$80M"},{"name": "Snow measurement systems", "type": "Fast", "effect": "Better forecasting", "cost": "$10M"}],
+      "sources": ["World Bank", "Sentinel-1"], "companies": ["Kazakhstan Water Authority"], "documents": [{"name": "World Bank Report", "url": "https://www.worldbank.org/"}]
+    },
+    "kyrgyzstan-uranium-tailings": {
+      "title": "Uranium Tailings Risk — Kyrgyzstan", "country": "Kyrgyzstan", "region": "Central Asia", "lat": 41.5, "lon": 72.5, "status": "red",
+      "claimed": "Environmental safety", "actual": "Radioactive waste sites threatened by landslides and erosion", "gap": "Contamination risk to rivers",
+      "financial_impact": {"loss_usd": 300000000, "description": "Potential water source contamination", "formula": "Remediation costs"},
+      "solutions": [{"name": "Stabilize tailings sites", "type": "Medium", "effect": "Prevent leakage", "cost": "$50M"},{"name": "Groundwater monitoring", "type": "Fast", "effect": "Early detection", "cost": "$5M"}],
+      "sources": ["UNECE", "Sentinel-2"], "companies": ["Kyrgyzstan Government"], "documents": [{"name": "UNECE Report", "url": "https://unece.org/"}]
+    },
+    "china-tarim-river": {
+      "title": "Tarim River Drying — China", "country": "China", "region": "Central Asia", "lat": 40.0, "lon": 85.0, "status": "red",
+      "claimed": "Ecological water transfers", "actual": "River dried up for 300 km due to overuse", "gap": "Ecosystem collapse",
+      "financial_impact": {"loss_usd": 1500000000, "description": "Desertification and loss of agriculture", "formula": "Long-term economic damage"},
+      "solutions": [{"name": "Water transfer projects", "type": "Long", "effect": "Restore flow", "cost": "$1B"},{"name": "Reduce agricultural water use", "type": "Fast", "effect": "Save water", "cost": "$50M"}],
+      "sources": ["World Bank", "Sentinel-2"], "companies": ["China Government"], "documents": [{"name": "World Bank Report", "url": "https://www.worldbank.org/"}]
+    },
+    "yamuna-river": {
+      "title": "Yamuna River Pollution — India", "country": "India", "region": "Asia", "lat": 28.6, "lon": 77.2, "status": "red",
+      "claimed": "Cleanup programs", "actual": "Fecal coliforms 10,000 MPN/100ml (100x WHO limit)", "gap": "Severe bacterial contamination",
+      "financial_impact": {"loss_usd": 800000000, "description": "Public health crisis", "formula": "Health costs"},
+      "solutions": [{"name": "Sewage treatment plants", "type": "Medium", "effect": "Treat Delhi sewage", "cost": "$500M"}],
+      "sources": ["CPCB"], "companies": ["Delhi Jal Board"], "documents": []
+    },
+    "mississippi-river": {
+      "title": "Mississippi River — USA", "country": "USA", "region": "North America", "lat": 29.1, "lon": -89.2, "status": "red",
+      "claimed": "Nutrient management", "actual": "Nitrogen, herbicides, microplastics; Gulf dead zone", "gap": "Eutrophication",
+      "financial_impact": {"loss_usd": 2000000000, "description": "Fisheries collapse", "formula": "Economic loss"},
+      "solutions": [{"name": "Wetland buffers", "type": "Medium", "effect": "Filter runoff", "cost": "$1B"}],
+      "sources": ["EPA"], "companies": ["Various agricultural"], "documents": []
+    },
+    "buriganga-river": {
+      "title": "Buriganga River — Bangladesh", "country": "Bangladesh", "region": "Asia", "lat": 23.7, "lon": 90.4, "status": "red",
+      "claimed": "River restoration", "actual": "Chromium, plastic, untreated sewage", "gap": "Toxic pollution",
+      "financial_impact": {"loss_usd": 300000000, "description": "Health and ecosystem", "formula": "Health costs"},
+      "solutions": [{"name": "Industrial regulation", "type": "Fast", "effect": "Stop dumping", "cost": "$10M"}],
+      "sources": ["UNEP"], "companies": ["Tanneries"], "documents": []
+    },
+    "marilao-river": {
+      "title": "Marilao River — Philippines", "country": "Philippines", "region": "Asia", "lat": 14.7, "lon": 120.9, "status": "red",
+      "claimed": "Cleanup", "actual": "Arsenic, cyanide, battery waste", "gap": "Toxic heavy metals",
+      "financial_impact": {"loss_usd": 100000000, "description": "Health risks", "formula": "Medical costs"},
+      "solutions": [{"name": "Soil remediation", "type": "Long", "effect": "Remove toxins", "cost": "$50M"}],
+      "sources": ["Blacksmith Institute"], "companies": ["Various"], "documents": []
+    },
+    "sarno-river": {
+      "title": "Sarno River — Italy", "country": "Italy", "region": "Europe", "lat": 40.7, "lon": 14.5, "status": "red",
+      "claimed": "EU water quality standards", "actual": "Untreated sewage, agrochemicals", "gap": "Pollution",
+      "financial_impact": {"loss_usd": 200000000, "description": "Tourism and health", "formula": "Cleanup costs"},
+      "solutions": [{"name": "Wastewater treatment", "type": "Medium", "effect": "Treat sewage", "cost": "$100M"}],
+      "sources": ["EU Commission"], "companies": ["Local municipalities"], "documents": []
+    },
+    "yellow-river": {
+      "title": "Yellow River — China", "country": "China", "region": "Asia", "lat": 37.8, "lon": 114.5, "status": "red",
+      "claimed": "Ecological protection", "actual": "Petrochemicals, ammonia, heavy metals", "gap": "Industrial pollution",
+      "financial_impact": {"loss_usd": 3000000000, "description": "Water security", "formula": "Cleanup + health"},
+      "solutions": [{"name": "Industrial upgrades", "type": "Long", "effect": "Reduce discharge", "cost": "$2B"}],
+      "sources": ["MEE China"], "companies": ["Various"], "documents": []
+    },
+    "tiete-river": {
+      "title": "Tietê River — Brazil", "country": "Brazil", "region": "South America", "lat": -23.5, "lon": -46.6, "status": "red",
+      "claimed": "Cleanup program", "actual": "Sewage, pharmaceuticals, algal blooms", "gap": "Eutrophication",
+      "financial_impact": {"loss_usd": 1000000000, "description": "Health and water supply", "formula": "Treatment costs"},
+      "solutions": [{"name": "Sewage interception", "type": "Medium", "effect": "Stop raw discharge", "cost": "$500M"}],
+      "sources": ["Sabesp"], "companies": ["Sabesp"], "documents": []
+    },
+    "jordan-river": {
+      "title": "Jordan River — Middle East", "country": "Israel/Jordan/Palestine", "region": "Middle East", "lat": 31.8, "lon": 35.5, "status": "red",
+      "claimed": "Transboundary cooperation", "actual": "90% flow loss, rising salinity", "gap": "Water scarcity",
+      "financial_impact": {"loss_usd": 500000000, "description": "Agricultural loss", "formula": "Economic loss"},
+      "solutions": [{"name": "Desalination", "type": "Medium", "effect": "Alternative supply", "cost": "$300M"}],
+      "sources": ["World Bank"], "companies": ["Regional authorities"], "documents": []
+    },
+    "indus-river": {
+      "title": "Indus River — Pakistan", "country": "Pakistan", "region": "Asia", "lat": 25.4, "lon": 68.3, "status": "red",
+      "claimed": "Water management", "actual": "Agrochemicals, industrial discharge", "gap": "Pollution",
+      "financial_impact": {"loss_usd": 1000000000, "description": "Health and agriculture", "formula": "Losses"},
+      "solutions": [{"name": "Treatment plants", "type": "Medium", "effect": "Clean water", "cost": "$400M"}],
+      "sources": ["IUCN"], "companies": ["Various"], "documents": []
+    },
+    "mekong-river": {
+      "title": "Mekong River — Southeast Asia", "country": "Multiple", "region": "Asia", "lat": 15.1, "lon": 105.8, "status": "red",
+      "claimed": "Sustainable development", "actual": "Pesticides 50x above norms, algal blooms", "gap": "Agro-industrial pollution",
+      "financial_impact": {"loss_usd": 2000000000, "description": "Fisheries impact", "formula": "Loss of catch"},
+      "solutions": [{"name": "Pesticide regulation", "type": "Fast", "effect": "Reduce runoff", "cost": "$50M"}],
+      "sources": ["Mekong River Commission"], "companies": ["Various"], "documents": []
+    },
+    "nile-river": {
+      "title": "Nile River — Egypt/Sudan", "country": "Egypt/Sudan", "region": "Africa", "lat": 30.0, "lon": 31.2, "status": "red",
+      "claimed": "Nile Basin Initiative", "actual": "Sewage, agrochemicals, industry", "gap": "Pollution",
+      "financial_impact": {"loss_usd": 1500000000, "description": "Health and economy", "formula": "Costs"},
+      "solutions": [{"name": "Wastewater treatment", "type": "Medium", "effect": "Clean discharge", "cost": "$800M"}],
+      "sources": ["NBI"], "companies": ["Various"], "documents": []
+    },
+    "amazon-river": {
+      "title": "Amazon River — Brazil", "country": "Brazil", "region": "South America", "lat": -3.1, "lon": -60.0, "status": "red",
+      "claimed": "Protected area", "actual": "Mining, deforestation, mercury", "gap": "Mercury contamination",
+      "financial_impact": {"loss_usd": 5000000000, "description": "Ecosystem collapse", "formula": "Long-term damage"},
+      "solutions": [{"name": "Ban illegal mining", "type": "Fast", "effect": "Stop mercury", "cost": "$100M"}],
+      "sources": ["INPE"], "companies": ["Illegal miners"], "documents": []
+    },
+    "rio-de-la-plata": {
+      "title": "Rio de la Plata — Argentina/Uruguay", "country": "Argentina/Uruguay", "region": "South America", "lat": -34.9, "lon": -56.2, "status": "red",
+      "claimed": "Cleanup", "actual": "Heavy metals, plastics", "gap": "Industrial pollution",
+      "financial_impact": {"loss_usd": 600000000, "description": "Coastal impact", "formula": "Cleanup"},
+      "solutions": [{"name": "Industrial monitoring", "type": "Fast", "effect": "Enforce rules", "cost": "$20M"}],
+      "sources": ["UNEP"], "companies": ["Various"], "documents": []
+    },
+    "huangpu-river": {
+      "title": "Huangpu River — China", "country": "China", "region": "Asia", "lat": 31.2, "lon": 121.5, "status": "red",
+      "claimed": "Cleanup", "actual": "Industrial discharge, plastics", "gap": "Pollution",
+      "financial_impact": {"loss_usd": 800000000, "description": "Water supply risk", "formula": "Treatment"},
+      "solutions": [{"name": "Upgrade treatment", "type": "Medium", "effect": "Clean water", "cost": "$300M"}],
+      "sources": ["MEE"], "companies": ["Various"], "documents": []
+    },
+    "tigris-river": {
+      "title": "Tigris River — Iraq", "country": "Iraq", "region": "Middle East", "lat": 33.3, "lon": 44.4, "status": "red",
+      "claimed": "Restoration", "actual": "Depleted uranium, heavy metals", "gap": "Radioactive/toxic",
+      "financial_impact": {"loss_usd": 1000000000, "description": "Health crisis", "formula": "Medical costs"},
+      "solutions": [{"name": "Water filtration", "type": "Fast", "effect": "Safe drinking", "cost": "$100M"}],
+      "sources": ["UNEP"], "companies": ["Various"], "documents": []
+    },
+    "rhine-river": {
+      "title": "Rhine River — Europe", "country": "Multiple", "region": "Europe", "lat": 51.0, "lon": 6.9, "status": "green",
+      "claimed": "Clean since 1980s", "actual": "Industrial discharge controlled", "gap": "N/A",
+      "financial_impact": {"loss_usd": 0, "description": "Success story", "formula": "N/A"},
+      "solutions": [{"name": "Maintain standards", "type": "Fast", "effect": "Keep clean", "cost": "$10M"}],
+      "sources": ["ICPR"], "companies": ["Various"], "documents": []
+    },
+    "danube-river": {
+      "title": "Danube River — Europe", "country": "Multiple", "region": "Europe", "lat": 44.4, "lon": 26.1, "status": "red",
+      "claimed": "EU standards", "actual": "Transboundary pollution", "gap": "Nutrients",
+      "financial_impact": {"loss_usd": 500000000, "description": "Dead zones", "formula": "Fisheries loss"},
+      "solutions": [{"name": "Nutrient reduction", "type": "Medium", "effect": "Protect Black Sea", "cost": "$300M"}],
+      "sources": ["ICPDR"], "companies": ["Various"], "documents": []
+    },
+    "tijuana-river": {
+      "title": "Tijuana River — Mexico/USA", "country": "Mexico/USA", "region": "North America", "lat": 32.5, "lon": -117.0, "status": "red",
+      "claimed": "Binational cleanup", "actual": "Raw sewage, toxic algae", "gap": "Cross-border pollution",
+      "financial_impact": {"loss_usd": 400000000, "description": "Beach closures", "formula": "Tourism loss"},
+      "solutions": [{"name": "Sewage infrastructure", "type": "Medium", "effect": "Stop spills", "cost": "$200M"}],
+      "sources": ["EPA"], "companies": ["Municipalities"], "documents": []
+    },
+    "lake-victoria": {
+      "title": "Lake Victoria — Africa", "country": "Kenya/Tanzania/Uganda", "region": "Africa", "lat": -1.0, "lon": 33.0, "status": "red",
+      "claimed": "Management", "actual": "Industrial/sewage, water hyacinth", "gap": "Eutrophication",
+      "financial_impact": {"loss_usd": 1000000000, "description": "Fisheries decline", "formula": "Economic loss"},
+      "solutions": [{"name": "Wastewater treatment", "type": "Medium", "effect": "Reduce nutrients", "cost": "$400M"}],
+      "sources": ["LVBC"], "companies": ["Various"], "documents": []
+    },
+    "lake-karachay": {
+      "title": "Lake Karachay — Russia", "country": "Russia", "region": "Europe", "lat": 55.7, "lon": 60.8, "status": "red",
+      "claimed": "Contained", "actual": "Radioactive waste (Mayak)", "gap": "Most radioactive place",
+      "financial_impact": {"loss_usd": 5000000000, "description": "Contamination", "formula": "Remediation"},
+      "solutions": [{"name": "Encapsulation", "type": "Long", "effect": "Prevent spread", "cost": "$1B"}],
+      "sources": ["Rosatom"], "companies": ["Mayak"], "documents": []
+    },
+    "lake-lugano": {
+      "title": "Lake Lugano — Europe", "country": "Italy/Switzerland", "region": "Europe", "lat": 46.0, "lon": 8.9, "status": "red",
+      "claimed": "Clean", "actual": "Microplastics (top rank)", "gap": "Plastic pollution",
+      "financial_impact": {"loss_usd": 100000000, "description": "Ecosystem impact", "formula": "Cleanup"},
+      "solutions": [{"name": "Plastic filtration", "type": "Fast", "effect": "Remove microplastics", "cost": "$10M"}],
+      "sources": ["EU"], "companies": ["Municipalities"], "documents": []
+    },
+    "onondaga-lake": {
+      "title": "Onondaga Lake — USA", "country": "USA", "region": "North America", "lat": 43.1, "lon": -76.2, "status": "red",
+      "claimed": "Cleanup ongoing", "actual": "Mercury (165,000 lbs)", "gap": "Toxic contamination",
+      "financial_impact": {"loss_usd": 1000000000, "description": "Remediation", "formula": "Cleanup cost"},
+      "solutions": [{"name": "Dredging", "type": "Long", "effect": "Remove mercury", "cost": "$500M"}],
+      "sources": ["EPA"], "companies": ["Allied Chemical"], "documents": []
+    },
+    "lake-taihu": {
+      "title": "Lake Taihu — China", "country": "China", "region": "Asia", "lat": 31.2, "lon": 120.2, "status": "red",
+      "claimed": "Pollution control", "actual": "Eutrophication, toxic algae", "gap": "Algal blooms",
+      "financial_impact": {"loss_usd": 2000000000, "description": "Water crisis", "formula": "Treatment"},
+      "solutions": [{"name": "Nutrient reduction", "type": "Medium", "effect": "Stop blooms", "cost": "$1B"}],
+      "sources": ["MEE"], "companies": ["Various"], "documents": []
+    },
+    "lake-baikal": {
+      "title": "Lake Baikal — Russia", "country": "Russia", "region": "Asia", "lat": 53.5, "lon": 108.0, "status": "red",
+      "claimed": "Protected", "actual": "Spirogyra, sponge death, sewage", "gap": "Ecosystem collapse",
+      "financial_impact": {"loss_usd": 3000000000, "description": "Loss of unique ecosystem", "formula": "Long-term damage"},
+      "solutions": [{"name": "Sewage treatment", "type": "Medium", "effect": "Stop pollution", "cost": "$500M"}],
+      "sources": ["UNESCO"], "companies": ["Various"], "documents": []
+    },
+    "caspian-sea": {
+      "title": "Caspian Sea — Eurasia", "country": "Kazakhstan/Russia/Iran", "region": "Asia", "lat": 41.0, "lon": 51.0, "status": "red",
+      "claimed": "Protection", "actual": "Oil spills, pollution, seal decline", "gap": "Ecosystem stress",
+      "financial_impact": {"loss_usd": 5000000000, "description": "Fisheries loss", "formula": "Economic loss"},
+      "solutions": [{"name": "Oil spill response", "type": "Fast", "effect": "Contain", "cost": "$100M"}],
+      "sources": ["UNEP"], "companies": ["Various"], "documents": []
+    },
+    "lake-tanganyika": {
+      "title": "Lake Tanganyika — Africa", "country": "Multiple", "region": "Africa", "lat": -6.0, "lon": 29.5, "status": "red",
+      "claimed": "Management", "actual": "Pollution, overfishing", "gap": "Ecosystem decline",
+      "financial_impact": {"loss_usd": 300000000, "description": "Fisheries loss", "formula": "Economic"},
+      "solutions": [{"name": "Protect breeding areas", "type": "Fast", "effect": "Restore fish", "cost": "$20M"}],
+      "sources": ["UNEP"], "companies": ["Various"], "documents": []
+    },
+    "lake-malawi": {
+      "title": "Lake Malawi — Africa", "country": "Malawi/Mozambique/Tanzania", "region": "Africa", "lat": -12.0, "lon": 34.5, "status": "red",
+      "claimed": "Protected", "actual": "Pollution, overfishing", "gap": "Biodiversity loss",
+      "financial_impact": {"loss_usd": 200000000, "description": "Fisheries decline", "formula": "Economic"},
+      "solutions": [{"name": "Fishing quotas", "type": "Fast", "effect": "Recover stocks", "cost": "$10M"}],
+      "sources": ["UNESCO"], "companies": ["Various"], "documents": []
+    },
+    "lake-superior": {
+      "title": "Lake Superior — USA/Canada", "country": "USA/Canada", "region": "North America", "lat": 47.5, "lon": -87.5, "status": "red",
+      "claimed": "Great Lakes protection", "actual": "Microplastics", "gap": "Plastic pollution",
+      "financial_impact": {"loss_usd": 100000000, "description": "Ecosystem", "formula": "Cleanup"},
+      "solutions": [{"name": "Plastic filtration", "type": "Fast", "effect": "Reduce", "cost": "$10M"}],
+      "sources": ["EPA"], "companies": ["Various"], "documents": []
+    },
+    "lake-huron": {
+      "title": "Lake Huron — USA/Canada", "country": "USA/Canada", "region": "North America", "lat": 44.8, "lon": -82.4, "status": "red",
+      "claimed": "Protection", "actual": "Pollution", "gap": "Ecosystem", "financial_impact": {"loss_usd": 100000000, "description": "Fisheries", "formula": "Loss"},
+      "solutions": [{"name": "Wetland restoration", "type": "Fast", "effect": "Filter", "cost": "$20M"}],
+      "sources": ["EPA"], "companies": ["Various"], "documents": []
+    },
+    "lake-michigan": {
+      "title": "Lake Michigan — USA", "country": "USA", "region": "North America", "lat": 44.0, "lon": -87.0, "status": "red",
+      "claimed": "Clean", "actual": "Algal blooms, pollution", "gap": "Eutrophication",
+      "financial_impact": {"loss_usd": 200000000, "description": "Water supply", "formula": "Treatment"},
+      "solutions": [{"name": "Nutrient control", "type": "Fast", "effect": "Reduce blooms", "cost": "$50M"}],
+      "sources": ["EPA"], "companies": ["Various"], "documents": []
+    },
+    "lake-erie": {
+      "title": "Lake Erie — USA/Canada", "country": "USA/Canada", "region": "North America", "lat": 42.2, "lon": -81.2, "status": "red",
+      "claimed": "Cleanup", "actual": "Eutrophication (2014 Toledo crisis)", "gap": "Toxic algae",
+      "financial_impact": {"loss_usd": 500000000, "description": "Water shutdown", "formula": "Economic"},
+      "solutions": [{"name": "Reduce phosphorus", "type": "Medium", "effect": "Stop blooms", "cost": "$200M"}],
+      "sources": ["EPA"], "companies": ["Various"], "documents": []
+    },
+    "lake-ontario": {
+      "title": "Lake Ontario — USA/Canada", "country": "USA/Canada", "region": "North America", "lat": 43.6, "lon": -77.8, "status": "red",
+      "claimed": "Protection", "actual": "Plastics, pollutants", "gap": "Ecosystem",
+      "financial_impact": {"loss_usd": 100000000, "description": "Fisheries", "formula": "Loss"},
+      "solutions": [{"name": "Cleanup", "type": "Fast", "effect": "Remove plastic", "cost": "$10M"}],
+      "sources": ["EPA"], "companies": ["Various"], "documents": []
+    },
+    "lake-winnipeg": {
+      "title": "Lake Winnipeg — Canada", "country": "Canada", "region": "North America", "lat": 52.1, "lon": -97.8, "status": "red",
+      "claimed": "Cleanup", "actual": "Eutrophication", "gap": "Algae",
+      "financial_impact": {"loss_usd": 200000000, "description": "Water quality", "formula": "Loss"},
+      "solutions": [{"name": "Nutrient reduction", "type": "Medium", "effect": "Reduce algae", "cost": "$100M"}],
+      "sources": ["Gov Canada"], "companies": ["Various"], "documents": []
+    },
+    "great-bear-lake": {
+      "title": "Great Bear Lake — Canada", "country": "Canada", "region": "North America", "lat": 66.0, "lon": -121.0, "status": "red",
+      "claimed": "Pristine", "actual": "Uranium mining risk", "gap": "Potential contamination",
+      "financial_impact": {"loss_usd": 100000000, "description": "Cleanup", "formula": "Potential cost"},
+      "solutions": [{"name": "Mine regulation", "type": "Fast", "effect": "Prevent spills", "cost": "$10M"}],
+      "sources": ["Gov Canada"], "companies": ["Various"], "documents": []
+    },
+    "great-slave-lake": {
+      "title": "Great Slave Lake — Canada", "country": "Canada", "region": "North America", "lat": 61.5, "lon": -114.0, "status": "red",
+      "claimed": "Protected", "actual": "Mining pollution", "gap": "Contamination",
+      "financial_impact": {"loss_usd": 150000000, "description": "Ecosystem", "formula": "Cleanup"},
+      "solutions": [{"name": "Regulate mining", "type": "Fast", "effect": "Stop discharge", "cost": "$20M"}],
+      "sources": ["Gov Canada"], "companies": ["Mining companies"], "documents": []
+    },
+    "lake-balqash": {
+      "title": "Lake Balqash — Kazakhstan", "country": "Kazakhstan", "region": "Asia", "lat": 46.3, "lon": 74.5, "status": "red",
+      "claimed": "Restoration", "actual": "Shrinking, pollution", "gap": "Water loss",
+      "financial_impact": {"loss_usd": 500000000, "description": "Fisheries loss", "formula": "Economic"},
+      "solutions": [{"name": "Water saving", "type": "Medium", "effect": "Stabilize lake", "cost": "$200M"}],
+      "sources": ["World Bank"], "companies": ["Various"], "documents": []
+    },
+    "lake-urmia": {
+      "title": "Lake Urmia — Iran", "country": "Iran", "region": "Middle East", "lat": 37.7, "lon": 45.3, "status": "red",
+      "claimed": "Restoration", "actual": "Drying up", "gap": "Shrinkage",
+      "financial_impact": {"loss_usd": 2000000000, "description": "Dust storms", "formula": "Health/agri loss"},
+      "solutions": [{"name": "Reduce irrigation", "type": "Medium", "effect": "Restore lake", "cost": "$500M"}],
+      "sources": ["UNEP"], "companies": ["Various"], "documents": []
+    },
+    "lake-titicaca": {
+      "title": "Lake Titicaca — Peru/Bolivia", "country": "Peru/Bolivia", "region": "South America", "lat": -15.8, "lon": -69.3, "status": "red",
+      "claimed": "Protection", "actual": "Sewage, mining", "gap": "Pollution",
+      "financial_impact": {"loss_usd": 300000000, "description": "Fisheries", "formula": "Loss"},
+      "solutions": [{"name": "Wastewater treatment", "type": "Medium", "effect": "Clean water", "cost": "$100M"}],
+      "sources": ["UNEP"], "companies": ["Various"], "documents": []
+    },
+    "lake-nicaragua": {
+      "title": "Lake Nicaragua — Nicaragua", "country": "Nicaragua", "region": "North America", "lat": 11.6, "lon": -85.4, "status": "red",
+      "claimed": "Protection", "actual": "Deforestation, agriculture", "gap": "Sedimentation",
+      "financial_impact": {"loss_usd": 100000000, "description": "Ecosystem", "formula": "Loss"},
+      "solutions": [{"name": "Watershed protection", "type": "Fast", "effect": "Reduce runoff", "cost": "$20M"}],
+      "sources": ["UNEP"], "companies": ["Various"], "documents": []
+    },
+    "lake-athabasca": {
+      "title": "Lake Athabasca — Canada", "country": "Canada", "region": "North America", "lat": 59.2, "lon": -109.0, "status": "red",
+      "claimed": "Monitoring", "actual": "Oil sands contamination", "gap": "Pollution",
+      "financial_impact": {"loss_usd": 500000000, "description": "Ecosystem", "formula": "Cleanup"},
+      "solutions": [{"name": "Tailings management", "type": "Medium", "effect": "Stop leaks", "cost": "$300M"}],
+      "sources": ["Gov Canada"], "companies": ["Oil sands"], "documents": []
+    },
+    "lake-turkana": {
+      "title": "Lake Turkana — Kenya/Ethiopia", "country": "Kenya/Ethiopia", "region": "Africa", "lat": 3.6, "lon": 36.1, "status": "red",
+      "claimed": "Protected", "actual": "Dam construction, salinity", "gap": "Water loss",
+      "financial_impact": {"loss_usd": 300000000, "description": "Fisheries", "formula": "Loss"},
+      "solutions": [{"name": "Flow management", "type": "Medium", "effect": "Maintain lake", "cost": "$100M"}],
+      "sources": ["UNESCO"], "companies": ["Various"], "documents": []
+    },
+    "lake-albert": {
+      "title": "Lake Albert — Uganda/DRC", "country": "Uganda/DRC", "region": "Africa", "lat": 1.7, "lon": 30.9, "status": "red",
+      "claimed": "Protection", "actual": "Oil exploration", "gap": "Pollution risk",
+      "financial_impact": {"loss_usd": 200000000, "description": "Ecosystem", "formula": "Potential loss"},
+      "solutions": [{"name": "Environmental safeguards", "type": "Fast", "effect": "Prevent spills", "cost": "$50M"}],
+      "sources": ["UNEP"], "companies": ["Oil companies"], "documents": []
+    },
+    "lake-mweru": {
+      "title": "Lake Mweru — Zambia/DRC", "country": "Zambia/DRC", "region": "Africa", "lat": -9.0, "lon": 28.7, "status": "red",
+      "claimed": "Protection", "actual": "Overfishing, pollution", "gap": "Ecosystem",
+      "financial_impact": {"loss_usd": 50000000, "description": "Fisheries", "formula": "Loss"},
+      "solutions": [{"name": "Fishing regulation", "type": "Fast", "effect": "Restore", "cost": "$5M"}],
+      "sources": ["UNEP"], "companies": ["Various"], "documents": []
+    },
+    "lake-nipigon": {
+      "title": "Lake Nipigon — Canada", "country": "Canada", "region": "North America", "lat": 49.8, "lon": -88.5, "status": "red",
+      "claimed": "Protected", "actual": "Mining/logging pollution", "gap": "Pollution",
+      "financial_impact": {"loss_usd": 50000000, "description": "Ecosystem", "formula": "Cleanup"},
+      "solutions": [{"name": "Regulation", "type": "Fast", "effect": "Stop pollution", "cost": "$10M"}],
+      "sources": ["Gov Canada"], "companies": ["Various"], "documents": []
+    },
+    "lake-manitoba": {
+      "title": "Lake Manitoba — Canada", "country": "Canada", "region": "North America", "lat": 50.9, "lon": -98.5, "status": "red",
+      "claimed": "Cleanup", "actual": "Eutrophication, flooding", "gap": "Algae",
+      "financial_impact": {"loss_usd": 100000000, "description": "Water quality", "formula": "Loss"},
+      "solutions": [{"name": "Nutrient control", "type": "Medium", "effect": "Reduce", "cost": "$50M"}],
+      "sources": ["Gov Canada"], "companies": ["Various"], "documents": []
+    },
     "ogallala-aquifer": {
-      "title": "Ogallala Aquifer Depletion — USA",
-      "country": "USA", "region": "North America", "lat": 37.0, "lon": -101.0, "status": "red",
+      "title": "Ogallala Aquifer Depletion — USA", "country": "USA", "region": "North America", "lat": 37.0, "lon": -101.0, "status": "red",
       "claimed": "Sustainable water use", "actual": "Massive depletion; parts could dry up in decades", "gap": "Aquifer over-extraction",
       "financial_impact": {"loss_usd": 10000000000, "description": "Agricultural collapse risk", "formula": "Loss of farm output"},
-      "solutions": [{"name": "Drip irrigation", "type": "Medium", "effect": "Save water", "cost": "$1B"}, {"name": "Crop switching", "type": "Fast", "effect": "Reduce demand", "cost": "$100M"}],
+      "solutions": [{"name": "Drip irrigation", "type": "Medium", "effect": "Save water", "cost": "$1B"},{"name": "Crop switching", "type": "Fast", "effect": "Reduce demand", "cost": "$100M"}],
       "sources": ["USGS", "NASA GRACE"], "companies": ["Various farms"], "documents": [{"name": "USGS Report", "url": "https://www.usgs.gov/"}]
     },
     "central-valley-aquifer": {
-      "title": "Central Valley Aquifer Depletion — USA",
-      "country": "USA", "region": "North America", "lat": 36.7, "lon": -119.8, "status": "red",
+      "title": "Central Valley Aquifer Depletion — USA", "country": "USA", "region": "North America", "lat": 36.7, "lon": -119.8, "status": "red",
       "claimed": "Groundwater management", "actual": "Severe land subsidence and aquifer depletion", "gap": "Over-extraction",
       "financial_impact": {"loss_usd": 5000000000, "description": "Infrastructure damage", "formula": "Subsidence repair"},
       "solutions": [{"name": "Managed aquifer recharge", "type": "Medium", "effect": "Refill aquifer", "cost": "$500M"}],
       "sources": ["USGS"], "companies": ["Various farms"], "documents": []
     },
     "north-china-plain-aquifer": {
-      "title": "North China Plain Aquifer — China",
-      "country": "China", "region": "Asia", "lat": 36.5, "lon": 116.0, "status": "red",
+      "title": "North China Plain Aquifer — China", "country": "China", "region": "Asia", "lat": 36.5, "lon": 116.0, "status": "red",
       "claimed": "Water conservation", "actual": "Massive aquifer depletion; rivers disappearing", "gap": "Over-extraction",
       "financial_impact": {"loss_usd": 8000000000, "description": "Water security threat", "formula": "Alternative supply costs"},
       "solutions": [{"name": "South-North Water Transfer", "type": "Long", "effect": "Replenish", "cost": "$10B"}],
       "sources": ["World Bank"], "companies": ["China Government"], "documents": []
     },
     "ganges-brahmaputra-aquifer": {
-      "title": "Ganges-Brahmaputra Basin Aquifer — India/Bangladesh",
-      "country": "India/Bangladesh", "region": "Asia", "lat": 25.0, "lon": 89.0, "status": "red",
+      "title": "Ganges-Brahmaputra Basin Aquifer — India/Bangladesh", "country": "India/Bangladesh", "region": "Asia", "lat": 25.0, "lon": 89.0, "status": "red",
       "claimed": "Sustainable management", "actual": "Rapid depletion, arsenic contamination", "gap": "Aquifer stress",
       "financial_impact": {"loss_usd": 3000000000, "description": "Health and agriculture", "formula": "Losses"},
       "solutions": [{"name": "Rainwater harvesting", "type": "Fast", "effect": "Recharge", "cost": "$200M"}],
       "sources": ["UNESCO"], "companies": ["Various"], "documents": []
     },
     "nubian-sandstone-aquifer": {
-      "title": "Nubian Sandstone Aquifer — North Africa",
-      "country": "Libya/Egypt/Sudan/Chad", "region": "Africa", "lat": 25.0, "lon": 25.0, "status": "red",
+      "title": "Nubian Sandstone Aquifer — North Africa", "country": "Libya/Egypt/Sudan/Chad", "region": "Africa", "lat": 25.0, "lon": 25.0, "status": "red",
       "claimed": "Transboundary cooperation", "actual": "Fossil aquifer being depleted (non-renewable)", "gap": "Over-extraction",
       "financial_impact": {"loss_usd": 2000000000, "description": "Desertification risk", "formula": "Loss of water security"},
       "solutions": [{"name": "Water use efficiency", "type": "Medium", "effect": "Extend lifespan", "cost": "$500M"}],
       "sources": ["IAEA"], "companies": ["Various"], "documents": []
     },
     "limpopo-aquifer": {
-      "title": "Limpopo Basin Aquifer — Southern Africa",
-      "country": "South Africa/Mozambique/Zimbabwe", "region": "Africa", "lat": -23.0, "lon": 30.0, "status": "red",
+      "title": "Limpopo Basin Aquifer — Southern Africa", "country": "South Africa/Mozambique/Zimbabwe", "region": "Africa", "lat": -23.0, "lon": 30.0, "status": "red",
       "claimed": "Transboundary management", "actual": "Overuse, drought impacts", "gap": "Depletion",
       "financial_impact": {"loss_usd": 800000000, "description": "Agricultural losses", "formula": "Economic"},
       "solutions": [{"name": "Water sharing agreements", "type": "Medium", "effect": "Balance use", "cost": "$100M"}],
       "sources": ["SADC"], "companies": ["Various"], "documents": []
     },
     "great-artesian-basin": {
-      "title": "Great Artesian Basin — Australia",
-      "country": "Australia", "region": "Oceania", "lat": -25.0, "lon": 143.0, "status": "red",
+      "title": "Great Artesian Basin — Australia", "country": "Australia", "region": "Oceania", "lat": -25.0, "lon": 143.0, "status": "red",
       "claimed": "Sustainable management", "actual": "Pressure decline; springs disappearing", "gap": "Over-extraction",
       "financial_impact": {"loss_usd": 1000000000, "description": "Ecosystem and farm loss", "formula": "Economic"},
       "solutions": [{"name": "Cap artesian wells", "type": "Fast", "effect": "Restore pressure", "cost": "$100M"}],
       "sources": ["Australian Govt"], "companies": ["Various"], "documents": []
     },
     "arabian-aquifer": {
-      "title": "Arabian Aquifer System — Middle East",
-      "country": "Saudi Arabia/UAE/etc", "region": "Middle East", "lat": 24.0, "lon": 45.0, "status": "red",
+      "title": "Arabian Aquifer System — Middle East", "country": "Saudi Arabia/UAE/etc", "region": "Middle East", "lat": 24.0, "lon": 45.0, "status": "red",
       "claimed": "Water security", "actual": "Fossil water being depleted; wadis drying", "gap": "Over-extraction",
       "financial_impact": {"loss_usd": 5000000000, "description": "Water crisis risk", "formula": "Alternative supply"},
       "solutions": [{"name": "Desalination expansion", "type": "Medium", "effect": "Reduce aquifer use", "cost": "$2B"}],
       "sources": ["World Bank"], "companies": ["Various"], "documents": []
     },
     "edwards-aquifer": {
-      "title": "Edwards-Trinity Aquifer — USA",
-      "country": "USA", "region": "North America", "lat": 29.5, "lon": -98.5, "status": "red",
+      "title": "Edwards-Trinity Aquifer — USA", "country": "USA", "region": "North America", "lat": 29.5, "lon": -98.5, "status": "red",
       "claimed": "Managed", "actual": "Spring flow decline; over-pumping", "gap": "Depletion",
       "financial_impact": {"loss_usd": 500000000, "description": "Ecosystem loss", "formula": "Economic"},
       "solutions": [{"name": "Pumping limits", "type": "Fast", "effect": "Protect springs", "cost": "$10M"}],
       "sources": ["USGS"], "companies": ["Various"], "documents": []
     },
     "santiago-aquifer": {
-      "title": "Santiago Basin Aquifer — Chile",
-      "country": "Chile", "region": "South America", "lat": -33.4, "lon": -70.6, "status": "red",
+      "title": "Santiago Basin Aquifer — Chile", "country": "Chile", "region": "South America", "lat": -33.4, "lon": -70.6, "status": "red",
       "claimed": "Management", "actual": "Over-extraction, drought", "gap": "Depletion",
       "financial_impact": {"loss_usd": 300000000, "description": "Water supply", "formula": "Economic"},
       "solutions": [{"name": "Recharge projects", "type": "Medium", "effect": "Refill", "cost": "$100M"}],
       "sources": ["Gov Chile"], "companies": ["Various"], "documents": []
     },
     "po-valley-aquifer": {
-      "title": "Po Valley Aquifer — Italy",
-      "country": "Italy", "region": "Europe", "lat": 45.0, "lon": 9.5, "status": "red",
+      "title": "Po Valley Aquifer — Italy", "country": "Italy", "region": "Europe", "lat": 45.0, "lon": 9.5, "status": "red",
       "claimed": "EU standards", "actual": "Over-extraction, pollution", "gap": "Depletion",
       "financial_impact": {"loss_usd": 800000000, "description": "Agriculture loss", "formula": "Economic"},
       "solutions": [{"name": "Efficient irrigation", "type": "Medium", "effect": "Save water", "cost": "$200M"}],
       "sources": ["EU"], "companies": ["Various"], "documents": []
     },
     "ebro-basin-aquifer": {
-      "title": "Ebro Basin Aquifer — Spain",
-      "country": "Spain", "region": "Europe", "lat": 41.6, "lon": -0.9, "status": "red",
+      "title": "Ebro Basin Aquifer — Spain", "country": "Spain", "region": "Europe", "lat": 41.6, "lon": -0.9, "status": "red",
       "claimed": "Water management", "actual": "Depletion, wetlands drying", "gap": "Over-extraction",
       "financial_impact": {"loss_usd": 400000000, "description": "Ecosystem loss", "formula": "Economic"},
       "solutions": [{"name": "Water transfer limits", "type": "Fast", "effect": "Protect wetlands", "cost": "$20M"}],
       "sources": ["EU"], "companies": ["Various"], "documents": []
     },
     "chalk-aquifer": {
-      "title": "Chalk Aquifer — England",
-      "country": "UK", "region": "Europe", "lat": 51.5, "lon": -1.0, "status": "red",
+      "title": "Chalk Aquifer — England", "country": "UK", "region": "Europe", "lat": 51.5, "lon": -1.0, "status": "red",
       "claimed": "Sustainable abstraction", "actual": "Over-abstraction, rivers drying", "gap": "Depletion",
       "financial_impact": {"loss_usd": 300000000, "description": "River ecosystems", "formula": "Economic"},
       "solutions": [{"name": "Abstraction limits", "type": "Fast", "effect": "Protect rivers", "cost": "$10M"}],
       "sources": ["EA UK"], "companies": ["Water companies"], "documents": []
     },
     "torrey-canyon-spill": {
-      "title": "Torrey Canyon Oil Spill — UK/France",
-      "country": "UK/France", "region": "Europe", "lat": 50.0, "lon": -6.0, "status": "red",
+      "title": "Torrey Canyon Oil Spill — UK/France", "country": "UK/France", "region": "Europe", "lat": 50.0, "lon": -6.0, "status": "red",
       "claimed": "Historical spill (1967)", "actual": "31 million gallons spilled", "gap": "Long-term damage",
       "financial_impact": {"loss_usd": 100000000, "description": "Coastal damage", "formula": "Historical cleanup"},
       "solutions": [{"name": "Improved tanker safety", "type": "Long", "effect": "Prevent future", "cost": "Policy"}],
       "sources": ["ITOPF"], "companies": ["BP"], "documents": []
     },
     "amoco-cadiz-spill": {
-      "title": "Amoco Cadiz Oil Spill — France",
-      "country": "France", "region": "Europe", "lat": 48.6, "lon": -4.8, "status": "red",
+      "title": "Amoco Cadiz Oil Spill — France", "country": "France", "region": "Europe", "lat": 48.6, "lon": -4.8, "status": "red",
       "claimed": "Historical spill (1978)", "actual": "223,000 tonnes spilled", "gap": "Massive coastal damage",
       "financial_impact": {"loss_usd": 500000000, "description": "Fisheries/tourism", "formula": "Historical"},
       "solutions": [{"name": "Double-hull tankers", "type": "Long", "effect": "Prevent spills", "cost": "Policy"}],
       "sources": ["ITOPF"], "companies": ["Amoco"], "documents": []
     },
     "atlantic-empress-spill": {
-      "title": "Atlantic Empress Oil Spill — Trinidad",
-      "country": "Trinidad and Tobago", "region": "South America", "lat": 11.0, "lon": -60.0, "status": "red",
+      "title": "Atlantic Empress Oil Spill — Trinidad", "country": "Trinidad and Tobago", "region": "South America", "lat": 11.0, "lon": -60.0, "status": "red",
       "claimed": "Historical spill (1979)", "actual": "2.2 million barrels spilled", "gap": "Largest tanker spill",
       "financial_impact": {"loss_usd": 300000000, "description": "Marine damage", "formula": "Historical"},
       "solutions": [{"name": "Modern navigation", "type": "Long", "effect": "Prevent collisions", "cost": "Policy"}],
       "sources": ["ITOPF"], "companies": ["Various"], "documents": []
     },
     "castillo-de-bellver-spill": {
-      "title": "Castillo de Bellver Oil Spill — South Africa",
-      "country": "South Africa", "region": "Africa", "lat": -33.0, "lon": 18.0, "status": "red",
+      "title": "Castillo de Bellver Oil Spill — South Africa", "country": "South Africa", "region": "Africa", "lat": -33.0, "lon": 18.0, "status": "red",
       "claimed": "Historical spill (1983)", "actual": "1.8 million barrels spilled", "gap": "Marine damage",
       "financial_impact": {"loss_usd": 200000000, "description": "Coastal damage", "formula": "Historical"},
       "solutions": [{"name": "Tanker standards", "type": "Long", "effect": "Prevent", "cost": "Policy"}],
       "sources": ["ITOPF"], "companies": ["Various"], "documents": []
     },
     "exxon-valdez-spill": {
-      "title": "Exxon Valdez Oil Spill — Alaska",
-      "country": "USA", "region": "North America", "lat": 60.8, "lon": -146.9, "status": "red",
+      "title": "Exxon Valdez Oil Spill — Alaska", "country": "USA", "region": "North America", "lat": 60.8, "lon": -146.9, "status": "red",
       "claimed": "Historical spill (1989)", "actual": "240,000 barrels spilled", "gap": "Ecosystem collapse",
       "financial_impact": {"loss_usd": 7000000000, "description": "Long-term damage", "formula": "Historical cleanup + fines"},
       "solutions": [{"name": "Double-hull tankers", "type": "Long", "effect": "Prevent", "cost": "Policy"}],
       "sources": ["NOAA"], "companies": ["ExxonMobil"], "documents": []
     },
     "abt-summer-spill": {
-      "title": "ABT Summer Oil Spill — Angola",
-      "country": "Angola", "region": "Africa", "lat": -10.0, "lon": 10.0, "status": "red",
+      "title": "ABT Summer Oil Spill — Angola", "country": "Angola", "region": "Africa", "lat": -10.0, "lon": 10.0, "status": "red",
       "claimed": "Historical spill (1991)", "actual": "260,000 tonnes spilled", "gap": "Offshore damage",
       "financial_impact": {"loss_usd": 200000000, "description": "Marine damage", "formula": "Historical"},
       "solutions": [{"name": "Offshore response", "type": "Long", "effect": "Contain", "cost": "Policy"}],
       "sources": ["ITOPF"], "companies": ["Various"], "documents": []
     },
     "sea-empress-spill": {
-      "title": "Sea Empress Oil Spill — Wales",
-      "country": "UK", "region": "Europe", "lat": 51.7, "lon": -5.0, "status": "red",
+      "title": "Sea Empress Oil Spill — Wales", "country": "UK", "region": "Europe", "lat": 51.7, "lon": -5.0, "status": "red",
       "claimed": "Historical spill (1996)", "actual": "70,000 tonnes spilled", "gap": "Coastal damage",
       "financial_impact": {"loss_usd": 100000000, "description": "Tourism/fisheries", "formula": "Historical"},
       "solutions": [{"name": "Improved pilotage", "type": "Long", "effect": "Prevent", "cost": "Policy"}],
       "sources": ["ITOPF"], "companies": ["Various"], "documents": []
     },
     "erika-spill": {
-      "title": "Erika Oil Spill — France",
-      "country": "France", "region": "Europe", "lat": 47.5, "lon": -2.5, "status": "red",
+      "title": "Erika Oil Spill — France", "country": "France", "region": "Europe", "lat": 47.5, "lon": -2.5, "status": "red",
       "claimed": "Historical spill (1999)", "actual": "20,000 tonnes spilled", "gap": "Coastal damage",
       "financial_impact": {"loss_usd": 150000000, "description": "Coastal damage", "formula": "Historical"},
       "solutions": [{"name": "EU tanker bans", "type": "Long", "effect": "Prevent", "cost": "Policy"}],
       "sources": ["ITOPF"], "companies": ["Total"], "documents": []
     },
     "ixtoc-1-spill": {
-      "title": "Ixtoc 1 Oil Spill — Mexico",
-      "country": "Mexico", "region": "North America", "lat": 19.5, "lon": -92.2, "status": "red",
+      "title": "Ixtoc 1 Oil Spill — Mexico", "country": "Mexico", "region": "North America", "lat": 19.5, "lon": -92.2, "status": "red",
       "claimed": "Historical spill (1979)", "actual": "140 million gallons spilled", "gap": "Massive offshore spill",
       "financial_impact": {"loss_usd": 1000000000, "description": "Ecosystem damage", "formula": "Historical"},
       "solutions": [{"name": "Blowout preventers", "type": "Long", "effect": "Prevent", "cost": "Policy"}],
       "sources": ["NOAA"], "companies": ["Pemex"], "documents": []
     },
     "nowruz-spill": {
-      "title": "Nowruz Oil Spill — Iran",
-      "country": "Iran", "region": "Middle East", "lat": 29.5, "lon": 49.5, "status": "red",
+      "title": "Nowruz Oil Spill — Iran", "country": "Iran", "region": "Middle East", "lat": 29.5, "lon": 49.5, "status": "red",
       "claimed": "Historical spill (1983)", "actual": "80 million gallons spilled", "gap": "War-related spill",
       "financial_impact": {"loss_usd": 500000000, "description": "Marine damage", "formula": "Historical"},
       "solutions": [{"name": "Modern safety", "type": "Long", "effect": "Prevent", "cost": "Policy"}],
       "sources": ["ITOPF"], "companies": ["NIOC"], "documents": []
     },
     "fergana-valley-spill": {
-      "title": "Fergana Valley Oil Spill — Uzbekistan",
-      "country": "Uzbekistan", "region": "Asia", "lat": 40.4, "lon": 71.8, "status": "red",
+      "title": "Fergana Valley Oil Spill — Uzbekistan", "country": "Uzbekistan", "region": "Asia", "lat": 40.4, "lon": 71.8, "status": "red",
       "claimed": "Historical spill (1992)", "actual": "80 million gallons spilled", "gap": "Massive inland spill",
       "financial_impact": {"loss_usd": 300000000, "description": "Water/soil damage", "formula": "Historical"},
       "solutions": [{"name": "Pipeline integrity", "type": "Long", "effect": "Prevent", "cost": "$50M"}],
       "sources": ["UNEP"], "companies": ["Various"], "documents": []
     },
     "kolva-river-spill": {
-      "title": "Kolva River Oil Spill — Russia",
-      "country": "Russia", "region": "Europe", "lat": 64.0, "lon": 57.0, "status": "red",
+      "title": "Kolva River Oil Spill — Russia", "country": "Russia", "region": "Europe", "lat": 64.0, "lon": 57.0, "status": "red",
       "claimed": "Historical spill (1994)", "actual": "2 million barrels spilled", "gap": "Arctic damage",
       "financial_impact": {"loss_usd": 200000000, "description": "Ecosystem", "formula": "Historical"},
       "solutions": [{"name": "Pipeline repair", "type": "Long", "effect": "Prevent", "cost": "$100M"}],
       "sources": ["ITOPF"], "companies": ["Komineft"], "documents": []
     },
     "guanabara-bay-spill": {
-      "title": "Guanabara Bay Oil Spill — Brazil",
-      "country": "Brazil", "region": "South America", "lat": -22.8, "lon": -43.2, "status": "red",
+      "title": "Guanabara Bay Oil Spill — Brazil", "country": "Brazil", "region": "South America", "lat": -22.8, "lon": -43.2, "status": "red",
       "claimed": "Historical spill (2000)", "actual": "1.3 million liters spilled", "gap": "Bay pollution",
       "financial_impact": {"loss_usd": 100000000, "description": "Ecosystem", "formula": "Historical"},
       "solutions": [{"name": "Refinery safety", "type": "Long", "effect": "Prevent", "cost": "$50M"}],
       "sources": ["UNEP"], "companies": ["Petrobras"], "documents": []
     },
     "persian-gulf-war-spill": {
-      "title": "Persian Gulf War Oil Spill — Kuwait",
-      "country": "Kuwait/Iraq", "region": "Middle East", "lat": 29.0, "lon": 48.0, "status": "red",
+      "title": "Persian Gulf War Oil Spill — Kuwait", "country": "Kuwait/Iraq", "region": "Middle East", "lat": 29.0, "lon": 48.0, "status": "red",
       "claimed": "Historical spill (1991)", "actual": "240–460 million gallons spilled", "gap": "Largest spill in history",
       "financial_impact": {"loss_usd": 5000000000, "description": "Catastrophic damage", "formula": "Historical"},
       "solutions": [{"name": "Restoration", "type": "Long", "effect": "Recover", "cost": "$1B"}],
       "sources": ["UNEP"], "companies": ["Various"], "documents": []
     },
     "bangladesh-arsenic": {
-      "title": "Arsenic Crisis — Bangladesh",
-      "country": "Bangladesh", "region": "Asia", "lat": 23.7, "lon": 90.4, "status": "red",
+      "title": "Arsenic Crisis — Bangladesh", "country": "Bangladesh", "region": "Asia", "lat": 23.7, "lon": 90.4, "status": "red",
       "claimed": "Safe water access", "actual": "50 million people drinking arsenic-contaminated water", "gap": "Mass poisoning",
       "financial_impact": {"loss_usd": 2000000000, "description": "Health crisis", "formula": "Medical costs"},
       "solutions": [{"name": "Deep tube wells", "type": "Fast", "effect": "Safe water", "cost": "$100M"}],
       "sources": ["WHO"], "companies": ["Gov Bangladesh"], "documents": []
     },
     "odisha-fluoride": {
-      "title": "Fluoride Crisis — Odisha, India",
-      "country": "India", "region": "Asia", "lat": 20.3, "lon": 85.8, "status": "red",
+      "title": "Fluoride Crisis — Odisha, India", "country": "India", "region": "Asia", "lat": 20.3, "lon": 85.8, "status": "red",
       "claimed": "Safe water", "actual": "Skeletal and dental fluorosis", "gap": "Toxic water",
       "financial_impact": {"loss_usd": 500000000, "description": "Health", "formula": "Medical"},
       "solutions": [{"name": "Defluoridation", "type": "Medium", "effect": "Safe water", "cost": "$50M"}],
       "sources": ["WHO"], "companies": ["Gov India"], "documents": []
     },
     "ethiopian-rift-fluoride": {
-      "title": "Fluoride Crisis — Ethiopian Rift Valley",
-      "country": "Ethiopia", "region": "Africa", "lat": 7.0, "lon": 38.0, "status": "red",
+      "title": "Fluoride Crisis — Ethiopian Rift Valley", "country": "Ethiopia", "region": "Africa", "lat": 7.0, "lon": 38.0, "status": "red",
       "claimed": "Safe water", "actual": "Volcanic fluoride in water", "gap": "Toxic water",
       "financial_impact": {"loss_usd": 200000000, "description": "Health", "formula": "Medical"},
       "solutions": [{"name": "Defluoridation", "type": "Medium", "effect": "Safe water", "cost": "$20M"}],
       "sources": ["WHO"], "companies": ["Gov Ethiopia"], "documents": []
     },
     "skelleftefaltet-arsenic": {
-      "title": "Arsenic in Wells — Sweden",
-      "country": "Sweden", "region": "Europe", "lat": 64.7, "lon": 20.9, "status": "red",
+      "title": "Arsenic in Wells — Sweden", "country": "Sweden", "region": "Europe", "lat": 64.7, "lon": 20.9, "status": "red",
       "claimed": "Safe water", "actual": "Private wells with up to 300 µg/L arsenic", "gap": "Contamination",
       "financial_impact": {"loss_usd": 50000000, "description": "Health", "formula": "Filtration"},
       "solutions": [{"name": "Water filtration", "type": "Fast", "effect": "Safe water", "cost": "$10M"}],
       "sources": ["EU"], "companies": ["Municipalities"], "documents": []
     },
     "lazio-arsenic": {
-      "title": "Arsenic in Water — Lazio, Italy",
-      "country": "Italy", "region": "Europe", "lat": 42.4, "lon": 12.1, "status": "red",
+      "title": "Arsenic in Water — Lazio, Italy", "country": "Italy", "region": "Europe", "lat": 42.4, "lon": 12.1, "status": "red",
       "claimed": "Safe water", "actual": "Natural arsenic contamination", "gap": "Toxic water",
       "financial_impact": {"loss_usd": 100000000, "description": "Health", "formula": "Filtration"},
       "solutions": [{"name": "Treatment plants", "type": "Medium", "effect": "Safe water", "cost": "$50M"}],
       "sources": ["EU"], "companies": ["Municipalities"], "documents": []
     },
     "pfas-contamination": {
-      "title": "PFAS 'Forever Chemicals' — Global",
-      "country": "Global", "region": "Global", "lat": 0.0, "lon": 0.0, "status": "red",
+      "title": "PFAS 'Forever Chemicals' — Global", "country": "Global", "region": "Global", "lat": 0.0, "lon": 0.0, "status": "red",
       "claimed": "Safe water", "actual": "Widespread PFAS contamination", "gap": "Toxic water",
       "financial_impact": {"loss_usd": 10000000000, "description": "Health", "formula": "Cleanup"},
       "solutions": [{"name": "Activated carbon filters", "type": "Medium", "effect": "Remove PFAS", "cost": "$1B"}],
       "sources": ["EPA"], "companies": ["Various"], "documents": []
     },
     "lead-pipes": {
-      "title": "Lead Pipes — Global",
-      "country": "Global", "region": "Global", "lat": 0.0, "lon": 0.0, "status": "red",
+      "title": "Lead Pipes — Global", "country": "Global", "region": "Global", "lat": 0.0, "lon": 0.0, "status": "red",
       "claimed": "Safe water", "actual": "Lead contamination (e.g., Flint, Michigan)", "gap": "Toxic water",
       "financial_impact": {"loss_usd": 5000000000, "description": "Health", "formula": "Pipe replacement"},
       "solutions": [{"name": "Pipe replacement", "type": "Long", "effect": "Safe water", "cost": "$1B"}],
       "sources": ["EPA"], "companies": ["Municipalities"], "documents": []
     },
     "mailuu-suu-tailings": {
-      "title": "Mailuu-Suu Uranium Tailings — Kyrgyzstan",
-      "country": "Kyrgyzstan", "region": "Asia", "lat": 41.5, "lon": 72.5, "status": "red",
+      "title": "Mailuu-Suu Uranium Tailings — Kyrgyzstan", "country": "Kyrgyzstan", "region": "Asia", "lat": 41.5, "lon": 72.5, "status": "red",
       "claimed": "Environmental safety", "actual": "Radioactive waste threatened by landslides", "gap": "Contamination risk",
       "financial_impact": {"loss_usd": 500000000, "description": "Water contamination risk", "formula": "Remediation"},
       "solutions": [{"name": "Stabilize tailings", "type": "Medium", "effect": "Prevent leaks", "cost": "$50M"}],
       "sources": ["UNECE"], "companies": ["Gov Kyrgyzstan"], "documents": []
     },
     "khaidarkan-mercury": {
-      "title": "Khaidarkan Mercury — Kyrgyzstan",
-      "country": "Kyrgyzstan", "region": "Asia", "lat": 39.9, "lon": 71.3, "status": "red",
+      "title": "Khaidarkan Mercury — Kyrgyzstan", "country": "Kyrgyzstan", "region": "Asia", "lat": 39.9, "lon": 71.3, "status": "red",
       "claimed": "Safe mining", "actual": "Mercury pollution from mining", "gap": "Toxic contamination",
       "financial_impact": {"loss_usd": 200000000, "description": "Health risk", "formula": "Cleanup"},
       "solutions": [{"name": "Mercury remediation", "type": "Long", "effect": "Remove toxins", "cost": "$50M"}],
       "sources": ["UNEP"], "companies": ["Khaidarkan Mercury Plant"], "documents": []
     },
     "kainar-sludge": {
-      "title": "Kainar Sludge Accumulators — Kazakhstan",
-      "country": "Kazakhstan", "region": "Asia", "lat": 44.0, "lon": 66.0, "status": "red",
+      "title": "Kainar Sludge Accumulators — Kazakhstan", "country": "Kazakhstan", "region": "Asia", "lat": 44.0, "lon": 66.0, "status": "red",
       "claimed": "Environmental safety", "actual": "High-risk sludge near Syr Darya", "gap": "Contamination risk",
       "financial_impact": {"loss_usd": 300000000, "description": "Water contamination", "formula": "Cleanup"},
       "solutions": [{"name": "Sludge containment", "type": "Medium", "effect": "Prevent leak", "cost": "$50M"}],
       "sources": ["UNECE"], "companies": ["Gov Kazakhstan"], "documents": []
     },
     "baizhansai-tailings": {
-      "title": "Baizhansai Tailings — Kazakhstan",
-      "country": "Kazakhstan", "region": "Asia", "lat": 42.0, "lon": 70.0, "status": "red",
+      "title": "Baizhansai Tailings — Kazakhstan", "country": "Kazakhstan", "region": "Asia", "lat": 42.0, "lon": 70.0, "status": "red",
       "claimed": "Environmental safety", "actual": "Transboundary risk of contamination", "gap": "Contamination risk",
       "financial_impact": {"loss_usd": 200000000, "description": "Water contamination", "formula": "Cleanup"},
       "solutions": [{"name": "Tailings stabilization", "type": "Medium", "effect": "Prevent leak", "cost": "$30M"}],
       "sources": ["UNECE"], "companies": ["Gov Kazakhstan"], "documents": []
     },
     "khantagin-tailings": {
-      "title": "Khantagin Tailings — Kazakhstan",
-      "country": "Kazakhstan", "region": "Asia", "lat": 43.0, "lon": 68.0, "status": "red",
+      "title": "Khantagin Tailings — Kazakhstan", "country": "Kazakhstan", "region": "Asia", "lat": 43.0, "lon": 68.0, "status": "red",
       "claimed": "Safety", "actual": "Risk to water sources", "gap": "Contamination",
       "financial_impact": {"loss_usd": 100000000, "description": "Water risk", "formula": "Cleanup"},
       "solutions": [{"name": "Containment", "type": "Medium", "effect": "Prevent leak", "cost": "$20M"}],
       "sources": ["UNECE"], "companies": ["Gov Kazakhstan"], "documents": []
     },
     "bayaldyr-tailings": {
-      "title": "Bayaldyr Tailings — Kazakhstan",
-      "country": "Kazakhstan", "region": "Asia", "lat": 42.8, "lon": 68.5, "status": "red",
+      "title": "Bayaldyr Tailings — Kazakhstan", "country": "Kazakhstan", "region": "Asia", "lat": 42.8, "lon": 68.5, "status": "red",
       "claimed": "Safety", "actual": "Contamination risk", "gap": "Contamination",
       "financial_impact": {"loss_usd": 100000000, "description": "Water risk", "formula": "Cleanup"},
       "solutions": [{"name": "Containment", "type": "Medium", "effect": "Prevent", "cost": "$20M"}],
       "sources": ["UNECE"], "companies": ["Gov Kazakhstan"], "documents": []
     },
     "tajikistan-uranium": {
-      "title": "Uranium Legacy Sites — Tajikistan",
-      "country": "Tajikistan", "region": "Asia", "lat": 38.0, "lon": 69.0, "status": "red",
+      "title": "Uranium Legacy Sites — Tajikistan", "country": "Tajikistan", "region": "Asia", "lat": 38.0, "lon": 69.0, "status": "red",
       "claimed": "Environmental safety", "actual": "218 sites with uranium tailings and pesticides", "gap": "Contamination risk",
       "financial_impact": {"loss_usd": 500000000, "description": "Water contamination", "formula": "Remediation"},
       "solutions": [{"name": "Site remediation", "type": "Long", "effect": "Remove risk", "cost": "$100M"}],
       "sources": ["UNECE"], "companies": ["Gov Tajikistan"], "documents": []
     },
     "almalyk-mining": {
-      "title": "Almalyk Mining Pollution — Uzbekistan",
-      "country": "Uzbekistan", "region": "Asia", "lat": 40.8, "lon": 69.6, "status": "red",
+      "title": "Almalyk Mining Pollution — Uzbekistan", "country": "Uzbekistan", "region": "Asia", "lat": 40.8, "lon": 69.6, "status": "red",
       "claimed": "Environmental compliance", "actual": "Heavy metals in soil and water", "gap": "Toxic pollution",
       "financial_impact": {"loss_usd": 300000000, "description": "Health and agriculture", "formula": "Cleanup"},
       "solutions": [{"name": "Tailings management", "type": "Medium", "effect": "Prevent spread", "cost": "$50M"}],
       "sources": ["UNECE"], "companies": ["AGMK"], "documents": []
     },
     "fergana-microplastics": {
-      "title": "Microplastics — Fergana Valley",
-      "country": "Uzbekistan/Kyrgyzstan/Tajikistan", "region": "Asia", "lat": 40.5, "lon": 71.0, "status": "red",
+      "title": "Microplastics — Fergana Valley", "country": "Uzbekistan/Kyrgyzstan/Tajikistan", "region": "Asia", "lat": 40.5, "lon": 71.0, "status": "red",
       "claimed": "Water quality", "actual": "Widespread microplastics in rivers", "gap": "Plastic pollution",
       "financial_impact": {"loss_usd": 100000000, "description": "Health", "formula": "Cleanup"},
       "solutions": [{"name": "Filtration", "type": "Medium", "effect": "Remove plastics", "cost": "$20M"}],
       "sources": ["UNECE"], "companies": ["Various"], "documents": []
     },
     "tashkent-microplastics": {
-      "title": "Microplastics — Tashkent/Jizzakh",
-      "country": "Uzbekistan", "region": "Asia", "lat": 41.3, "lon": 69.2, "status": "red",
+      "title": "Microplastics — Tashkent/Jizzakh", "country": "Uzbekistan", "region": "Asia", "lat": 41.3, "lon": 69.2, "status": "red",
       "claimed": "Water quality", "actual": "Microplastics in water basins", "gap": "Plastic pollution",
       "financial_impact": {"loss_usd": 50000000, "description": "Health", "formula": "Cleanup"},
       "solutions": [{"name": "Wastewater filtration", "type": "Medium", "effect": "Remove plastics", "cost": "$10M"}],
       "sources": ["UNECE"], "companies": ["Municipalities"], "documents": []
     },
     "shardara-reservoir": {
-      "title": "Shardara Reservoir — Kazakhstan",
-      "country": "Kazakhstan", "region": "Asia", "lat": 41.3, "lon": 67.9, "status": "red",
+      "title": "Shardara Reservoir — Kazakhstan", "country": "Kazakhstan", "region": "Asia", "lat": 41.3, "lon": 67.9, "status": "red",
       "claimed": "Water quality", "actual": "Toxic elements in reservoir", "gap": "Contamination",
       "financial_impact": {"loss_usd": 200000000, "description": "Water risk", "formula": "Cleanup"},
       "solutions": [{"name": "Monitoring", "type": "Fast", "effect": "Detect", "cost": "$5M"}],
       "sources": ["UNECE"], "companies": ["Gov Kazakhstan"], "documents": []
     },
     "syr-darya-industrial": {
-      "title": "Syr Darya Industrial Discharge — Central Asia",
-      "country": "Kazakhstan/Uzbekistan", "region": "Asia", "lat": 44.0, "lon": 65.0, "status": "red",
+      "title": "Syr Darya Industrial Discharge — Central Asia", "country": "Kazakhstan/Uzbekistan", "region": "Central Asia", "lat": 44.0, "lon": 65.0, "status": "red",
       "claimed": "Water quality", "actual": "Industrial discharge into river", "gap": "Pollution",
       "financial_impact": {"loss_usd": 300000000, "description": "Health/agriculture", "formula": "Cleanup"},
       "solutions": [{"name": "Treatment", "type": "Medium", "effect": "Clean water", "cost": "$100M"}],
       "sources": ["UNECE"], "companies": ["Various"], "documents": []
     },
     "amu-darya-pesticides": {
-      "title": "Amu Darya Pesticides — Central Asia",
-      "country": "Uzbekistan/Turkmenistan", "region": "Asia", "lat": 41.0, "lon": 60.0, "status": "red",
+      "title": "Amu Darya Pesticides — Central Asia", "country": "Uzbekistan/Turkmenistan", "region": "Central Asia", "lat": 41.0, "lon": 60.0, "status": "red",
       "claimed": "Water quality", "actual": "Pesticides and fertilizers in river", "gap": "Agro-pollution",
       "financial_impact": {"loss_usd": 400000000, "description": "Health", "formula": "Cleanup"},
       "solutions": [{"name": "Reduce pesticide use", "type": "Fast", "effect": "Cleaner water", "cost": "$20M"}],
       "sources": ["UNECE"], "companies": ["Various"], "documents": []
     },
     "glacier-melt-tajikistan": {
-      "title": "Glacier Melt — Tajikistan",
-      "country": "Tajikistan", "region": "Asia", "lat": 38.8, "lon": 72.0, "status": "red",
+      "title": "Glacier Melt — Tajikistan", "country": "Tajikistan", "region": "Central Asia", "lat": 38.8, "lon": 72.0, "status": "red",
       "claimed": "Climate adaptation", "actual": "Rapid loss of Pamir glaciers", "gap": "Water supply threat",
       "financial_impact": {"loss_usd": 2000000000, "description": "Regional water crisis", "formula": "Hydropower loss"},
       "solutions": [{"name": "Monitoring", "type": "Fast", "effect": "Early warning", "cost": "$5M"}],
       "sources": ["IPCC"], "companies": ["Gov Tajikistan"], "documents": []
     },
-    "caspian-seal-decline": {
-      "title": "Caspian Seal Decline — Kazakhstan",
-      "country": "Kazakhstan", "region": "Asia", "lat": 45.5, "lon": 51.0, "status": "red",
-      "claimed": "Protection", "actual": "Mass mortality, habitat loss", "gap": "Species endangered",
-      "financial_impact": {"loss_usd": 200000000, "description": "Biodiversity", "formula": "Ecosystem valuation"},
-      "solutions": [{"name": "Protected areas", "type": "Fast", "effect": "Protect", "cost": "$20M"}],
-      "sources": ["IUCN"], "companies": ["Various"], "documents": []
-    },
-    "uzbekistan-aral-salt": {
-      "title": "Aral Salt Dust Storms — Uzbekistan",
-      "country": "Uzbekistan", "region": "Asia", "lat": 43.5, "lon": 59.0, "status": "red",
-      "claimed": "Afforestation", "actual": "Toxic dust from dried seabed", "gap": "Health crisis",
-      "financial_impact": {"loss_usd": 1000000000, "description": "Health/agriculture", "formula": "Medical + crop loss"},
-      "solutions": [{"name": "Plant saxaul", "type": "Medium", "effect": "Stabilize soil", "cost": "$100M"}],
-      "sources": ["UNEP"], "companies": ["Gov Uzbekistan"], "documents": []
-    },
     "kazakhstan-snowmelt": {
-      "title": "Snowmelt Water Loss — Kazakhstan",
-      "country": "Kazakhstan", "region": "Asia", "lat": 48.0, "lon": 71.0, "status": "red",
+      "title": "Snowmelt Water Loss — Kazakhstan", "country": "Kazakhstan", "region": "Central Asia", "lat": 48.0, "lon": 71.0, "status": "red",
       "claimed": "Modernization", "actual": "Inefficient storage", "gap": "Water loss",
       "financial_impact": {"loss_usd": 250000000, "description": "Agriculture", "formula": "Loss"},
       "solutions": [{"name": "Repair reservoirs", "type": "Medium", "effect": "Store water", "cost": "$80M"}],
       "sources": ["World Bank"], "companies": ["Gov Kazakhstan"], "documents": []
     },
     "turkmengaz-water": {
-      "title": "Water Scarcity — Turkmenistan",
-      "country": "Turkmenistan", "region": "Asia", "lat": 39.0, "lon": 59.5, "status": "red",
+      "title": "Water Scarcity — Turkmenistan", "country": "Turkmenistan", "region": "Central Asia", "lat": 39.0, "lon": 59.5, "status": "red",
       "claimed": "Water security", "actual": "Inefficient irrigation", "gap": "Water waste",
       "financial_impact": {"loss_usd": 300000000, "description": "Economic losses", "formula": "Waste"},
       "solutions": [{"name": "Modernize canals", "type": "Medium", "effect": "Save water", "cost": "$120M"}],
       "sources": ["World Bank"], "companies": ["Gov Turkmenistan"], "documents": []
     },
     "tarim-river": {
-      "title": "Tarim River Drying — China",
-      "country": "China", "region": "Asia", "lat": 40.0, "lon": 85.0, "status": "red",
+      "title": "Tarim River Drying — China", "country": "China", "region": "Central Asia", "lat": 40.0, "lon": 85.0, "status": "red",
       "claimed": "Ecological transfers", "actual": "Dried up for 300 km", "gap": "Ecosystem collapse",
       "financial_impact": {"loss_usd": 1500000000, "description": "Desertification", "formula": "Long-term damage"},
       "solutions": [{"name": "Water transfers", "type": "Long", "effect": "Restore", "cost": "$1B"}],
