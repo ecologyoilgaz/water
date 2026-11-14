@@ -1137,6 +1137,22 @@
       "solutions": [{"name": "Treatment", "type": "Medium", "effect": "Clean water", "cost": "$100M"}],
       "sources": ["UNECE"], "companies": ["Various"], "documents": []
     },
+    "uzbekistan-waste-oil-burning": {
+  "title": "Waste Oil Burning & Dumping — Uzbekistan",
+  "country": "Uzbekistan", "region": "Central Asia", "lat": 41.3, "lon": 69.2, "status": "red",
+  "claimed": "Managed waste oil collection", 
+  "actual": "~125,000 tonnes burned annually; emissions of PM, NOx, CO2 and heavy metals; widespread dumping", 
+  "gap": "Uncontrolled combustion and environmental contamination",
+  "financial_impact": {"loss_usd": 151000000, "description": "Lower-bound estimate of damage from burning (PM, NOx, CO2)", "formula": "125,000 t × emission factors × damage costs"},
+  "solutions": [
+    {"name": "Install filters on boilers", "type": "Fast", "effect": "Capture PM/NOx", "cost": "$50M"},
+    {"name": "Build mini-refineries (biodiesel)", "type": "Medium", "effect": "Process 25,000 t/yr", "cost": "$30M"},
+    {"name": "Expand collection network", "type": "Long", "effect": "Divert 100% of waste oil", "cost": "$100M"}
+  ],
+  "sources": ["EcoAudit-Central Asia (2026)"], 
+  "companies": ["Various greenhouses and boilers"], 
+  "documents": [{"name": "Preliminary Report (RU)", "url": "report-oil-uz.html"}]
+},
     "amu-darya-pesticides": {
       "title": "Amu Darya Pesticides — Central Asia", "country": "Uzbekistan/Turkmenistan", "region": "Central Asia", "lat": 41.0, "lon": 60.0, "status": "red",
       "claimed": "Water quality", "actual": "Pesticides and fertilizers in river", "gap": "Agro-pollution",
