@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Object — Oil & Gas Ecology</title><link rel="stylesheet" href="style.css"></head>
+<title>Object — Water Ecology</title><link rel="stylesheet" href="style.css"></head>
 <body>
 <header>
-  <div class="logo"><img src="logo-header.png" alt="Logo"> Oil & Gas Ecology Map</div>
+  <div class="logo"><img src="logo-header.png" alt="Logo"> Water Ecology Map</div>
   <nav>
     <a href="index.html">Home</a>
     <a href="map.html">Map</a>
@@ -87,7 +87,7 @@ fetch('objects.json').then(r => r.json()).then(data => {
     <div class="detail-block"><h3>Claimed</h3><p>${o.claimed}</p></div>
     <div class="detail-block"><h3>Actual (Verified)</h3><p>${o.actual}</p></div>
     <div class="detail-block"><h3>Gap</h3><p>${o.gap}</p></div>
-    <div class="detail-block"><h3>Companies</h3><p>${(o.companies||[]).join(' · ')}</p></div>
+    <div class="detail-block"><h3>Companies / Entities</h3><p>${(o.companies||[]).join(' · ')}</p></div>
     
     ${docsHtml}
     ${solutionsHtml}
