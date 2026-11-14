@@ -12,8 +12,7 @@
 body {
   font-family: system-ui, -apple-system, sans-serif;
   background-color: var(--bg);
-  /* Прямая ссылка на твой нефтяной сайт */
-  background-image: url('https://ecologyoilgaz.github.io/pattern-bg.png');
+  background-image: url('pattern-bg.png'); /* Твой общий паттерн */
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -32,7 +31,7 @@ header {
   position: relative; z-index: 10;
 }
 .logo { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 20px; color: var(--gold); }
-.logo img { height: 30px; }
+.logo img { height: 35px; }
 
 nav { display: flex; gap: 14px; flex-wrap: wrap; }
 nav a { color: var(--muted); font-size: 14px; font-weight: 500; }
@@ -43,8 +42,7 @@ main { max-width: 1200px; margin: 0 auto; position: relative; z-index: 10; }
 
 .hero {
   text-align: center; padding: 100px 20px; margin-bottom: 40px; border-radius: 20px;
-  /* Прямая ссылка на твой нефтяной сайт */
-  background-image: linear-gradient(rgba(5, 5, 16, 0.75), rgba(5, 5, 16, 0.95)), url('https://ecologyoilgaz.github.io/hero-bg.png');
+  background-image: linear-gradient(rgba(5, 5, 16, 0.75), rgba(5, 5, 16, 0.95)), url('water-hero-bg.png');
   background-size: cover; background-position: center;
   border: 1px solid var(--border);
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
@@ -64,8 +62,7 @@ main { max-width: 1200px; margin: 0 auto; position: relative; z-index: 10; }
 .stat .label { font-size: 12px; color: var(--muted); position: relative; z-index: 2; text-transform: uppercase; letter-spacing: 0.5px; }
 .stat.loss-icon::before {
   content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
-  /* Прямая ссылка на твой нефтяной сайт */
-  width: 100px; height: 100px; background-image: url('https://ecologyoilgaz.github.io/icon-loss.png');
+  width: 100px; height: 100px; background-image: url('water-icon-loss.png');
   background-size: contain; background-repeat: no-repeat; opacity: 0.15; z-index: 1;
 }
 
@@ -119,7 +116,7 @@ th { color: var(--muted); font-size: 12px; text-transform: uppercase; }
 .img-solution { width: 100%; border-radius: 12px; margin: 15px 0; border: 1px solid var(--border); }
 .img-satellite { max-width: 400px; width: 100%; margin: 20px auto; display: block; border-radius: 16px; border: 1px solid var(--border); box-shadow: 0 0 30px rgba(0,0,0,0.5); }
 
-#map { height: 70vh; border-radius: 16px; border: 1px solid var(--border); /* Ссылка на карту */ background-image: url('https://ecologyoilgaz.github.io/map-bg.png'); background-size: cover; background-position: center; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+#map { height: 70vh; border-radius: 16px; border: 1px solid var(--border); background-image: url('water-map-bg.png'); background-size: cover; background-position: center; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
 .legend { display: flex; gap: 20px; margin: 15px 0; font-size: 13px; color: var(--muted); flex-wrap: wrap; }
 .legend span { display: flex; align-items: center; gap: 6px; }
 .dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
