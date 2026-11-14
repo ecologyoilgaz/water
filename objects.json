@@ -1,0 +1,144 @@
+{
+  "meta": {"count": 10, "updated": "2026-11-14", "currency": "USD"},
+  "objects": {
+    "citarum-river": {
+      "title": "Citarum River Pollution — Indonesia",
+      "country": "Indonesia", "region": "Asia", "lat": -6.8, "lon": 107.5, "status": "red",
+      "claimed": "Restoration program ongoing",
+      "actual": "One of the world's most polluted rivers; heavy metals and microplastics",
+      "gap": "Cleanup not delivering",
+      "financial_impact": {"loss_usd": 500000000, "description": "Health and ecosystem damage", "formula": "Estimated cleanup + health costs"},
+      "solutions": [
+        {"name": "Wastewater treatment plants", "type": "Medium", "effect": "Treat industrial and domestic sewage", "cost": "$100M"},
+        {"name": "Community-led river cleanups", "type": "Fast", "effect": "Remove visible waste", "cost": "$5M"}
+      ],
+      "sources": ["World Bank", "Sentinel-2"], "companies": ["Various textile factories"],
+      "documents": [{"name": "World Bank Report", "url": "https://www.worldbank.org/"}]
+    },
+    "mexico-city-sinking": {
+      "title": "Groundwater Depletion — Mexico City",
+      "country": "Mexico", "region": "North America", "lat": 19.43, "lon": -99.13, "status": "red",
+      "claimed": "Sustainable water management",
+      "actual": "City sinking up to 50cm/year due to over-extraction",
+      "gap": "Aquifer depletion",
+      "financial_impact": {"loss_usd": 2000000000, "description": "Infrastructure damage from subsidence", "formula": "Repair costs"},
+      "solutions": [
+        {"name": "Rainwater harvesting", "type": "Fast", "effect": "Reduce aquifer reliance", "cost": "$50M"},
+        {"name": "Pipe leak repair", "type": "Medium", "effect": "Stop 40% water loss", "cost": "$200M"}
+      ],
+      "sources": ["NASA GRACE", "UNAM"], "companies": ["SACMEX"],
+      "documents": [{"name": "NASA Subsidence Study", "url": "https://www.nasa.gov/"}]
+    },
+    "lake-chad": {
+      "title": "Lake Chad Shrinkage — Africa",
+      "country": "Chad/Nigeria/Niger", "region": "Africa", "lat": 13.0, "lon": 14.0, "status": "red",
+      "claimed": "Transboundary management",
+      "actual": "Lost 90% of surface area since 1960s",
+      "gap": "Massive water loss affecting millions",
+      "financial_impact": {"loss_usd": 5000000000, "description": "Humanitarian and economic crisis", "formula": "Loss of livelihoods"},
+      "solutions": [
+        {"name": "Inter-basin water transfer", "type": "Long", "effect": "Replenish lake", "cost": "$14B"},
+        {"name": "Drip irrigation for agriculture", "type": "Medium", "effect": "Reduce water use", "cost": "$100M"}
+      ],
+      "sources": ["UNEP", "Sentinel-2"], "companies": ["Lake Chad Basin Commission"],
+      "documents": [{"name": "UNEP Lake Chad Report", "url": "https://www.unep.org/"}]
+    },
+    "ganges-sewage": {
+      "title": "Untreated Sewage — Ganges River",
+      "country": "India", "region": "Asia", "lat": 25.3, "lon": 83.0, "status": "red",
+      "claimed": "Namami Gange Programme (cleanup)",
+      "actual": "80% of sewage still discharged untreated",
+      "gap": "Treatment capacity shortfall",
+      "financial_impact": {"loss_usd": 3000000000, "description": "Public health crisis", "formula": "Health costs + lost tourism"},
+      "solutions": [
+        {"name": "Decentralized STPs", "type": "Medium", "effect": "Treat local sewage", "cost": "$1B"},
+        {"name": "Industrial discharge monitoring", "type": "Fast", "effect": "Stop illegal dumping", "cost": "$50M"}
+      ],
+      "sources": ["CPCB", "Namami Gange"], "companies": ["Various industrial units"],
+      "documents": [{"name": "CPCB Water Quality Data", "url": "https://cpcb.nic.in/"}]
+    },
+    "majuro-flooding": {
+      "title": "Sea Level Rise — Majuro Atoll",
+      "country": "Marshall Islands", "region": "Oceania", "lat": 7.1, "lon": 171.3, "status": "red",
+      "claimed": "Climate adaptation",
+      "actual": "Frequent flooding; saltwater intrusion into freshwater lens",
+      "gap": "Existential threat to water supply",
+      "financial_impact": {"loss_usd": 100000000, "description": "Infrastructure and water security", "formula": "Adaptation costs"},
+      "solutions": [
+        {"name": "Desalination plants", "type": "Medium", "effect": "Secure drinking water", "cost": "$20M"},
+        {"name": "Rainwater catchments", "type": "Fast", "effect": "Local supply", "cost": "$5M"}
+      ],
+      "sources": ["IPCC", "Sentinel-1"], "companies": ["Marshall Islands Government"],
+      "documents": [{"name": "IPCC Report", "url": "https://www.ipcc.ch/"}]
+    },
+    "toxic-spill-sayan": {
+      "title": "Norilsk Diesel Spill — Russia",
+      "country": "Russia", "region": "Europe", "lat": 69.3, "lon": 88.2, "status": "red",
+      "claimed": "Contained and cleaned",
+      "actual": "20,000 tonnes of diesel leaked into Ambarnaya River",
+      "gap": "Underreported cleanup",
+      "financial_impact": {"loss_usd": 2000000000, "description": "Arctic ecosystem damage", "formula": "Record fine + cleanup costs"},
+      "solutions": [
+        {"name": "Water treatment and filtration", "type": "Medium", "effect": "Remove diesel from water", "cost": "$100M"},
+        {"name": "Soil and riverbed remediation", "type": "Long", "effect": "Restore ecosystem", "cost": "$500M"}
+      ],
+      "sources": ["Rosprirodnadzor", "Sentinel-2"], "companies": ["Nornickel"],
+      "documents": [{"name": "Rosprirodnadzor Data", "url": "https://rpn.gov.ru/"}]
+    },
+    "yangtze-nitrogen": {
+      "title": "Nitrogen Pollution — Yangtze River",
+      "country": "China", "region": "Asia", "lat": 30.5, "lon": 114.3, "status": "red",
+      "claimed": "Ecological restoration",
+      "actual": "Massive nitrogen runoff from agriculture causing algal blooms",
+      "gap": "Eutrophication",
+      "financial_impact": {"loss_usd": 1500000000, "description": "Fisheries and drinking water impact", "formula": "Economic losses"},
+      "solutions": [
+        {"name": "Wetland buffers", "type": "Medium", "effect": "Filter runoff", "cost": "$500M"},
+        {"name": "Fertilizer efficiency programs", "type": "Fast", "effect": "Reduce nitrogen use", "cost": "$100M"}
+      ],
+      "sources": ["China Ministry of Ecology", "Sentinel-2"], "companies": ["Various agricultural"],
+      "documents": [{"name": "MEE Report", "url": "https://english.mee.gov.cn/"}]
+    },
+    "capetown-drought": {
+      "title": "Day Zero Drought — Cape Town",
+      "country": "South Africa", "region": "Africa", "lat": -33.9, "lon": 18.4, "status": "green",
+      "claimed": "Water crisis avoided",
+      "actual": "Successfully avoided 'Day Zero' through demand management",
+      "gap": "N/A",
+      "financial_impact": {"loss_usd": 0, "description": "Crisis averted", "formula": "N/A"},
+      "solutions": [
+        {"name": "Replicate water saving campaigns", "type": "Fast", "effect": "Reduce demand", "cost": "$10M"}
+      ],
+      "sources": ["City of Cape Town", "World Bank"], "companies": ["City of Cape Town"],
+      "documents": [{"name": "City of Cape Town Report", "url": "https://www.capetown.gov.za/"}]
+    },
+    "songhua-benzene": {
+      "title": "Benzene Spill — Songhua River",
+      "country": "China", "region": "Asia", "lat": 45.8, "lon": 126.6, "status": "red",
+      "claimed": "Emergency response",
+      "actual": "100 tonnes of benzene leaked into river, affecting millions",
+      "gap": "Underreported long-term impact",
+      "financial_impact": {"loss_usd": 500000000, "description": "Water supply shutdown", "formula": "Health and economic costs"},
+      "solutions": [
+        {"name": "Activated carbon filtration", "type": "Fast", "effect": "Remove benzene", "cost": "$20M"},
+        {"name": "Industrial safety upgrades", "type": "Long", "effect": "Prevent future spills", "cost": "$100M"}
+      ],
+      "sources": ["UNEP", "Sentinel-1"], "companies": ["Jilin Petrochemical"],
+      "documents": [{"name": "UNEP Report", "url": "https://www.unep.org/"}]
+    },
+    "aral-sea": {
+      "title": "Aral Sea Desiccation — Central Asia",
+      "country": "Kazakhstan/Uzbekistan", "region": "Asia", "lat": 45.0, "lon": 59.0, "status": "red",
+      "claimed": "Restoration efforts",
+      "actual": "Lost 90% of volume due to irrigation diversion",
+      "gap": "Ecological catastrophe",
+      "financial_impact": {"loss_usd": 10000000000, "description": "Collapse of local economy and ecosystem", "formula": "Long-term damage"},
+      "solutions": [
+        {"name": "Dam and dike construction", "type": "Medium", "effect": "Stabilize North Aral", "cost": "$200M"},
+        {"name": "Drip irrigation conversion", "type": "Long", "effect": "Reduce water use", "cost": "$1B"}
+      ],
+      "sources": ["World Bank", "Sentinel-2"], "companies": ["IFAS"],
+      "documents": [{"name": "World Bank Aral Report", "url": "https://www.worldbank.org/"}]
+    }
+  }
+}
