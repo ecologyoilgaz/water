@@ -1,37 +1,187 @@
 {
-  "meta": {"count": 127, "updated": "2026-11-15", "currency": "USD"},
+  "meta": {"count": 150, "updated": "2026-11-15", "currency": "USD"},
   "objects": {
-    "uzbekistan-pipe-crisis": {
-      "title": "Water Network Decay & Corruption — Uzbekistan",
-      "country": "Uzbekistan", "region": "Central Asia", "lat": 41.2, "lon": 69.2, "status": "red",
-      "claimed": "Modernization programs, 2030 targets (35% loss)",
-      "actual": "Network wear 80%, water loss 35-55%, 700B soum corruption damage (2024-2026)",
-      "gap": "Fictitious claims (Piskent: 14,800m) and systemic failure of cast iron/steel pipes",
-      "financial_impact": {"loss_usd": 523400000, "description": "Annual economic loss from water loss, overpaying for pipes, and logistics", "formula": "Calculated benefit of 12 composite plants vs current losses"},
-      "solutions": [
-        {"name": "Build 12 modular composite pipe plants", "type": "Medium", "effect": "Replace 1,200 km/year, save $523M/yr", "cost": "$100M"},
-        {"name": "Independent technical audit (MDB)", "type": "Fast", "effect": "Stop fictitious claims", "cost": "$5M"},
-        {"name": "QR certification of pipe batches", "type": "Fast", "effect": "Traceability, stop corruption", "cost": "$1M"}
-      ],
-      "sources": ["EcoAudit-Central Asia (2026)", "EDB (2024)"], 
-      "companies": ["Uzsuvtaminot"], 
-      "documents": [{"name": "Systemic Water Supply Report (EN)", "url": "report-pipes-uz.html"}]
+    "kibray-oil-burning": {
+      "title": "Waste Oil Burning — Kibray District", "country": "Uzbekistan", "region": "Central Asia", "lat": 41.38, "lon": 69.45, "status": "red",
+      "claimed": "Managed waste", "actual": "Massive uncontrolled burning in greenhouses", "gap": "Unreported emissions",
+      "financial_impact": {"loss_usd": 12500000, "description": "PM/NOx/CO2 damage", "formula": "District share of national total"},
+      "solutions": [{"name": "Install filters", "type": "Fast", "effect": "Reduce PM", "cost": "$2M"},{"name": "Build mini-plant", "type": "Medium", "effect": "Process local oil", "cost": "$3M"}],
+      "sources": ["EcoAudit CA (2026)"], "companies": ["Greenhouses"], "documents": [{"name": "Report", "url": "report-oil-uz.html"}]
     },
-    "uzbekistan-waste-oil-burning": {
-      "title": "Waste Oil Burning & Dumping — Uzbekistan",
-      "country": "Uzbekistan", "region": "Central Asia", "lat": 41.3, "lon": 69.2, "status": "red",
-      "claimed": "Managed waste oil collection", 
-      "actual": "~125,000 tonnes burned annually; emissions of PM, NOx, CO2 and heavy metals; widespread dumping", 
-      "gap": "Uncontrolled combustion and environmental contamination",
-      "financial_impact": {"loss_usd": 151000000, "description": "Lower-bound estimate of damage from burning (PM, NOx, CO2)", "formula": "125,000 t × emission factors × damage costs"},
-      "solutions": [
-        {"name": "Install filters on boilers", "type": "Fast", "effect": "Capture PM/NOx", "cost": "$50M"},
-        {"name": "Build mini-refineries (biodiesel)", "type": "Medium", "effect": "Process 25,000 t/yr", "cost": "$30M"},
-        {"name": "Expand collection network", "type": "Long", "effect": "Divert 100% of waste oil", "cost": "$100M"}
-      ],
-      "sources": ["EcoAudit-Central Asia (2026)"], 
-      "companies": ["Various greenhouses and boilers"], 
-      "documents": [{"name": "Preliminary Report (EN)", "url": "report-oil-uz.html"}]
+    "zangiota-oil-burning": {
+      "title": "Waste Oil Burning — Zangiota District", "country": "Uzbekistan", "region": "Central Asia", "lat": 41.29, "lon": 69.08, "status": "red",
+      "claimed": "Managed waste", "actual": "Uncontrolled burning in boilers", "gap": "Unreported emissions",
+      "financial_impact": {"loss_usd": 12500000, "description": "PM/NOx/CO2 damage", "formula": "District share of national total"},
+      "solutions": [{"name": "Install filters", "type": "Fast", "effect": "Reduce PM", "cost": "$2M"},{"name": "Build mini-plant", "type": "Medium", "effect": "Process local oil", "cost": "$3M"}],
+      "sources": ["EcoAudit CA (2026)"], "companies": ["Boilers"], "documents": [{"name": "Report", "url": "report-oil-uz.html"}]
+    },
+    "bektemir-oil-burning": {
+      "title": "Waste Oil Burning — Bektemir District", "country": "Uzbekistan", "region": "Central Asia", "lat": 41.22, "lon": 69.32, "status": "red",
+      "claimed": "Managed waste", "actual": "Illegal burning in industrial zone", "gap": "Unreported emissions",
+      "financial_impact": {"loss_usd": 12500000, "description": "PM/NOx/CO2 damage", "formula": "District share of national total"},
+      "solutions": [{"name": "Install filters", "type": "Fast", "effect": "Reduce PM", "cost": "$2M"},{"name": "Build mini-plant", "type": "Medium", "effect": "Process local oil", "cost": "$3M"}],
+      "sources": ["EcoAudit CA (2026)"], "companies": ["Industrial zone"], "documents": [{"name": "Report", "url": "report-oil-uz.html"}]
+    },
+    "yukorichirchiq-oil-burning": {
+      "title": "Waste Oil Burning — Yukorichirchiq", "country": "Uzbekistan", "region": "Central Asia", "lat": 41.15, "lon": 69.62, "status": "red",
+      "claimed": "Managed waste", "actual": "Illegal discharge and burning", "gap": "Unreported emissions",
+      "financial_impact": {"loss_usd": 12500000, "description": "PM/NOx/CO2 damage", "formula": "District share of national total"},
+      "solutions": [{"name": "Install filters", "type": "Fast", "effect": "Reduce PM", "cost": "$2M"},{"name": "Build mini-plant", "type": "Medium", "effect": "Process local oil", "cost": "$3M"}],
+      "sources": ["EcoAudit CA (2026)"], "companies": ["Various"], "documents": [{"name": "Report", "url": "report-oil-uz.html"}]
+    },
+    "piskent-oil-burning": {
+      "title": "Waste Oil Burning — Piskent District", "country": "Uzbekistan", "region": "Central Asia", "lat": 40.89, "lon": 69.35, "status": "red",
+      "claimed": "Managed waste", "actual": "Unreported burning and fictitious claims", "gap": "Corruption and emissions",
+      "financial_impact": {"loss_usd": 12500000, "description": "PM/NOx/CO2 damage", "formula": "District share of national total"},
+      "solutions": [{"name": "Install filters", "type": "Fast", "effect": "Reduce PM", "cost": "$2M"},{"name": "Build mini-plant", "type": "Medium", "effect": "Process local oil", "cost": "$3M"}],
+      "sources": ["EcoAudit CA (2026)"], "companies": ["Various"], "documents": [{"name": "Report", "url": "report-oil-uz.html"}]
+    },
+    "chinoz-oil-burning": {
+      "title": "Waste Oil Burning — Chinoz District", "country": "Uzbekistan", "region": "Central Asia", "lat": 40.95, "lon": 68.77, "status": "red",
+      "claimed": "Managed waste", "actual": "Uncontrolled burning", "gap": "Unreported emissions",
+      "financial_impact": {"loss_usd": 12500000, "description": "PM/NOx/CO2 damage", "formula": "District share of national total"},
+      "solutions": [{"name": "Install filters", "type": "Fast", "effect": "Reduce PM", "cost": "$2M"},{"name": "Build mini-plant", "type": "Medium", "effect": "Process local oil", "cost": "$3M"}],
+      "sources": ["EcoAudit CA (2026)"], "companies": ["Various"], "documents": [{"name": "Report", "url": "report-oil-uz.html"}]
+    },
+    "keles-oil-burning": {
+      "title": "Waste Oil Burning — Keles District", "country": "Uzbekistan", "region": "Central Asia", "lat": 41.11, "lon": 69.16, "status": "red",
+      "claimed": "Managed waste", "actual": "Illegal burning", "gap": "Unreported emissions",
+      "financial_impact": {"loss_usd": 12500000, "description": "PM/NOx/CO2 damage", "formula": "District share of national total"},
+      "solutions": [{"name": "Install filters", "type": "Fast", "effect": "Reduce PM", "cost": "$2M"},{"name": "Build mini-plant", "type": "Medium", "effect": "Process local oil", "cost": "$3M"}],
+      "sources": ["EcoAudit CA (2026)"], "companies": ["Various"], "documents": [{"name": "Report", "url": "report-oil-uz.html"}]
+    },
+    "tashkent-city-oil-burning": {
+      "title": "Waste Oil Burning — Tashkent City", "country": "Uzbekistan", "region": "Central Asia", "lat": 41.30, "lon": 69.24, "status": "red",
+      "claimed": "Managed waste", "actual": "Illegal burning in industrial areas", "gap": "Unreported emissions",
+      "financial_impact": {"loss_usd": 12500000, "description": "PM/NOx/CO2 damage", "formula": "District share of national total"},
+      "solutions": [{"name": "Install filters", "type": "Fast", "effect": "Reduce PM", "cost": "$2M"},{"name": "Build mini-plant", "type": "Medium", "effect": "Process local oil", "cost": "$3M"}],
+      "sources": ["EcoAudit CA (2026)"], "companies": ["Various"], "documents": [{"name": "Report", "url": "report-oil-uz.html"}]
+    },
+    "parkent-oil-burning": {
+      "title": "Waste Oil Burning — Parkent District", "country": "Uzbekistan", "region": "Central Asia", "lat": 41.29, "lon": 69.67, "status": "red",
+      "claimed": "Managed waste", "actual": "Uncontrolled burning", "gap": "Unreported emissions",
+      "financial_impact": {"loss_usd": 12500000, "description": "PM/NOx/CO2 damage", "formula": "District share of national total"},
+      "solutions": [{"name": "Install filters", "type": "Fast", "effect": "Reduce PM", "cost": "$2M"},{"name": "Build mini-plant", "type": "Medium", "effect": "Process local oil", "cost": "$3M"}],
+      "sources": ["EcoAudit CA (2026)"], "companies": ["Various"], "documents": [{"name": "Report", "url": "report-oil-uz.html"}]
+    },
+    "buka-oil-burning": {
+      "title": "Waste Oil Burning — Buka District", "country": "Uzbekistan", "region": "Central Asia", "lat": 40.83, "lon": 69.18, "status": "red",
+      "claimed": "Managed waste", "actual": "Illegal burning", "gap": "Unreported emissions",
+      "financial_impact": {"loss_usd": 12500000, "description": "PM/NOx/CO2 damage", "formula": "District share of national total"},
+      "solutions": [{"name": "Install filters", "type": "Fast", "effect": "Reduce PM", "cost": "$2M"},{"name": "Build mini-plant", "type": "Medium", "effect": "Process local oil", "cost": "$3M"}],
+      "sources": ["EcoAudit CA (2026)"], "companies": ["Various"], "documents": [{"name": "Report", "url": "report-oil-uz.html"}]
+    },
+    "ortachirchiq-oil-burning": {
+      "title": "Waste Oil Burning — Ortachirchiq", "country": "Uzbekistan", "region": "Central Asia", "lat": 41.15, "lon": 69.50, "status": "red",
+      "claimed": "Managed waste", "actual": "Uncontrolled burning", "gap": "Unreported emissions",
+      "financial_impact": {"loss_usd": 12500000, "description": "PM/NOx/CO2 damage", "formula": "District share of national total"},
+      "solutions": [{"name": "Install filters", "type": "Fast", "effect": "Reduce PM", "cost": "$2M"},{"name": "Build mini-plant", "type": "Medium", "effect": "Process local oil", "cost": "$3M"}],
+      "sources": ["EcoAudit CA (2026)"], "companies": ["Various"], "documents": [{"name": "Report", "url": "report-oil-uz.html"}]
+    },
+    "angren-oil-burning": {
+      "title": "Waste Oil Burning — Angren", "country": "Uzbekistan", "region": "Central Asia", "lat": 41.01, "lon": 70.14, "status": "red",
+      "claimed": "Managed waste", "actual": "Illegal burning in industrial zone", "gap": "Unreported emissions",
+      "financial_impact": {"loss_usd": 12500000, "description": "PM/NOx/CO2 damage", "formula": "District share of national total"},
+      "solutions": [{"name": "Install filters", "type": "Fast", "effect": "Reduce PM", "cost": "$2M"},{"name": "Build mini-plant", "type": "Medium", "effect": "Process local oil", "cost": "$3M"}],
+      "sources": ["EcoAudit CA (2026)"], "companies": ["Industrial zone"], "documents": [{"name": "Report", "url": "report-oil-uz.html"}]
+    },
+    "karakalpakstan-pipe-plant": {
+      "title": "Modular Composite Pipe Plant — Karakalpakstan", "country": "Uzbekistan", "region": "Central Asia", "lat": 43.77, "lon": 59.02, "status": "green",
+      "claimed": "Planned project", "actual": "Ready for investment", "gap": "N/A",
+      "financial_impact": {"loss_usd": 0, "description": "Expected benefit", "formula": "N/A"},
+      "solutions": [{"name": "Build plant (100 km/yr)", "type": "Medium", "effect": "Local production", "cost": "$8M"}],
+      "sources": ["EcoAudit CA (2026)"], "companies": ["EcoAudit CA"], "documents": [{"name": "Report", "url": "report-pipes-uz.html"}]
+    },
+    "andijan-pipe-plant": {
+      "title": "Modular Composite Pipe Plant — Andijan", "country": "Uzbekistan", "region": "Central Asia", "lat": 40.78, "lon": 72.34, "status": "green",
+      "claimed": "Planned project", "actual": "Ready for investment", "gap": "N/A",
+      "financial_impact": {"loss_usd": 0, "description": "Expected benefit", "formula": "N/A"},
+      "solutions": [{"name": "Build plant (100 km/yr)", "type": "Medium", "effect": "Local production", "cost": "$8M"}],
+      "sources": ["EcoAudit CA (2026)"], "companies": ["EcoAudit CA"], "documents": [{"name": "Report", "url": "report-pipes-uz.html"}]
+    },
+    "bukhara-pipe-plant": {
+      "title": "Modular Composite Pipe Plant — Bukhara", "country": "Uzbekistan", "region": "Central Asia", "lat": 39.77, "lon": 64.42, "status": "green",
+      "claimed": "Planned project", "actual": "Ready for investment", "gap": "N/A",
+      "financial_impact": {"loss_usd": 0, "description": "Expected benefit", "formula": "N/A"},
+      "solutions": [{"name": "Build plant (100 km/yr)", "type": "Medium", "effect": "Local production", "cost": "$8M"}],
+      "sources": ["EcoAudit CA (2026)"], "companies": ["EcoAudit CA"], "documents": [{"name": "Report", "url": "report-pipes-uz.html"}]
+    },
+    "fergana-pipe-plant": {
+      "title": "Modular Composite Pipe Plant — Fergana", "country": "Uzbekistan", "region": "Central Asia", "lat": 40.38, "lon": 71.78, "status": "green",
+      "claimed": "Planned project", "actual": "Ready for investment", "gap": "N/A",
+      "financial_impact": {"loss_usd": 0, "description": "Expected benefit", "formula": "N/A"},
+      "solutions": [{"name": "Build plant (100 km/yr)", "type": "Medium", "effect": "Local production", "cost": "$8M"}],
+      "sources": ["EcoAudit CA (2026)"], "companies": ["EcoAudit CA"], "documents": [{"name": "Report", "url": "report-pipes-uz.html"}]
+    },
+    "jizzakh-pipe-plant": {
+      "title": "Modular Composite Pipe Plant — Jizzakh", "country": "Uzbekistan", "region": "Central Asia", "lat": 40.11, "lon": 67.84, "status": "green",
+      "claimed": "Planned project", "actual": "Ready for investment", "gap": "N/A",
+      "financial_impact": {"loss_usd": 0, "description": "Expected benefit", "formula": "N/A"},
+      "solutions": [{"name": "Build plant (100 km/yr)", "type": "Medium", "effect": "Local production", "cost": "$8M"}],
+      "sources": ["EcoAudit CA (2026)"], "companies": ["EcoAudit CA"], "documents": [{"name": "Report", "url": "report-pipes-uz.html"}]
+    },
+    "namangan-pipe-plant": {
+      "title": "Modular Composite Pipe Plant — Namangan", "country": "Uzbekistan", "region": "Central Asia", "lat": 40.99, "lon": 71.67, "status": "green",
+      "claimed": "Planned project", "actual": "Ready for investment", "gap": "N/A",
+      "financial_impact": {"loss_usd": 0, "description": "Expected benefit", "formula": "N/A"},
+      "solutions": [{"name": "Build plant (100 km/yr)", "type": "Medium", "effect": "Local production", "cost": "$8M"}],
+      "sources": ["EcoAudit CA (2026)"], "companies": ["EcoAudit CA"], "documents": [{"name": "Report", "url": "report-pipes-uz.html"}]
+    },
+    "navoiy-pipe-plant": {
+      "title": "Modular Composite Pipe Plant — Navoiy", "country": "Uzbekistan", "region": "Central Asia", "lat": 40.08, "lon": 65.38, "status": "green",
+      "claimed": "Planned project", "actual": "Ready for investment", "gap": "N/A",
+      "financial_impact": {"loss_usd": 0, "description": "Expected benefit", "formula": "N/A"},
+      "solutions": [{"name": "Build plant (100 km/yr)", "type": "Medium", "effect": "Local production", "cost": "$8M"}],
+      "sources": ["EcoAudit CA (2026)"], "companies": ["EcoAudit CA"], "documents": [{"name": "Report", "url": "report-pipes-uz.html"}]
+    },
+    "kashkadarya-pipe-plant": {
+      "title": "Modular Composite Pipe Plant — Kashkadarya", "country": "Uzbekistan", "region": "Central Asia", "lat": 38.86, "lon": 65.80, "status": "green",
+      "claimed": "Planned project", "actual": "Ready for investment", "gap": "N/A",
+      "financial_impact": {"loss_usd": 0, "description": "Expected benefit", "formula": "N/A"},
+      "solutions": [{"name": "Build plant (100 km/yr)", "type": "Medium", "effect": "Local production", "cost": "$8M"}],
+      "sources": ["EcoAudit CA (2026)"], "companies": ["EcoAudit CA"], "documents": [{"name": "Report", "url": "report-pipes-uz.html"}]
+    },
+    "samarkand-pipe-plant": {
+      "title": "Modular Composite Pipe Plant — Samarkand", "country": "Uzbekistan", "region": "Central Asia", "lat": 39.65, "lon": 66.96, "status": "green",
+      "claimed": "Planned project", "actual": "Ready for investment", "gap": "N/A",
+      "financial_impact": {"loss_usd": 0, "description": "Expected benefit", "formula": "N/A"},
+      "solutions": [{"name": "Build plant (100 km/yr)", "type": "Medium", "effect": "Local production", "cost": "$8M"}],
+      "sources": ["EcoAudit CA (2026)"], "companies": ["EcoAudit CA"], "documents": [{"name": "Report", "url": "report-pipes-uz.html"}]
+    },
+    "syrdarya-pipe-plant": {
+      "title": "Modular Composite Pipe Plant — Syrdarya", "country": "Uzbekistan", "region": "Central Asia", "lat": 40.43, "lon": 68.65, "status": "green",
+      "claimed": "Planned project", "actual": "Ready for investment", "gap": "N/A",
+      "financial_impact": {"loss_usd": 0, "description": "Expected benefit", "formula": "N/A"},
+      "solutions": [{"name": "Build plant (100 km/yr)", "type": "Medium", "effect": "Local production", "cost": "$8M"}],
+      "sources": ["EcoAudit CA (2026)"], "companies": ["EcoAudit CA"], "documents": [{"name": "Report", "url": "report-pipes-uz.html"}]
+    },
+    "surkhandarya-pipe-plant": {
+      "title": "Modular Composite Pipe Plant — Surkhandarya", "country": "Uzbekistan", "region": "Central Asia", "lat": 37.94, "lon": 67.57, "status": "green",
+      "claimed": "Planned project", "actual": "Ready for investment", "gap": "N/A",
+      "financial_impact": {"loss_usd": 0, "description": "Expected benefit", "formula": "N/A"},
+      "solutions": [{"name": "Build plant (100 km/yr)", "type": "Medium", "effect": "Local production", "cost": "$8M"}],
+      "sources": ["EcoAudit CA (2026)"], "companies": ["EcoAudit CA"], "documents": [{"name": "Report", "url": "report-pipes-uz.html"}]
+    },
+    "tashkent-region-pipe-plant": {
+      "title": "Modular Composite Pipe Plant — Tashkent Region", "country": "Uzbekistan", "region": "Central Asia", "lat": 41.22, "lon": 69.62, "status": "green",
+      "claimed": "Planned project", "actual": "Ready for investment", "gap": "N/A",
+      "financial_impact": {"loss_usd": 0, "description": "Expected benefit", "formula": "N/A"},
+      "solutions": [{"name": "Build plant (100 km/yr)", "type": "Medium", "effect": "Local production", "cost": "$8M"}],
+      "sources": ["EcoAudit CA (2026)"], "companies": ["EcoAudit CA"], "documents": [{"name": "Report", "url": "report-pipes-uz.html"}]
+    },
+    "khorezm-pipe-plant": {
+      "title": "Modular Composite Pipe Plant — Khorezm", "country": "Uzbekistan", "region": "Central Asia", "lat": 41.55, "lon": 60.63, "status": "green",
+      "claimed": "Planned project", "actual": "Ready for investment", "gap": "N/A",
+      "financial_impact": {"loss_usd": 0, "description": "Expected benefit", "formula": "N/A"},
+      "solutions": [{"name": "Build plant (100 km/yr)", "type": "Medium", "effect": "Local production", "cost": "$8M"}],
+      "sources": ["EcoAudit CA (2026)"], "companies": ["EcoAudit CA"], "documents": [{"name": "Report", "url": "report-pipes-uz.html"}]
+    },
+    "tashkent-city-pipe-plant": {
+      "title": "Modular Composite Pipe Plant — Tashkent City", "country": "Uzbekistan", "region": "Central Asia", "lat": 41.30, "lon": 69.24, "status": "green",
+      "claimed": "Planned project", "actual": "Ready for investment", "gap": "N/A",
+      "financial_impact": {"loss_usd": 0, "description": "Expected benefit", "formula": "N/A"},
+      "solutions": [{"name": "Build plant (100 km/yr)", "type": "Medium", "effect": "Local production", "cost": "$8M"}],
+      "sources": ["EcoAudit CA (2026)"], "companies": ["EcoAudit CA"], "documents": [{"name": "Report", "url": "report-pipes-uz.html"}]
     },
     "amudarya-pollution": {
       "title": "Amu Darya River Pollution — Uzbekistan", "country": "Uzbekistan", "region": "Central Asia", "lat": 41.5, "lon": 60.5, "status": "red",
